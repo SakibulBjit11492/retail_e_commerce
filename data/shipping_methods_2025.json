@@ -1,0 +1,17 @@
+[
+  {
+    "shipping_method": "standard_parcel",
+    "service_level": "standard",
+    "sla_days": 5
+  },
+  {
+    "shipping_method": "express_parcel",
+    "service_level": "express",
+    "sla_days": 3
+  },
+  {
+    "shipping_method": "economy_parcel",
+    "service_level": "economy",
+    "sla_days": 7
+  }
+]

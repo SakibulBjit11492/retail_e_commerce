@@ -1,0 +1,107 @@
+[
+  {
+    "campaign_id": "MKT001",
+    "campaign_name": "Home Search Ads",
+    "marketing_source": "search_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT002",
+    "campaign_name": "Office Search Ads",
+    "marketing_source": "search_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT003",
+    "campaign_name": "Travel Search Ads",
+    "marketing_source": "search_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT004",
+    "campaign_name": "Daily Search Ads",
+    "marketing_source": "search_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT005",
+    "campaign_name": "Essentials Social Ads",
+    "marketing_source": "social_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT006",
+    "campaign_name": "Fitness Social Ads",
+    "marketing_source": "social_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT007",
+    "campaign_name": "Pets Social Ads",
+    "marketing_source": "social_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT008",
+    "campaign_name": "Gifts Social Ads",
+    "marketing_source": "social_ads",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT009",
+    "campaign_name": "Loyalty Email",
+    "marketing_source": "email",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT010",
+    "campaign_name": "Weekend Email",
+    "marketing_source": "email",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT011",
+    "campaign_name": "New Arrivals Email",
+    "marketing_source": "email",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT012",
+    "campaign_name": "Regional Affiliate",
+    "marketing_source": "affiliate",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT013",
+    "campaign_name": "Seasonal Affiliate",
+    "marketing_source": "affiliate",
+    "campaign_objective": "sales",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT014",
+    "campaign_name": "Discovery Display Ads",
+    "marketing_source": "display_ads",
+    "campaign_objective": "awareness",
+    "channel": "web_mobile"
+  },
+  {
+    "campaign_id": "MKT015",
+    "campaign_name": "Remarketing Display Ads",
+    "marketing_source": "display_ads",
+    "campaign_objective": "awareness",
+    "channel": "web_mobile"
+  }
+]
