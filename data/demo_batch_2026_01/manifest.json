@@ -1,0 +1,21 @@
+{
+  "batch": "demo_batch_2026_01",
+  "rows": {
+    "customers": 12,
+    "orders": 42,
+    "order_items": 53,
+    "payments": 42,
+    "website_sessions": 83,
+    "website_events": 178
+  },
+  "new_orders": 40,
+  "expected_net_revenue_change_usd": "1136.68",
+  "planted_problems": [
+    "ORD0031998: status spelled 'Completed' (Silver maps it to 'paid')",
+    "ORD0031999: order_datetime in MM/DD/YYYY format",
+    "ORD0032000: blank customer_id, recoverable from session SES00179995",
+    "EVT000288598: product_id P_MISSING (goes to silver_rejected_website_events)",
+    "ORD0031451: 2025 order re-sent unchanged (Silver keeps one row)",
+    "ORD0031997: Dec-2025 order now 'returned' with a refund of 28.25 USD dated 2026-01-05 (newer version wins in Silver)"
+  ]
+}

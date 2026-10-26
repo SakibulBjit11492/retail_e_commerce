@@ -1,0 +1,401 @@
+dataset_tag,record_month,product_id,product_name,category,list_price_usd,unit_cost_usd,product_status
+NOVACART_MINI_V2,2025-01,P0001,USB-C Charging Cable - Standard,Electronics Accessories,7.62,4.25,active
+NOVACART_MINI_V2,2025-01,P0002,USB-C Charging Cable - Large,Electronics Accessories,10.33,5.14,active
+NOVACART_MINI_V2,2025-01,P0003,USB-A Charging Cable - Standard,Electronics Accessories,5.64,3.01,active
+NOVACART_MINI_V2,2025-01,P0004,USB-A Charging Cable - Large,Electronics Accessories,8.37,6.11,active
+NOVACART_MINI_V2,2025-01,P0005,Universal Wall Charger - Standard,Electronics Accessories,17.51,10.75,active
+NOVACART_MINI_V2,2025-01,P0006,Universal Wall Charger - Large,Electronics Accessories,21.40,10.05,active
+NOVACART_MINI_V2,2025-01,P0007,Portable Power Bank - Standard,Electronics Accessories,27.44,16.63,active
+NOVACART_MINI_V2,2025-01,P0008,Portable Power Bank - Large,Electronics Accessories,33.52,19.65,active
+NOVACART_MINI_V2,2025-01,P0009,Wireless Mouse - Standard,Electronics Accessories,17.93,10.70,active
+NOVACART_MINI_V2,2025-01,P0010,Wireless Mouse - Large,Electronics Accessories,22.35,12.71,active
+NOVACART_MINI_V2,2025-01,P0011,Wired Keyboard - Standard,Electronics Accessories,24.12,13.20,active
+NOVACART_MINI_V2,2025-01,P0012,Wired Keyboard - Large,Electronics Accessories,29.23,13.22,active
+NOVACART_MINI_V2,2025-01,P0013,Laptop Sleeve - Standard,Electronics Accessories,20.52,15.01,active
+NOVACART_MINI_V2,2025-01,P0014,Laptop Sleeve - Large,Electronics Accessories,29.62,13.58,active
+NOVACART_MINI_V2,2025-01,P0015,Laptop Stand - Standard,Electronics Accessories,27.84,19.08,active
+NOVACART_MINI_V2,2025-01,P0016,Laptop Stand - Large,Electronics Accessories,35.04,21.84,active
+NOVACART_MINI_V2,2025-01,P0017,Phone Stand - Standard,Electronics Accessories,10.58,5.77,active
+NOVACART_MINI_V2,2025-01,P0018,Phone Stand - Large,Electronics Accessories,13.79,8.90,active
+NOVACART_MINI_V2,2025-01,P0019,Phone Protective Case - Standard,Electronics Accessories,11.54,6.29,active
+NOVACART_MINI_V2,2025-01,P0020,Phone Protective Case - Large,Electronics Accessories,15.23,7.34,active
+NOVACART_MINI_V2,2025-01,P0021,Screen Protector - Standard,Electronics Accessories,7.96,5.50,active
+NOVACART_MINI_V2,2025-01,P0022,Screen Protector - Large,Electronics Accessories,11.22,5.39,active
+NOVACART_MINI_V2,2025-01,P0023,Bluetooth Speaker - Standard,Electronics Accessories,33.00,14.82,active
+NOVACART_MINI_V2,2025-01,P0024,Bluetooth Speaker - Large,Electronics Accessories,46.76,31.45,active
+NOVACART_MINI_V2,2025-01,P0025,Wired Earphones - Standard,Electronics Accessories,13.74,8.27,active
+NOVACART_MINI_V2,2025-01,P0026,Wired Earphones - Large,Electronics Accessories,19.03,9.49,active
+NOVACART_MINI_V2,2025-01,P0027,Wireless Earbuds - Standard,Electronics Accessories,38.73,17.29,active
+NOVACART_MINI_V2,2025-01,P0028,Wireless Earbuds - Large,Electronics Accessories,52.36,28.20,active
+NOVACART_MINI_V2,2025-01,P0029,HDMI Cable - Standard,Electronics Accessories,10.61,4.48,active
+NOVACART_MINI_V2,2025-01,P0030,HDMI Cable - Large,Electronics Accessories,15.54,6.94,active
+NOVACART_MINI_V2,2025-01,P0031,Multiport USB Hub - Standard,Electronics Accessories,31.68,13.39,active
+NOVACART_MINI_V2,2025-01,P0032,Multiport USB Hub - Large,Electronics Accessories,41.61,21.62,active
+NOVACART_MINI_V2,2025-01,P0033,Webcam Cover - Standard,Electronics Accessories,5.85,3.73,active
+NOVACART_MINI_V2,2025-01,P0034,Webcam Cover - Large,Electronics Accessories,7.75,5.37,active
+NOVACART_MINI_V2,2025-01,P0035,Cable Organizer Set - Standard,Electronics Accessories,10.61,5.24,active
+NOVACART_MINI_V2,2025-01,P0036,Cable Organizer Set - Large,Electronics Accessories,14.09,8.57,active
+NOVACART_MINI_V2,2025-01,P0037,Microfiber Screen Cloth - Standard,Electronics Accessories,6.83,4.94,active
+NOVACART_MINI_V2,2025-01,P0038,Microfiber Screen Cloth - Large,Electronics Accessories,9.48,6.58,active
+NOVACART_MINI_V2,2025-01,P0039,Desk Charging Pad - Standard,Electronics Accessories,32.75,14.51,active
+NOVACART_MINI_V2,2025-01,P0040,Desk Charging Pad - Large,Electronics Accessories,42.90,28.29,active
+NOVACART_MINI_V2,2025-01,P0041,Stainless Steel Water Bottle - Standard,Home & Kitchen,23.13,9.81,active
+NOVACART_MINI_V2,2025-01,P0042,Stainless Steel Water Bottle - Large,Home & Kitchen,28.25,20.41,active
+NOVACART_MINI_V2,2025-01,P0043,Glass Food Container Set - Standard,Home & Kitchen,26.72,16.05,active
+NOVACART_MINI_V2,2025-01,P0044,Glass Food Container Set - Large,Home & Kitchen,31.98,18.24,active
+NOVACART_MINI_V2,2025-01,P0045,Ceramic Coffee Mug - Standard,Home & Kitchen,12.26,6.26,active
+NOVACART_MINI_V2,2025-01,P0046,Ceramic Coffee Mug - Large,Home & Kitchen,16.01,7.80,active
+NOVACART_MINI_V2,2025-01,P0047,Insulated Lunch Bag - Standard,Home & Kitchen,18.95,11.62,active
+NOVACART_MINI_V2,2025-01,P0048,Insulated Lunch Bag - Large,Home & Kitchen,23.52,10.62,active
+NOVACART_MINI_V2,2025-01,P0049,Reusable Shopping Bag - Standard,Home & Kitchen,10.68,5.44,active
+NOVACART_MINI_V2,2025-01,P0050,Reusable Shopping Bag - Large,Home & Kitchen,14.35,9.05,active
+NOVACART_MINI_V2,2025-01,P0051,Kitchen Cutting Board - Standard,Home & Kitchen,18.80,11.08,active
+NOVACART_MINI_V2,2025-01,P0052,Kitchen Cutting Board - Large,Home & Kitchen,25.42,12.45,active
+NOVACART_MINI_V2,2025-01,P0053,Silicone Spatula Set - Standard,Home & Kitchen,13.77,7.94,active
+NOVACART_MINI_V2,2025-01,P0054,Silicone Spatula Set - Large,Home & Kitchen,19.00,9.71,active
+NOVACART_MINI_V2,2025-01,P0055,Measuring Cup Set - Standard,Home & Kitchen,17.05,7.68,active
+NOVACART_MINI_V2,2025-01,P0056,Measuring Cup Set - Large,Home & Kitchen,21.48,13.37,active
+NOVACART_MINI_V2,2025-01,P0057,Dish Drying Mat - Standard,Home & Kitchen,13.09,9.29,active
+NOVACART_MINI_V2,2025-01,P0058,Dish Drying Mat - Large,Home & Kitchen,16.72,7.71,active
+NOVACART_MINI_V2,2025-01,P0059,Tea Infuser - Standard,Home & Kitchen,10.71,5.57,active
+NOVACART_MINI_V2,2025-01,P0060,Tea Infuser - Large,Home & Kitchen,14.05,9.09,active
+NOVACART_MINI_V2,2025-01,P0061,Reusable Food Storage Bag - Standard,Home & Kitchen,15.88,10.48,active
+NOVACART_MINI_V2,2025-01,P0062,Reusable Food Storage Bag - Large,Home & Kitchen,21.15,11.16,active
+NOVACART_MINI_V2,2025-01,P0063,Kitchen Timer - Standard,Home & Kitchen,12.08,8.67,active
+NOVACART_MINI_V2,2025-01,P0064,Kitchen Timer - Large,Home & Kitchen,16.23,9.34,active
+NOVACART_MINI_V2,2025-01,P0065,Water Filter Pitcher - Standard,Home & Kitchen,27.48,18.01,active
+NOVACART_MINI_V2,2025-01,P0066,Water Filter Pitcher - Large,Home & Kitchen,35.97,22.99,active
+NOVACART_MINI_V2,2025-01,P0067,Bamboo Serving Tray - Standard,Home & Kitchen,21.66,12.04,active
+NOVACART_MINI_V2,2025-01,P0068,Bamboo Serving Tray - Large,Home & Kitchen,30.41,15.19,active
+NOVACART_MINI_V2,2025-01,P0069,Food Storage Jar - Standard,Home & Kitchen,16.36,7.78,active
+NOVACART_MINI_V2,2025-01,P0070,Food Storage Jar - Large,Home & Kitchen,21.07,9.68,active
+NOVACART_MINI_V2,2025-01,P0071,Manual Citrus Juicer - Standard,Home & Kitchen,14.96,7.76,active
+NOVACART_MINI_V2,2025-01,P0072,Manual Citrus Juicer - Large,Home & Kitchen,19.60,10.99,active
+NOVACART_MINI_V2,2025-01,P0073,Vegetable Peeler - Standard,Home & Kitchen,8.27,3.67,active
+NOVACART_MINI_V2,2025-01,P0074,Vegetable Peeler - Large,Home & Kitchen,10.28,7.39,active
+NOVACART_MINI_V2,2025-01,P0075,Nonstick Frying Pan - Standard,Home & Kitchen,34.73,15.78,active
+NOVACART_MINI_V2,2025-01,P0076,Nonstick Frying Pan - Large,Home & Kitchen,48.51,27.42,active
+NOVACART_MINI_V2,2025-01,P0077,Oven Mitt Pair - Standard,Home & Kitchen,12.41,8.95,active
+NOVACART_MINI_V2,2025-01,P0078,Oven Mitt Pair - Large,Home & Kitchen,15.34,7.45,active
+NOVACART_MINI_V2,2025-01,P0079,Kitchen Dish Towel Set - Standard,Home & Kitchen,13.44,8.03,active
+NOVACART_MINI_V2,2025-01,P0080,Kitchen Dish Towel Set - Large,Home & Kitchen,18.36,12.38,active
+NOVACART_MINI_V2,2025-01,P0081,A5 Notebook - Standard,Office & Stationery,6.75,3.68,active
+NOVACART_MINI_V2,2025-01,P0082,A5 Notebook - Large,Office & Stationery,8.90,5.67,active
+NOVACART_MINI_V2,2025-01,P0083,A4 Notebook - Standard,Office & Stationery,8.43,4.70,active
+NOVACART_MINI_V2,2025-01,P0084,A4 Notebook - Large,Office & Stationery,11.78,5.32,active
+NOVACART_MINI_V2,2025-01,P0085,Gel Pen Pack - Standard,Office & Stationery,6.03,2.58,active
+NOVACART_MINI_V2,2025-01,P0086,Gel Pen Pack - Large,Office & Stationery,7.50,4.79,active
+NOVACART_MINI_V2,2025-01,P0087,Highlighter Set - Standard,Office & Stationery,7.31,4.36,active
+NOVACART_MINI_V2,2025-01,P0088,Highlighter Set - Large,Office & Stationery,9.66,5.98,active
+NOVACART_MINI_V2,2025-01,P0089,Sticky Note Pad - Standard,Office & Stationery,5.30,2.97,active
+NOVACART_MINI_V2,2025-01,P0090,Sticky Note Pad - Large,Office & Stationery,6.85,4.20,active
+NOVACART_MINI_V2,2025-01,P0091,Document Folder Set - Standard,Office & Stationery,8.57,3.85,active
+NOVACART_MINI_V2,2025-01,P0092,Document Folder Set - Large,Office & Stationery,11.46,8.10,active
+NOVACART_MINI_V2,2025-01,P0093,Desk Pen Holder - Standard,Office & Stationery,10.18,6.74,active
+NOVACART_MINI_V2,2025-01,P0094,Desk Pen Holder - Large,Office & Stationery,12.29,5.41,active
+NOVACART_MINI_V2,2025-01,P0095,Paper Clip Box - Standard,Office & Stationery,5.02,3.25,active
+NOVACART_MINI_V2,2025-01,P0096,Paper Clip Box - Large,Office & Stationery,6.96,3.70,active
+NOVACART_MINI_V2,2025-01,P0097,Desk Calendar - Standard,Office & Stationery,13.50,6.79,active
+NOVACART_MINI_V2,2025-01,P0098,Desk Calendar - Large,Office & Stationery,16.02,7.19,active
+NOVACART_MINI_V2,2025-01,P0099,Weekly Planner - Standard,Office & Stationery,13.98,6.43,active
+NOVACART_MINI_V2,2025-01,P0100,Weekly Planner - Large,Office & Stationery,20.09,13.78,active
+NOVACART_MINI_V2,2025-01,P0101,Writing Pad - Standard,Office & Stationery,7.56,3.53,active
+NOVACART_MINI_V2,2025-01,P0102,Writing Pad - Large,Office & Stationery,10.48,7.36,active
+NOVACART_MINI_V2,2025-01,P0103,Mechanical Pencil Set - Standard,Office & Stationery,8.79,4.01,active
+NOVACART_MINI_V2,2025-01,P0104,Mechanical Pencil Set - Large,Office & Stationery,12.04,6.62,active
+NOVACART_MINI_V2,2025-01,P0105,Pencil Case - Standard,Office & Stationery,9.59,5.78,active
+NOVACART_MINI_V2,2025-01,P0106,Pencil Case - Large,Office & Stationery,12.94,6.52,active
+NOVACART_MINI_V2,2025-01,P0107,Desk Organizer Tray - Standard,Office & Stationery,18.68,8.19,active
+NOVACART_MINI_V2,2025-01,P0108,Desk Organizer Tray - Large,Office & Stationery,24.67,17.35,active
+NOVACART_MINI_V2,2025-01,P0109,Index Card Pack - Standard,Office & Stationery,6.11,3.03,active
+NOVACART_MINI_V2,2025-01,P0110,Index Card Pack - Large,Office & Stationery,7.63,5.10,active
+NOVACART_MINI_V2,2025-01,P0111,Binder Clips Set - Standard,Office & Stationery,5.68,3.46,active
+NOVACART_MINI_V2,2025-01,P0112,Binder Clips Set - Large,Office & Stationery,7.75,3.86,active
+NOVACART_MINI_V2,2025-01,P0113,Whiteboard Marker Set - Standard,Office & Stationery,11.72,6.84,active
+NOVACART_MINI_V2,2025-01,P0114,Whiteboard Marker Set - Large,Office & Stationery,14.98,7.90,active
+NOVACART_MINI_V2,2025-01,P0115,Dry Erase Board - Standard,Office & Stationery,25.45,12.88,active
+NOVACART_MINI_V2,2025-01,P0116,Dry Erase Board - Large,Office & Stationery,34.01,14.42,active
+NOVACART_MINI_V2,2025-01,P0117,Paper Notebook Stand - Standard,Office & Stationery,16.44,11.12,active
+NOVACART_MINI_V2,2025-01,P0118,Paper Notebook Stand - Large,Office & Stationery,23.47,13.91,active
+NOVACART_MINI_V2,2025-01,P0119,Laptop Desk Mat - Standard,Office & Stationery,24.32,15.23,active
+NOVACART_MINI_V2,2025-01,P0120,Laptop Desk Mat - Large,Office & Stationery,33.40,17.91,active
+NOVACART_MINI_V2,2025-01,P0121,Storage Basket - Standard,Home Organization,17.66,8.02,active
+NOVACART_MINI_V2,2025-01,P0122,Storage Basket - Large,Home Organization,24.44,13.12,active
+NOVACART_MINI_V2,2025-01,P0123,Foldable Storage Box - Standard,Home Organization,20.85,14.38,active
+NOVACART_MINI_V2,2025-01,P0124,Foldable Storage Box - Large,Home Organization,26.66,15.25,active
+NOVACART_MINI_V2,2025-01,P0125,Drawer Divider Set - Standard,Home Organization,15.79,9.43,active
+NOVACART_MINI_V2,2025-01,P0126,Drawer Divider Set - Large,Home Organization,20.64,11.02,active
+NOVACART_MINI_V2,2025-01,P0127,Closet Hanger Set - Standard,Home Organization,12.23,8.71,active
+NOVACART_MINI_V2,2025-01,P0128,Closet Hanger Set - Large,Home Organization,16.34,7.65,active
+NOVACART_MINI_V2,2025-01,P0129,Shoe Rack - Standard,Home Organization,40.48,25.46,active
+NOVACART_MINI_V2,2025-01,P0130,Shoe Rack - Large,Home Organization,57.84,39.62,active
+NOVACART_MINI_V2,2025-01,P0131,Over-Door Hook Set - Standard,Home Organization,12.97,8.38,active
+NOVACART_MINI_V2,2025-01,P0132,Over-Door Hook Set - Large,Home Organization,16.04,8.69,active
+NOVACART_MINI_V2,2025-01,P0133,Laundry Hamper - Standard,Home Organization,29.93,21.59,active
+NOVACART_MINI_V2,2025-01,P0134,Laundry Hamper - Large,Home Organization,36.86,18.61,active
+NOVACART_MINI_V2,2025-01,P0135,Vacuum Storage Bag Set - Standard,Home Organization,21.22,14.74,active
+NOVACART_MINI_V2,2025-01,P0136,Vacuum Storage Bag Set - Large,Home Organization,28.56,16.74,active
+NOVACART_MINI_V2,2025-01,P0137,Bathroom Shelf Organizer - Standard,Home Organization,25.18,14.26,active
+NOVACART_MINI_V2,2025-01,P0138,Bathroom Shelf Organizer - Large,Home Organization,31.07,13.62,active
+NOVACART_MINI_V2,2025-01,P0139,Under-Bed Storage Bag - Standard,Home Organization,17.85,12.52,active
+NOVACART_MINI_V2,2025-01,P0140,Under-Bed Storage Bag - Large,Home Organization,23.70,15.24,active
+NOVACART_MINI_V2,2025-01,P0141,Cable Storage Pouch - Standard,Home Organization,12.67,7.45,active
+NOVACART_MINI_V2,2025-01,P0142,Cable Storage Pouch - Large,Home Organization,15.67,10.10,active
+NOVACART_MINI_V2,2025-01,P0143,Stackable Storage Tray - Standard,Home Organization,20.84,13.36,active
+NOVACART_MINI_V2,2025-01,P0144,Stackable Storage Tray - Large,Home Organization,27.27,17.62,active
+NOVACART_MINI_V2,2025-01,P0145,Wall Key Holder - Standard,Home Organization,13.23,7.46,active
+NOVACART_MINI_V2,2025-01,P0146,Wall Key Holder - Large,Home Organization,19.44,12.56,active
+NOVACART_MINI_V2,2025-01,P0147,Reusable Label Set - Standard,Home Organization,5.79,3.29,active
+NOVACART_MINI_V2,2025-01,P0148,Reusable Label Set - Large,Home Organization,7.79,5.17,active
+NOVACART_MINI_V2,2025-01,P0149,Cleaning Brush Set - Standard,Home Organization,17.43,11.80,active
+NOVACART_MINI_V2,2025-01,P0150,Cleaning Brush Set - Large,Home Organization,21.21,12.30,active
+NOVACART_MINI_V2,2025-01,P0151,Microfiber Cleaning Cloth Set - Standard,Home Organization,11.97,7.15,active
+NOVACART_MINI_V2,2025-01,P0152,Microfiber Cleaning Cloth Set - Large,Home Organization,16.68,7.09,active
+NOVACART_MINI_V2,2025-01,P0153,Broom and Dustpan Set - Standard,Home Organization,26.50,13.36,active
+NOVACART_MINI_V2,2025-01,P0154,Broom and Dustpan Set - Large,Home Organization,33.98,16.40,active
+NOVACART_MINI_V2,2025-01,P0155,Small Trash Bin - Standard,Home Organization,17.15,9.16,active
+NOVACART_MINI_V2,2025-01,P0156,Small Trash Bin - Large,Home Organization,23.33,16.11,active
+NOVACART_MINI_V2,2025-01,P0157,Sponge Holder - Standard,Home Organization,11.63,5.07,active
+NOVACART_MINI_V2,2025-01,P0158,Sponge Holder - Large,Home Organization,14.52,8.65,active
+NOVACART_MINI_V2,2025-01,P0159,Foldable Laundry Basket - Standard,Home Organization,25.92,14.61,active
+NOVACART_MINI_V2,2025-01,P0160,Foldable Laundry Basket - Large,Home Organization,34.72,22.85,active
+NOVACART_MINI_V2,2025-01,P0161,Cotton Crew Neck T-Shirt - Standard,Apparel Basics,15.67,9.15,active
+NOVACART_MINI_V2,2025-01,P0162,Cotton Crew Neck T-Shirt - Large,Apparel Basics,21.39,11.47,active
+NOVACART_MINI_V2,2025-01,P0163,Plain Polo Shirt - Standard,Apparel Basics,27.71,20.16,active
+NOVACART_MINI_V2,2025-01,P0164,Plain Polo Shirt - Large,Apparel Basics,35.35,16.48,active
+NOVACART_MINI_V2,2025-01,P0165,Unisex Hoodie - Standard,Apparel Basics,39.27,23.22,active
+NOVACART_MINI_V2,2025-01,P0166,Unisex Hoodie - Large,Apparel Basics,52.06,30.47,active
+NOVACART_MINI_V2,2025-01,P0167,Casual Sweatshirt - Standard,Apparel Basics,31.87,18.95,active
+NOVACART_MINI_V2,2025-01,P0168,Casual Sweatshirt - Large,Apparel Basics,45.00,24.78,active
+NOVACART_MINI_V2,2025-01,P0169,Jogger Pants - Standard,Apparel Basics,27.42,14.63,active
+NOVACART_MINI_V2,2025-01,P0170,Jogger Pants - Large,Apparel Basics,40.34,26.51,active
+NOVACART_MINI_V2,2025-01,P0171,Athletic Shorts - Standard,Apparel Basics,21.34,13.85,active
+NOVACART_MINI_V2,2025-01,P0172,Athletic Shorts - Large,Apparel Basics,30.96,14.76,active
+NOVACART_MINI_V2,2025-01,P0173,Cotton Socks Pack - Standard,Apparel Basics,10.34,5.44,active
+NOVACART_MINI_V2,2025-01,P0174,Cotton Socks Pack - Large,Apparel Basics,14.93,10.21,active
+NOVACART_MINI_V2,2025-01,P0175,Everyday Ankle Socks - Standard,Apparel Basics,8.63,5.40,active
+NOVACART_MINI_V2,2025-01,P0176,Everyday Ankle Socks - Large,Apparel Basics,12.15,7.73,active
+NOVACART_MINI_V2,2025-01,P0177,Baseball Cap - Standard,Apparel Basics,16.78,7.49,active
+NOVACART_MINI_V2,2025-01,P0178,Baseball Cap - Large,Apparel Basics,24.96,13.28,active
+NOVACART_MINI_V2,2025-01,P0179,Knitted Beanie - Standard,Apparel Basics,14.70,6.65,active
+NOVACART_MINI_V2,2025-01,P0180,Knitted Beanie - Large,Apparel Basics,18.65,8.70,active
+NOVACART_MINI_V2,2025-01,P0181,Cotton Tank Top - Standard,Apparel Basics,12.25,8.68,active
+NOVACART_MINI_V2,2025-01,P0182,Cotton Tank Top - Large,Apparel Basics,17.47,11.44,active
+NOVACART_MINI_V2,2025-01,P0183,Lightweight Rain Jacket - Standard,Apparel Basics,54.04,39.22,active
+NOVACART_MINI_V2,2025-01,P0184,Lightweight Rain Jacket - Large,Apparel Basics,65.25,29.42,active
+NOVACART_MINI_V2,2025-01,P0185,Canvas Belt - Standard,Apparel Basics,15.62,10.46,active
+NOVACART_MINI_V2,2025-01,P0186,Canvas Belt - Large,Apparel Basics,19.58,8.65,active
+NOVACART_MINI_V2,2025-01,P0187,Basic Scarf - Standard,Apparel Basics,16.05,10.77,active
+NOVACART_MINI_V2,2025-01,P0188,Basic Scarf - Large,Apparel Basics,22.82,11.19,active
+NOVACART_MINI_V2,2025-01,P0189,Plain Cardigan - Standard,Apparel Basics,39.08,25.75,active
+NOVACART_MINI_V2,2025-01,P0190,Plain Cardigan - Large,Apparel Basics,50.26,27.81,active
+NOVACART_MINI_V2,2025-01,P0191,Cotton Pajama Set - Standard,Apparel Basics,30.91,19.39,active
+NOVACART_MINI_V2,2025-01,P0192,Cotton Pajama Set - Large,Apparel Basics,36.35,16.53,active
+NOVACART_MINI_V2,2025-01,P0193,Travel Slippers - Standard,Apparel Basics,16.65,7.57,active
+NOVACART_MINI_V2,2025-01,P0194,Travel Slippers - Large,Apparel Basics,21.39,11.59,active
+NOVACART_MINI_V2,2025-01,P0195,Reusable Face Towel - Standard,Apparel Basics,9.20,6.46,active
+NOVACART_MINI_V2,2025-01,P0196,Reusable Face Towel - Large,Apparel Basics,11.13,7.03,active
+NOVACART_MINI_V2,2025-01,P0197,Sports Headband Set - Standard,Apparel Basics,9.42,6.48,active
+NOVACART_MINI_V2,2025-01,P0198,Sports Headband Set - Large,Apparel Basics,13.00,5.75,active
+NOVACART_MINI_V2,2025-01,P0199,UV Protection Arm Sleeves - Standard,Apparel Basics,11.74,5.25,active
+NOVACART_MINI_V2,2025-01,P0200,UV Protection Arm Sleeves - Large,Apparel Basics,15.95,8.55,active
+NOVACART_MINI_V2,2025-01,P0201,Canvas Tote Bag - Standard,Travel & Bags,18.23,11.27,active
+NOVACART_MINI_V2,2025-01,P0202,Canvas Tote Bag - Large,Travel & Bags,25.31,15.41,active
+NOVACART_MINI_V2,2025-01,P0203,Compact Day Backpack - Standard,Travel & Bags,38.26,27.43,active
+NOVACART_MINI_V2,2025-01,P0204,Compact Day Backpack - Large,Travel & Bags,45.42,22.33,active
+NOVACART_MINI_V2,2025-01,P0205,Travel Packing Cubes - Standard,Travel & Bags,25.92,18.05,active
+NOVACART_MINI_V2,2025-01,P0206,Travel Packing Cubes - Large,Travel & Bags,32.21,14.29,active
+NOVACART_MINI_V2,2025-01,P0207,Toiletry Organizer Bag - Standard,Travel & Bags,20.96,13.76,active
+NOVACART_MINI_V2,2025-01,P0208,Toiletry Organizer Bag - Large,Travel & Bags,24.92,11.50,active
+NOVACART_MINI_V2,2025-01,P0209,Luggage Tag Set - Standard,Travel & Bags,9.43,4.09,active
+NOVACART_MINI_V2,2025-01,P0210,Luggage Tag Set - Large,Travel & Bags,12.66,6.70,active
+NOVACART_MINI_V2,2025-01,P0211,Travel Neck Pillow - Standard,Travel & Bags,20.49,9.57,active
+NOVACART_MINI_V2,2025-01,P0212,Travel Neck Pillow - Large,Travel & Bags,29.04,15.84,active
+NOVACART_MINI_V2,2025-01,P0213,Passport Holder - Standard,Travel & Bags,15.14,8.58,active
+NOVACART_MINI_V2,2025-01,P0214,Passport Holder - Large,Travel & Bags,20.72,11.08,active
+NOVACART_MINI_V2,2025-01,P0215,Foldable Travel Bag - Standard,Travel & Bags,30.42,15.57,active
+NOVACART_MINI_V2,2025-01,P0216,Foldable Travel Bag - Large,Travel & Bags,37.78,27.56,active
+NOVACART_MINI_V2,2025-01,P0217,Waterproof Phone Pouch - Standard,Travel & Bags,12.58,5.83,active
+NOVACART_MINI_V2,2025-01,P0218,Waterproof Phone Pouch - Large,Travel & Bags,17.31,8.37,active
+NOVACART_MINI_V2,2025-01,P0219,Rain Cover for Backpack - Standard,Travel & Bags,15.37,6.80,active
+NOVACART_MINI_V2,2025-01,P0220,Rain Cover for Backpack - Large,Travel & Bags,22.48,10.85,active
+NOVACART_MINI_V2,2025-01,P0221,Travel Document Wallet - Standard,Travel & Bags,21.16,12.66,active
+NOVACART_MINI_V2,2025-01,P0222,Travel Document Wallet - Large,Travel & Bags,28.21,17.18,active
+NOVACART_MINI_V2,2025-01,P0223,Crossbody Bag - Standard,Travel & Bags,30.23,20.38,active
+NOVACART_MINI_V2,2025-01,P0224,Crossbody Bag - Large,Travel & Bags,38.18,21.16,active
+NOVACART_MINI_V2,2025-01,P0225,Reusable Travel Bottle Set - Standard,Travel & Bags,11.74,6.71,active
+NOVACART_MINI_V2,2025-01,P0226,Reusable Travel Bottle Set - Large,Travel & Bags,14.91,6.54,active
+NOVACART_MINI_V2,2025-01,P0227,Shoe Travel Bag - Standard,Travel & Bags,15.25,8.49,active
+NOVACART_MINI_V2,2025-01,P0228,Shoe Travel Bag - Large,Travel & Bags,18.52,12.22,active
+NOVACART_MINI_V2,2025-01,P0229,Umbrella - Standard,Travel & Bags,17.93,11.61,active
+NOVACART_MINI_V2,2025-01,P0230,Umbrella - Large,Travel & Bags,25.61,14.86,active
+NOVACART_MINI_V2,2025-01,P0231,Travel Laundry Pouch - Standard,Travel & Bags,14.46,8.22,active
+NOVACART_MINI_V2,2025-01,P0232,Travel Laundry Pouch - Large,Travel & Bags,18.88,9.69,active
+NOVACART_MINI_V2,2025-01,P0233,Commuter Laptop Backpack - Standard,Travel & Bags,62.05,31.21,active
+NOVACART_MINI_V2,2025-01,P0234,Commuter Laptop Backpack - Large,Travel & Bags,81.38,35.61,active
+NOVACART_MINI_V2,2025-01,P0235,Mesh Organizer Pouch - Standard,Travel & Bags,10.88,7.54,active
+NOVACART_MINI_V2,2025-01,P0236,Mesh Organizer Pouch - Large,Travel & Bags,14.63,10.61,active
+NOVACART_MINI_V2,2025-01,P0237,Insulated Cooler Bag - Standard,Travel & Bags,31.00,21.33,active
+NOVACART_MINI_V2,2025-01,P0238,Insulated Cooler Bag - Large,Travel & Bags,37.59,19.31,active
+NOVACART_MINI_V2,2025-01,P0239,Lightweight Duffel Bag - Standard,Travel & Bags,39.86,19.41,active
+NOVACART_MINI_V2,2025-01,P0240,Lightweight Duffel Bag - Large,Travel & Bags,47.94,30.28,active
+NOVACART_MINI_V2,2025-01,P0241,Yoga Mat - Standard,Fitness & Outdoors,32.22,20.26,active
+NOVACART_MINI_V2,2025-01,P0242,Yoga Mat - Large,Fitness & Outdoors,38.70,17.13,active
+NOVACART_MINI_V2,2025-01,P0243,Resistance Band Set - Standard,Fitness & Outdoors,17.76,10.88,active
+NOVACART_MINI_V2,2025-01,P0244,Resistance Band Set - Large,Fitness & Outdoors,26.25,16.24,active
+NOVACART_MINI_V2,2025-01,P0245,Jump Rope - Standard,Fitness & Outdoors,12.04,7.15,active
+NOVACART_MINI_V2,2025-01,P0246,Jump Rope - Large,Fitness & Outdoors,16.48,11.00,active
+NOVACART_MINI_V2,2025-01,P0247,Foam Roller - Standard,Fitness & Outdoors,26.81,17.32,active
+NOVACART_MINI_V2,2025-01,P0248,Foam Roller - Large,Fitness & Outdoors,36.37,24.31,active
+NOVACART_MINI_V2,2025-01,P0249,Exercise Mat - Standard,Fitness & Outdoors,34.64,22.18,active
+NOVACART_MINI_V2,2025-01,P0250,Exercise Mat - Large,Fitness & Outdoors,42.16,28.49,active
+NOVACART_MINI_V2,2025-01,P0251,Sports Water Bottle - Standard,Fitness & Outdoors,17.59,11.84,active
+NOVACART_MINI_V2,2025-01,P0252,Sports Water Bottle - Large,Fitness & Outdoors,23.64,12.32,active
+NOVACART_MINI_V2,2025-01,P0253,Microfiber Gym Towel - Standard,Fitness & Outdoors,12.16,8.63,active
+NOVACART_MINI_V2,2025-01,P0254,Microfiber Gym Towel - Large,Fitness & Outdoors,15.50,8.51,active
+NOVACART_MINI_V2,2025-01,P0255,Adjustable Hand Grip - Standard,Fitness & Outdoors,15.61,10.64,active
+NOVACART_MINI_V2,2025-01,P0256,Adjustable Hand Grip - Large,Fitness & Outdoors,20.59,9.85,active
+NOVACART_MINI_V2,2025-01,P0257,Cycling Water Bottle - Standard,Fitness & Outdoors,15.39,10.91,active
+NOVACART_MINI_V2,2025-01,P0258,Cycling Water Bottle - Large,Fitness & Outdoors,19.33,11.42,active
+NOVACART_MINI_V2,2025-01,P0259,Reusable Ice Pack - Standard,Fitness & Outdoors,11.71,7.65,active
+NOVACART_MINI_V2,2025-01,P0260,Reusable Ice Pack - Large,Fitness & Outdoors,14.90,6.64,active
+NOVACART_MINI_V2,2025-01,P0261,Camping Flashlight - Standard,Fitness & Outdoors,27.41,18.62,active
+NOVACART_MINI_V2,2025-01,P0262,Camping Flashlight - Large,Fitness & Outdoors,37.45,25.91,active
+NOVACART_MINI_V2,2025-01,P0263,Picnic Blanket - Standard,Fitness & Outdoors,30.72,19.16,active
+NOVACART_MINI_V2,2025-01,P0264,Picnic Blanket - Large,Fitness & Outdoors,39.87,27.05,active
+NOVACART_MINI_V2,2025-01,P0265,Outdoor Sitting Mat - Standard,Fitness & Outdoors,16.47,7.95,active
+NOVACART_MINI_V2,2025-01,P0266,Outdoor Sitting Mat - Large,Fitness & Outdoors,21.22,10.31,active
+NOVACART_MINI_V2,2025-01,P0267,Walking Pedometer - Standard,Fitness & Outdoors,17.51,8.54,active
+NOVACART_MINI_V2,2025-01,P0268,Walking Pedometer - Large,Fitness & Outdoors,23.13,11.31,active
+NOVACART_MINI_V2,2025-01,P0269,Wrist Sweatband Pair - Standard,Fitness & Outdoors,9.38,5.30,active
+NOVACART_MINI_V2,2025-01,P0270,Wrist Sweatband Pair - Large,Fitness & Outdoors,13.92,6.76,active
+NOVACART_MINI_V2,2025-01,P0271,Sports Training Cone Set - Standard,Fitness & Outdoors,24.01,16.74,active
+NOVACART_MINI_V2,2025-01,P0272,Sports Training Cone Set - Large,Fitness & Outdoors,30.40,16.74,active
+NOVACART_MINI_V2,2025-01,P0273,Yoga Block Pair - Standard,Fitness & Outdoors,16.11,10.16,active
+NOVACART_MINI_V2,2025-01,P0274,Yoga Block Pair - Large,Fitness & Outdoors,22.55,12.94,active
+NOVACART_MINI_V2,2025-01,P0275,Camping Cutlery Set - Standard,Fitness & Outdoors,14.89,9.44,active
+NOVACART_MINI_V2,2025-01,P0276,Camping Cutlery Set - Large,Fitness & Outdoors,18.20,8.21,active
+NOVACART_MINI_V2,2025-01,P0277,Elastic Stretch Strap - Standard,Fitness & Outdoors,11.76,8.04,active
+NOVACART_MINI_V2,2025-01,P0278,Elastic Stretch Strap - Large,Fitness & Outdoors,13.59,7.27,active
+NOVACART_MINI_V2,2025-01,P0279,Lightweight Hiking Cap - Standard,Fitness & Outdoors,21.33,10.63,active
+NOVACART_MINI_V2,2025-01,P0280,Lightweight Hiking Cap - Large,Fitness & Outdoors,30.99,13.03,active
+NOVACART_MINI_V2,2025-01,P0281,Soft Bristle Toothbrush Set - Standard,Personal Care,9.37,4.53,active
+NOVACART_MINI_V2,2025-01,P0282,Soft Bristle Toothbrush Set - Large,Personal Care,11.26,7.34,active
+NOVACART_MINI_V2,2025-01,P0283,Travel Toothbrush Case - Standard,Personal Care,7.19,4.10,active
+NOVACART_MINI_V2,2025-01,P0284,Travel Toothbrush Case - Large,Personal Care,8.64,5.96,active
+NOVACART_MINI_V2,2025-01,P0285,Refillable Pump Bottle - Standard,Personal Care,12.31,5.43,active
+NOVACART_MINI_V2,2025-01,P0286,Refillable Pump Bottle - Large,Personal Care,16.43,8.51,active
+NOVACART_MINI_V2,2025-01,P0287,Cotton Face Towel Set - Standard,Personal Care,15.16,7.01,active
+NOVACART_MINI_V2,2025-01,P0288,Cotton Face Towel Set - Large,Personal Care,22.27,11.02,active
+NOVACART_MINI_V2,2025-01,P0289,Hair Comb Set - Standard,Personal Care,9.01,5.50,active
+NOVACART_MINI_V2,2025-01,P0290,Hair Comb Set - Large,Personal Care,11.54,5.31,active
+NOVACART_MINI_V2,2025-01,P0291,Detangling Hair Brush - Standard,Personal Care,17.06,12.05,active
+NOVACART_MINI_V2,2025-01,P0292,Detangling Hair Brush - Large,Personal Care,23.39,17.20,active
+NOVACART_MINI_V2,2025-01,P0293,Nail Clipper Kit - Standard,Personal Care,13.76,9.10,active
+NOVACART_MINI_V2,2025-01,P0294,Nail Clipper Kit - Large,Personal Care,17.53,10.99,active
+NOVACART_MINI_V2,2025-01,P0295,Cotton Pad Pack - Standard,Personal Care,5.65,3.82,active
+NOVACART_MINI_V2,2025-01,P0296,Cotton Pad Pack - Large,Personal Care,7.45,3.67,active
+NOVACART_MINI_V2,2025-01,P0297,Reusable Makeup Remover Pads - Standard,Personal Care,12.18,7.42,active
+NOVACART_MINI_V2,2025-01,P0298,Reusable Makeup Remover Pads - Large,Personal Care,16.62,9.06,active
+NOVACART_MINI_V2,2025-01,P0299,Travel Mirror - Standard,Personal Care,11.41,6.15,active
+NOVACART_MINI_V2,2025-01,P0300,Travel Mirror - Large,Personal Care,15.90,9.23,active
+NOVACART_MINI_V2,2025-01,P0301,Body Scrub Glove - Standard,Personal Care,10.28,7.18,active
+NOVACART_MINI_V2,2025-01,P0302,Body Scrub Glove - Large,Personal Care,13.61,7.87,active
+NOVACART_MINI_V2,2025-01,P0303,Shower Cap Set - Standard,Personal Care,7.51,3.74,active
+NOVACART_MINI_V2,2025-01,P0304,Shower Cap Set - Large,Personal Care,10.18,5.08,active
+NOVACART_MINI_V2,2025-01,P0305,Soap Dish - Standard,Personal Care,9.02,4.38,active
+NOVACART_MINI_V2,2025-01,P0306,Soap Dish - Large,Personal Care,12.17,6.64,active
+NOVACART_MINI_V2,2025-01,P0307,Soap Dispenser - Standard,Personal Care,13.68,7.89,active
+NOVACART_MINI_V2,2025-01,P0308,Soap Dispenser - Large,Personal Care,19.15,13.30,active
+NOVACART_MINI_V2,2025-01,P0309,Hair Tie Pack - Standard,Personal Care,5.98,3.58,active
+NOVACART_MINI_V2,2025-01,P0310,Hair Tie Pack - Large,Personal Care,7.78,4.17,active
+NOVACART_MINI_V2,2025-01,P0311,Hair Clip Set - Standard,Personal Care,7.53,4.03,active
+NOVACART_MINI_V2,2025-01,P0312,Hair Clip Set - Large,Personal Care,11.25,8.24,active
+NOVACART_MINI_V2,2025-01,P0313,Personal Grooming Pouch - Standard,Personal Care,17.25,9.39,active
+NOVACART_MINI_V2,2025-01,P0314,Personal Grooming Pouch - Large,Personal Care,22.27,15.94,active
+NOVACART_MINI_V2,2025-01,P0315,Bath Sponge Set - Standard,Personal Care,8.52,5.20,active
+NOVACART_MINI_V2,2025-01,P0316,Bath Sponge Set - Large,Personal Care,12.56,8.46,active
+NOVACART_MINI_V2,2025-01,P0317,Small First Aid Pouch - Standard,Personal Care,15.93,11.00,active
+NOVACART_MINI_V2,2025-01,P0318,Small First Aid Pouch - Large,Personal Care,22.83,13.65,active
+NOVACART_MINI_V2,2025-01,P0319,Reusable Cotton Swabs - Standard,Personal Care,8.42,4.26,active
+NOVACART_MINI_V2,2025-01,P0320,Reusable Cotton Swabs - Large,Personal Care,12.56,8.19,active
+NOVACART_MINI_V2,2025-01,P0321,Pet Feeding Bowl - Standard,Pet Supplies,16.63,11.01,active
+NOVACART_MINI_V2,2025-01,P0322,Pet Feeding Bowl - Large,Pet Supplies,21.92,14.71,active
+NOVACART_MINI_V2,2025-01,P0323,Pet Water Bowl - Standard,Pet Supplies,14.45,6.30,active
+NOVACART_MINI_V2,2025-01,P0324,Pet Water Bowl - Large,Pet Supplies,19.86,12.57,active
+NOVACART_MINI_V2,2025-01,P0325,Pet Travel Bottle - Standard,Pet Supplies,19.53,9.48,active
+NOVACART_MINI_V2,2025-01,P0326,Pet Travel Bottle - Large,Pet Supplies,24.93,11.60,active
+NOVACART_MINI_V2,2025-01,P0327,Dog Leash - Standard,Pet Supplies,17.14,8.74,active
+NOVACART_MINI_V2,2025-01,P0328,Dog Leash - Large,Pet Supplies,23.56,16.85,active
+NOVACART_MINI_V2,2025-01,P0329,Dog Collar - Standard,Pet Supplies,13.90,9.67,active
+NOVACART_MINI_V2,2025-01,P0330,Dog Collar - Large,Pet Supplies,16.59,11.43,active
+NOVACART_MINI_V2,2025-01,P0331,Pet Grooming Brush - Standard,Pet Supplies,14.38,6.81,active
+NOVACART_MINI_V2,2025-01,P0332,Pet Grooming Brush - Large,Pet Supplies,20.23,12.72,active
+NOVACART_MINI_V2,2025-01,P0333,Pet Waste Bag Holder - Standard,Pet Supplies,10.87,7.72,active
+NOVACART_MINI_V2,2025-01,P0334,Pet Waste Bag Holder - Large,Pet Supplies,15.51,7.01,active
+NOVACART_MINI_V2,2025-01,P0335,Pet Waste Bag Roll Set - Standard,Pet Supplies,8.78,5.62,active
+NOVACART_MINI_V2,2025-01,P0336,Pet Waste Bag Roll Set - Large,Pet Supplies,12.42,7.78,active
+NOVACART_MINI_V2,2025-01,P0337,Pet Blanket - Standard,Pet Supplies,23.89,14.32,active
+NOVACART_MINI_V2,2025-01,P0338,Pet Blanket - Large,Pet Supplies,30.33,18.53,active
+NOVACART_MINI_V2,2025-01,P0339,Cat Toy Ball Set - Standard,Pet Supplies,9.35,4.78,active
+NOVACART_MINI_V2,2025-01,P0340,Cat Toy Ball Set - Large,Pet Supplies,13.73,7.55,active
+NOVACART_MINI_V2,2025-01,P0341,Cat Scratching Pad - Standard,Pet Supplies,29.32,16.50,active
+NOVACART_MINI_V2,2025-01,P0342,Cat Scratching Pad - Large,Pet Supplies,35.59,20.67,active
+NOVACART_MINI_V2,2025-01,P0343,Pet Food Storage Box - Standard,Pet Supplies,22.22,13.32,active
+NOVACART_MINI_V2,2025-01,P0344,Pet Food Storage Box - Large,Pet Supplies,30.00,21.44,active
+NOVACART_MINI_V2,2025-01,P0345,Pet Travel Mat - Standard,Pet Supplies,23.23,13.11,active
+NOVACART_MINI_V2,2025-01,P0346,Pet Travel Mat - Large,Pet Supplies,30.95,20.84,active
+NOVACART_MINI_V2,2025-01,P0347,Pet Treat Pouch - Standard,Pet Supplies,13.19,8.13,active
+NOVACART_MINI_V2,2025-01,P0348,Pet Treat Pouch - Large,Pet Supplies,19.21,8.80,active
+NOVACART_MINI_V2,2025-01,P0349,Pet Toy Rope - Standard,Pet Supplies,11.98,5.24,active
+NOVACART_MINI_V2,2025-01,P0350,Pet Toy Rope - Large,Pet Supplies,16.41,10.33,active
+NOVACART_MINI_V2,2025-01,P0351,Pet Bed Cushion - Standard,Pet Supplies,37.59,24.69,active
+NOVACART_MINI_V2,2025-01,P0352,Pet Bed Cushion - Large,Pet Supplies,48.26,28.27,active
+NOVACART_MINI_V2,2025-01,P0353,Pet Training Clicker - Standard,Pet Supplies,8.79,5.53,active
+NOVACART_MINI_V2,2025-01,P0354,Pet Training Clicker - Large,Pet Supplies,11.37,7.75,active
+NOVACART_MINI_V2,2025-01,P0355,Pet Collar Bell Set - Standard,Pet Supplies,6.54,4.40,active
+NOVACART_MINI_V2,2025-01,P0356,Pet Collar Bell Set - Large,Pet Supplies,9.71,7.17,active
+NOVACART_MINI_V2,2025-01,P0357,Pet Food Measuring Scoop - Standard,Pet Supplies,8.52,6.13,active
+NOVACART_MINI_V2,2025-01,P0358,Pet Food Measuring Scoop - Large,Pet Supplies,10.85,7.42,active
+NOVACART_MINI_V2,2025-01,P0359,Pet Carrier Insert - Standard,Pet Supplies,25.21,13.10,active
+NOVACART_MINI_V2,2025-01,P0360,Pet Carrier Insert - Large,Pet Supplies,32.66,21.11,active
+NOVACART_MINI_V2,2025-01,P0361,Wooden Puzzle Set - Standard,Toys & Hobbies,19.43,12.49,active
+NOVACART_MINI_V2,2025-01,P0362,Wooden Puzzle Set - Large,Toys & Hobbies,25.52,15.20,active
+NOVACART_MINI_V2,2025-01,P0363,Jigsaw Puzzle - Standard,Toys & Hobbies,22.81,11.31,active
+NOVACART_MINI_V2,2025-01,P0364,Jigsaw Puzzle - Large,Toys & Hobbies,28.75,14.66,active
+NOVACART_MINI_V2,2025-01,P0365,Coloring Pencil Set - Standard,Toys & Hobbies,12.72,6.32,active
+NOVACART_MINI_V2,2025-01,P0366,Coloring Pencil Set - Large,Toys & Hobbies,17.49,7.44,active
+NOVACART_MINI_V2,2025-01,P0367,Sketchbook - Standard,Toys & Hobbies,14.05,9.01,active
+NOVACART_MINI_V2,2025-01,P0368,Sketchbook - Large,Toys & Hobbies,18.08,8.60,active
+NOVACART_MINI_V2,2025-01,P0369,Watercolor Paint Set - Standard,Toys & Hobbies,18.32,12.46,active
+NOVACART_MINI_V2,2025-01,P0370,Watercolor Paint Set - Large,Toys & Hobbies,23.48,10.43,active
+NOVACART_MINI_V2,2025-01,P0371,Model Clay Set - Standard,Toys & Hobbies,17.02,8.43,active
+NOVACART_MINI_V2,2025-01,P0372,Model Clay Set - Large,Toys & Hobbies,21.92,13.26,active
+NOVACART_MINI_V2,2025-01,P0373,Building Block Set - Standard,Toys & Hobbies,27.03,16.36,active
+NOVACART_MINI_V2,2025-01,P0374,Building Block Set - Large,Toys & Hobbies,37.85,25.12,active
+NOVACART_MINI_V2,2025-01,P0375,Playing Card Deck - Standard,Toys & Hobbies,7.94,5.16,active
+NOVACART_MINI_V2,2025-01,P0376,Playing Card Deck - Large,Toys & Hobbies,10.42,7.48,active
+NOVACART_MINI_V2,2025-01,P0377,Family Board Game - Standard,Toys & Hobbies,28.02,17.01,active
+NOVACART_MINI_V2,2025-01,P0378,Family Board Game - Large,Toys & Hobbies,35.82,19.62,active
+NOVACART_MINI_V2,2025-01,P0379,Origami Paper Pack - Standard,Toys & Hobbies,9.40,5.50,active
+NOVACART_MINI_V2,2025-01,P0380,Origami Paper Pack - Large,Toys & Hobbies,11.49,7.83,active
+NOVACART_MINI_V2,2025-01,P0381,Sticker Activity Book - Standard,Toys & Hobbies,11.77,7.59,active
+NOVACART_MINI_V2,2025-01,P0382,Sticker Activity Book - Large,Toys & Hobbies,13.91,6.99,active
+NOVACART_MINI_V2,2025-01,P0383,Mini Puzzle Cube - Standard,Toys & Hobbies,12.78,9.22,active
+NOVACART_MINI_V2,2025-01,P0384,Mini Puzzle Cube - Large,Toys & Hobbies,15.39,9.42,active
+NOVACART_MINI_V2,2025-01,P0385,Craft Scissors - Standard,Toys & Hobbies,9.53,6.08,active
+NOVACART_MINI_V2,2025-01,P0386,Craft Scissors - Large,Toys & Hobbies,12.24,8.58,active
+NOVACART_MINI_V2,2025-01,P0387,DIY Craft Kit - Standard,Toys & Hobbies,25.39,11.90,active
+NOVACART_MINI_V2,2025-01,P0388,DIY Craft Kit - Large,Toys & Hobbies,32.02,23.40,active
+NOVACART_MINI_V2,2025-01,P0389,Reusable Drawing Board - Standard,Toys & Hobbies,21.86,9.89,active
+NOVACART_MINI_V2,2025-01,P0390,Reusable Drawing Board - Large,Toys & Hobbies,31.58,16.90,active
+NOVACART_MINI_V2,2025-01,P0391,Wooden Alphabet Blocks - Standard,Toys & Hobbies,23.10,15.19,active
+NOVACART_MINI_V2,2025-01,P0392,Wooden Alphabet Blocks - Large,Toys & Hobbies,29.56,17.46,active
+NOVACART_MINI_V2,2025-01,P0393,Simple Chess Set - Standard,Toys & Hobbies,21.66,11.88,active
+NOVACART_MINI_V2,2025-01,P0394,Simple Chess Set - Large,Toys & Hobbies,28.05,13.87,active
+NOVACART_MINI_V2,2025-01,P0395,Toy Storage Bag - Standard,Toys & Hobbies,17.24,9.05,active
+NOVACART_MINI_V2,2025-01,P0396,Toy Storage Bag - Large,Toys & Hobbies,23.56,10.66,active
+NOVACART_MINI_V2,2025-01,P0397,Gardening Starter Kit - Standard,Toys & Hobbies,26.29,16.79,active
+NOVACART_MINI_V2,2025-01,P0398,Gardening Starter Kit - Large,Toys & Hobbies,30.99,22.18,active
+NOVACART_MINI_V2,2025-01,P0399,Embroidery Starter Kit - Standard,Toys & Hobbies,25.23,11.65,active
+NOVACART_MINI_V2,2025-01,P0400,Embroidery Starter Kit - Large,Toys & Hobbies,33.86,17.77,active

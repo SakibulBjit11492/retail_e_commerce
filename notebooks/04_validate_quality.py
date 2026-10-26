@@ -82,11 +82,25 @@ for name, source_df, target_df, fk in [
     count = source_df.select(fk).join(target_df.select(fk).distinct(), fk, "left_anti").count()
     check(f"gold_orphan_{name}", count == 0, f"orphan_rows={count}")
 
+dates = table("gold", "dim_date")
+for name, source_df, field in [
+    ("order_date", orders, "order_date"),
+    ("payment_date", payments, "payment_date"),
+    ("session_date", table("gold", "fact_sessions"), "session_date"),
+]:
+    count = source_df.select(F.col(field).alias("date")).join(dates.select("date"), "date", "left_anti").count()
+    check(f"gold_orphan_{name}", count == 0, f"dates_missing_from_dim_date={count}")
+
 for name, df, key in [
     ("fact_orders", orders, "order_id"),
     ("fact_order_items", items, "order_item_id"),
     ("fact_payments", payments, "payment_id"),
     ("fact_sessions", table("gold", "fact_sessions"), "session_id"),
+    ("fact_website_events", table("gold", "fact_website_events"), "event_id"),
+    ("dim_customers", customers, "customer_id"),
+    ("dim_products", products, "product_id"),
+    ("dim_date", dates, "date"),
+    ("customer_summary", table("gold", "customer_summary"), "customer_id"),
 ]:
     total = df.count()
     uniq = df.select(key).distinct().count()
@@ -102,6 +116,13 @@ target_usd = Decimal(str(target_row["amount"] or 0))
 delta = abs(source_usd - target_usd)
 check("revenue_reconciles_to_payments", delta <= TOLERANCE,
       f"payment_net={source_usd}; gold_net={target_usd}; delta={delta}; tolerance={TOLERANCE}")
+
+# Product/category revenue (allocated to order lines) must add back up to order-level revenue.
+alloc_row = items.agg(F.sum("allocated_net_revenue_usd").alias("amount")).first()
+alloc_usd = Decimal(str(alloc_row["amount"] or 0)).quantize(Decimal("0.01"))
+alloc_delta = abs(alloc_usd - target_usd)
+check("product_allocation_reconciles_to_orders", alloc_delta <= TOLERANCE,
+      f"allocated_net={alloc_usd}; gold_net={target_usd}; delta={alloc_delta}; tolerance={TOLERANCE}")
 
 # COMMAND ----------
 from datetime import datetime, timezone

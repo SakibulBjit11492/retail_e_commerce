@@ -2,56 +2,68 @@
 
 **Repository tag:** `NOVACART_POC_CODE_V1`  
 **Dataset tag:** `NOVACART_MINI_V2`  
-**Business setting:** Fully synthetic, USD, 2025, Japan + ASEAN. Zero real client data and no branded product catalog.
+**Business setting:** Fully synthetic, USD, 2025 (+ a January 2026 demo batch), Japan + ASEAN. No real client data and no branded product catalog.
 
-A compact Git-first PySpark notebook project for Azure Databricks with ADLS Gen2 source files and Unity Catalog-governed Delta tables. Source data is intentionally **not in this code ZIP**. The project is validated statically; Databricks runtime execution remains to be verified after your ADLS/Unity Catalog setup.
+A Git-first PySpark project for Azure Databricks: raw files in ADLS Gen2 are read through a Unity Catalog volume,
+processed through Bronze → Silver → Gold Delta tables with a data-quality gate, and served to three Power BI dashboards.
 
-## Work sequence
+It answers three business questions:
 
-1. **NOW — Git:** Extract ZIP, inspect the notebooks, commit and push the source code. No Azure setup or dataset upload is required for this step.
-2. **NEXT — Azure storage:** Create/verify ADLS Gen2; set up the Unity Catalog external location + external volume; upload 7 CSV files + 2 JSON files into `/Volumes/<catalog>/<schema>/<volume>/raw/`.
-3. **NEXT — Databricks Git:** Connect supported Git provider and clone the repo as a Git folder; or import these notebook source `.py` files manually if the company Gerrit server isn't supported.
-4. **RUN — Databricks:** Open notebook `00_verify_access`, configure widgets to actual catalog/schema/volume, then execute `01_ingest_bronze`, `02_transform_silver`, `03_build_gold`, `04_validate_quality`, in that order. All notebooks run with Databricks serverless when enabled and authorized.
-5. **NEXT — Power BI:** Connect to Gold tables and define shared DAX measures. Expand into the other dashboards later.
+1. **Sales & Revenue:** how much did we really earn, and is it growing?
+2. **Product Performance:** which products and categories drive revenue, and which come back or get cancelled?
+3. **Customer Insights:** who buys, do they come back, and how many visitors buy?
+
+## Quick start
+
+Follow [`docs/setup.md`](docs/setup.md) (about 1 hour). In short:
+
+1. Resource group with tags `project=dpe-azure-poc`, `owner=<name>` and a budget alert.
+2. ADLS Gen2 + Unity Catalog external location and volume `main.novacart_poc.landing`.
+3. Upload the 9 dataset files to `/Volumes/main/novacart_poc/landing/raw/`.
+4. Clone this repo as a Databricks Git folder; run notebooks `00` → `04`, or deploy the job with `databricks bundle deploy`.
+5. Connect Power BI to the `gold_*` tables and add the measures from [`docs/measures.md`](docs/measures.md).
+
+Live demo steps: [`docs/demo-runbook.md`](docs/demo-runbook.md).
 
 ## Repository structure
 
 ```text
-novacart-azure-poc/
+retail_e_commerce/
   README.md
-  .gitignore
-  .env.example
+  databricks.yml                     # Databricks Asset Bundle (job deployment)
+  resources/
+    novacart_pipeline.job.yml        # Job: 00 -> 01 -> 02 -> 03 -> 04 on serverless
   notebooks/
-    00_verify_access.py
-    01_ingest_bronze.py
-    02_transform_silver.py
-    03_build_gold.py
-    04_validate_quality.py
-  docs/
-    architecture.md
-    git-guide.md
+    00_verify_access.py              # checks volume + one file per entity
+    01_ingest_bronze.py              # loads only new files; force_reload option
+    02_transform_silver.py           # clean, dedupe, repair, quarantine
+    03_build_gold.py                 # star schema, RFM, monthly marts
+    04_validate_quality.py           # data-quality gate + reconciliation
   data/
-    README.md
+    *_2025_USD.csv, *.json           # NOVACART_MINI_V2 (synthetic)
+    demo_batch_2026_01/              # new-month batch for the live demo
+  docs/
+    architecture.md                  # diagram + design decisions
+    data-model.md                    # Gold tables, Power BI relationships, RFM rules
+    measures.md                      # measure definitions (DAX) + quality checks
+    setup.md                         # new-engineer setup
+    demo-runbook.md                  # live demo steps and expected numbers
+    git-guide.md
   tools/
-    check_dataset_contract.py
-  tests/
-    test_source_schema.py
+    check_dataset_contract.py        # validate the dataset before upload
+    make_demo_batch.py               # regenerate the demo batch
+  tests/                             # fast local tests (no Databricks needed)
 ```
 
-## Notebooks + settings
+## Run the tests locally
 
-Notebook source `.py` files start with `# Databricks notebook source`, so Databricks Git folders can recognize them as notebooks. You select the real Unity Catalog catalog, schema, and volume through notebook widgets. The examples use `main` / `novacart_poc` / `landing`, **not guaranteed to exist in your workspace**.
+```bash
+python -m unittest discover -s tests -v
+```
 
-A workspace with Serverless compute **still generates billable usage**. Use a budget alert and review actual cost; do not provision additional clusters just to commit source code.
+## Notes
 
-## Source contract
-
-Inputs are exactly `NOVACART_MINI_V2` files (see `data/README.md`). Both CSV and JSON are consumed in Bronze. `silver_rejected_website_events` captures intentional orphan product references; `silver_rejected_orders` captures unrecoverable broken orders, while recoverable blank customer IDs are repaired through the linked session.
-
-## Reporting model
-
-- **Required:** Sales & Revenue; Product Performance; Customer Insights.
-- **Optional after core demo:** Marketing & Conversion; Delivery/Operations (requires additional shipping data); Executive Overview.
-- Do not report ROAS without campaign cost data or delivery SLA metrics from lookup-only shipping methods. The starter dataset does not yet include transaction-grain marketing spend or actual shipments.
-
-More information: `docs/architecture.md`, `docs/git-guide.md`.
+- Notebook `.py` files start with `# Databricks notebook source`, so Databricks Git folders open them as notebooks. Catalog, schema and volume are widgets (job parameters when run as a job).
+- Serverless compute and SQL warehouses are billable while running. Keep the job schedule paused, use auto-stop, and check Cost Management weekly.
+- No secrets in the repo: storage access uses a Unity Catalog credential backed by a managed identity.
+- The dataset has no campaign spend or shipment data, so ROAS and delivery SLA metrics are out of scope.

@@ -1,53 +1,70 @@
 # Architecture — NOVACART_MINI_V2
 
-Synthetic CSV / JSON (USD, Jan–Dec 2025; Japan + ASEAN)
-  -> **Azure Data Lake Storage Gen2**
-  -> **Unity Catalog external volume** (`/Volumes/.../raw/`)
-  -> **Databricks Bronze** (append-only raw Delta tables + ingestion audit columns)
-  -> **Databricks Silver** (standardization, deduplication, orphan rejection, repair)
-  -> **Databricks Gold** (dimensions, facts, monthly marts)
-  -> **Power BI** (3 mandatory dashboard reports)
+```mermaid
+flowchart LR
+    subgraph Sources["Synthetic sources (USD, Japan + ASEAN)"]
+        CSV["7 CSV files<br/>orders, payments, customers,<br/>products, items, sessions, events"]
+        JSON["2 JSON lookups<br/>campaigns, shipping methods"]
+    end
+    subgraph Azure["Azure resource group rg-dpe-azure-poc (tagged)"]
+        ADLS["ADLS Gen2<br/>container landing"]
+        subgraph DBX["Azure Databricks + Unity Catalog"]
+            VOL["External volume<br/>/Volumes/.../landing/raw"]
+            JOB["Job: novacart-medallion-pipeline<br/>serverless, schedule paused"]
+            B["Bronze<br/>append-only + file/load audit"]
+            S["Silver<br/>clean, dedupe, repair, quarantine"]
+            G["Gold<br/>star schema + marts"]
+            DQ["Data-quality gate<br/>dq_results"]
+            WH["SQL warehouse<br/>serverless, auto-stop 10 min"]
+        end
+        MI["Access connector<br/>managed identity"]
+    end
+    PBI["Power BI<br/>3 dashboards (Import)"]
 
-Additional dashboards (marketing, operations, executive) can follow when datasets expand.
+    CSV --> ADLS
+    JSON --> ADLS
+    ADLS --- VOL
+    MI -. "Storage Blob Data Contributor" .-> ADLS
+    VOL --> B --> S --> G --> DQ
+    JOB -. runs .-> B
+    G --> WH --> PBI
+```
 
-## Key operational decisions
+Flow: files land in ADLS Gen2 → read through a Unity Catalog external volume → one Databricks job runs
+Bronze → Silver → Gold → quality gate → Power BI imports Gold through a serverless SQL warehouse.
 
-- **Ingestion:** Databricks notebooks run after files are uploaded; scheduled Databricks job preferred for PoC over always-on services. Azure Data Factory remains optional.
-- **Storage access:** Use Unity Catalog storage credential + external location + external volume managed by the Azure workspace admins. No access keys hardcoded.
-- **Bronze:** append-only; repeated reads create additional raw records with new `_ingested_at_utc` / `_load_batch_id`.
-- **Silver:** distinct business keys and overwrite small validated Delta tables. Production scalability could replace these small-table overwrites with `MERGE`.
-- **Gold:** full deterministic rebuild from Silver (idempotent, one fact grain per table).
-- **Reconciliation:** Revenue in this demo means **net captured payment amount less refunds**, not accounting accrual revenue. Failed payments count as zero. Paid order is `order_status='paid'` with captured payment.
-- **Cost:** choose serverless only for manual testing, pause SQL warehouses and avoid unnecessary background workloads. Serverless usage is billable, even if there is no active classic cluster.
+## Key design decisions
 
-## Gold table grains
+| Decision | Choice | Why |
+|---|---|---|
+| Ingestion | Scheduled **Databricks job** (notebooks), not Azure Data Factory | Cheaper and simpler: no extra service, one place for code and runs; files are uploaded to the volume |
+| Compute | Serverless jobs compute and serverless SQL warehouse (auto-stop 10 min) | No always-on compute; pay per run only |
+| Storage access | Unity Catalog storage credential (managed identity) + external location + external volume | No keys or secrets in code |
+| New data | New files matching `<entity>_*.csv` in `raw/`; Bronze loads only files not yet loaded | Supports "drop new data and rerun" for the demo |
+| Bronze | Append-only, all columns as strings, `_source_file`, `_source_file_modified_at`, `_ingested_at_utc`, `_load_batch_id` | Raw data as received, with lineage |
+| Silver | Latest version per business key (later file period wins), standardize statuses/timestamps to UTC, repair keys, quarantine orphans to `silver_rejected_*` | One ID per customer/product; re-loads never duplicate |
+| Gold | Full deterministic rebuild from Silver | Idempotent; one grain per table |
+| Revenue | Net cash: captured − refunded; failed = 0 | Ties exactly to payments (checked every run) |
+| Time zone | Source timestamps have no zone; treated as UTC | Assumption stated for the PoC |
+| Power BI mode | Import | Warehouse only runs during refresh → lowest cost |
 
-| Table | Grain |
+## Data problems handled in Silver
+
+| Problem in the raw data | Handling |
 |---|---|
-| `gold_dim_customers` | 1/customer |
-| `gold_dim_products` | 1/product |
-| `gold_fact_orders` | 1/order |
-| `gold_fact_order_items` | 1/order item |
-| `gold_fact_payments` | 1/payment transaction |
-| `gold_fact_sessions` | 1/web or app session |
-| `gold_fact_website_events` | 1/event |
-| `gold_sales_monthly` | month × sales channel |
-| `gold_product_monthly` | month × category × product × channel |
-| `gold_customer_summary` | 1/customer |
-| `gold_website_funnel_monthly` | month × sales channel |
+| Duplicate order records (6 in 2025, 1 re-sent in the demo batch) | Keep one row per `order_id` |
+| Mixed timestamp formats (`yyyy-MM-dd` and `MM/dd/yyyy`) | Parse both, store as UTC timestamp |
+| Status spellings (`PAID`, `Paid`, `completed`, `Canceled`) | Map to `paid` / `cancelled` / `returned` |
+| Blank `customer_id` on orders | Recover from the linked session; otherwise → `silver_rejected_orders` |
+| Events with unknown product `P_MISSING` | → `silver_rejected_website_events` |
+| Order updated in a later file (late return) | Later file wins |
 
-## Demo measurements
+## Gold tables
 
-- Total net revenue: `SUM(gold_fact_orders.net_revenue_usd)`
-- Paid orders: `COUNT` where `is_paid_order=true`
-- Average order value: captured amount divided by number of paid orders (state this definition in BI)
-- Return rate: returned order count / all orders (chosen denominator must be documented)
-- Cancellation rate: cancelled orders / all orders
-- Session-to-order conversion: sessions with linked order / all sessions
-
-**Important:** `gold_product_monthly.allocated_net_revenue_usd` is allocated proportionally from order-level payment net; do **not** join payment rows directly to product rows because that inflates sums.
+See [`data-model.md`](data-model.md) for grains, columns, relationships and RFM rules, and
+[`measures.md`](measures.md) for measure definitions (DAX) and the quality checks.
 
 ## Next enhancements
 
-- Add marketing spend for ROAS and more detailed shipment/return data for delivery KPIs.
-- Add separate rejection reasons, freshness checks, alerting, CI/CD, and incremental MERGE workflows.
+- Marketing spend for ROAS; shipment and return data for delivery KPIs.
+- Incremental `MERGE` in Silver for larger volumes, Auto Loader for file discovery, freshness checks and alerting, CI/CD for the bundle.

@@ -39,7 +39,16 @@ def timestamp(name):
 
 
 def latest(df, id_col):
-    w = Window.partitionBy(id_col).orderBy(F.col("_ingested_at_utc").desc(), F.col("_load_batch_id").desc())
+    # Keep the newest version of each business key. File names carry the data period
+    # (orders_2025_USD.csv < orders_2026_01_USD.csv), so the later period wins; for the same file
+    # name, the most recently modified upload wins. Re-ingesting old files (force_reload) therefore
+    # never overwrites newer data, e.g. an order whose status later changed to 'returned'.
+    w = Window.partitionBy(id_col).orderBy(
+        F.col("_source_file").desc(),
+        F.col("_source_file_modified_at").desc_nulls_last(),
+        F.col("_ingested_at_utc").desc(),
+        F.col("_load_batch_id").desc(),
+    )
     return df.withColumn("_rn", F.row_number().over(w)).filter("_rn = 1").drop("_rn")
 
 

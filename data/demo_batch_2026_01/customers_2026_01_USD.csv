@@ -1,0 +1,13 @@
+dataset_tag,record_month,customer_id,customer_label,signup_date,country_code,country,city,customer_tier,signup_channel
+NOVACART_MINI_V2,2026-01,C14986,Customer 14986,2026-01-01,ID,Indonesia,Medan,basic,web
+NOVACART_MINI_V2,2026-01,C14987,Customer 14987,2026-01-02,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2026-01,C14988,Customer 14988,2026-01-17,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2026-01,C14989,Customer 14989,2026-01-17,PH,Philippines,Makati,basic,mobile_app
+NOVACART_MINI_V2,2026-01,C14990,Customer 14990,2026-01-11,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2026-01,C14991,Customer 14991,2026-01-01,SG,Singapore,Singapore,silver,marketplace
+NOVACART_MINI_V2,2026-01,C14992,Customer 14992,2026-01-02,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2026-01,C14993,Customer 14993,2026-01-11,SG,Singapore,Woodlands,gold,mobile_app
+NOVACART_MINI_V2,2026-01,C14994,Customer 14994,2026-01-14,SG,Singapore,Singapore,gold,marketplace
+NOVACART_MINI_V2,2026-01,C14995,Customer 14995,2026-01-15,ID,Indonesia,Surabaya,silver,marketplace
+NOVACART_MINI_V2,2026-01,C14996,Customer 14996,2026-01-14,TH,Thailand,Chiang Mai,basic,marketplace
+NOVACART_MINI_V2,2026-01,C14997,Customer 14997,2026-01-14,ID,Indonesia,Bandung,silver,mobile_app

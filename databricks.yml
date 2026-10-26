@@ -1,0 +1,36 @@
+# Databricks Asset Bundle: deploys the NovaCart medallion pipeline as one Databricks Job.
+#   databricks bundle validate
+#   databricks bundle deploy -t dev
+#   databricks bundle run novacart_pipeline -t dev
+# The workspace URL comes from your Databricks CLI profile / DATABRICKS_HOST (see docs/setup.md).
+bundle:
+  name: novacart_poc
+
+include:
+  - resources/*.yml
+
+# Only code is deployed to the workspace; data goes to the Unity Catalog volume instead.
+sync:
+  exclude:
+    - data/**
+    - tests/**
+
+variables:
+  catalog:
+    description: Unity Catalog catalog
+    default: main
+  schema:
+    description: Schema for bronze/silver/gold tables
+    default: novacart_poc
+  volume:
+    description: Volume that contains the raw/ folder
+    default: landing
+  owner:
+    description: Value for the owner tag (cost tracking)
+    default: sakib
+
+targets:
+  dev:
+    # development mode prefixes the job name with [dev <user>] and keeps schedules paused.
+    mode: development
+    default: true
