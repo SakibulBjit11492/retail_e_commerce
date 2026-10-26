@@ -27,8 +27,6 @@ venv/
 
 # Data (dataset is delivered separately, never committed)
 *.zip
-*.csv
-*.parquet
 data/raw/
 
 # Power BI local cache

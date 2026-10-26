@@ -1,0 +1,1283 @@
+dataset_tag,record_month,customer_id,customer_label,signup_date,country_code,country,city,customer_tier,signup_channel
+NOVACART_MINI_V2,2025-01,C00002,Customer 00002,2024-05-14,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-01,C00003,Customer 00003,2024-02-13,TH,Thailand,Pattaya,premium,web
+NOVACART_MINI_V2,2025-01,C00004,Customer 00004,2024-04-15,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-01,C00007,Customer 00007,2024-11-10,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-01,C00011,Customer 00011,2024-07-10,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C00014,Customer 00014,2024-07-19,MY,Malaysia,Ipoh,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00015,Customer 00015,2024-04-16,JP,Japan,Tokyo,silver,web
+NOVACART_MINI_V2,2025-01,C00017,Customer 00017,2024-10-08,MY,Malaysia,Kota Kinabalu,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00021,Customer 00021,2024-10-01,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00024,Customer 00024,2024-01-23,PH,Philippines,Quezon City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00026,Customer 00026,2024-07-16,SG,Singapore,Woodlands,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00027,Customer 00027,2024-09-13,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00028,Customer 00028,2024-02-07,MY,Malaysia,Ipoh,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00029,Customer 00029,2024-02-18,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00033,Customer 00033,2024-06-21,MY,Malaysia,Kuala Lumpur,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C00034,Customer 00034,2024-01-13,MY,Malaysia,Penang,basic,web
+NOVACART_MINI_V2,2025-01,C00036,Customer 00036,2024-03-11,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00039,Customer 00039,2024-04-16,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C00041,Customer 00041,2024-10-04,ID,Indonesia,Surabaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00042,Customer 00042,2024-12-02,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00045,Customer 00045,2024-01-17,VN,Vietnam,Da Nang,premium,marketplace
+NOVACART_MINI_V2,2025-01,C00049,Customer 00049,2024-02-18,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00050,Customer 00050,2024-01-22,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00059,Customer 00059,2024-06-26,JP,Japan,Fukuoka,gold,web
+NOVACART_MINI_V2,2025-01,C00063,Customer 00063,2024-11-22,ID,Indonesia,Bandung,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00066,Customer 00066,2024-02-05,TH,Thailand,Chiang Mai,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00067,Customer 00067,2024-10-17,TH,Thailand,Chiang Mai,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00073,Customer 00073,2024-06-06,VN,Vietnam,Can Tho,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00074,Customer 00074,2024-05-15,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-01,C00075,Customer 00075,2024-11-21,VN,Vietnam,Ho Chi Minh City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00080,Customer 00080,2024-02-07,TH,Thailand,Pattaya,basic,web
+NOVACART_MINI_V2,2025-01,C00083,Customer 00083,2024-01-18,JP,Japan,Tokyo,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00085,Customer 00085,2024-05-17,JP,Japan,Tokyo,silver,web
+NOVACART_MINI_V2,2025-01,C00087,Customer 00087,2024-03-14,SG,Singapore,Jurong East,silver,web
+NOVACART_MINI_V2,2025-01,C00089,Customer 00089,2024-05-24,JP,Japan,Nagoya,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00092,Customer 00092,2024-05-08,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-01,C00094,Customer 00094,2024-01-13,SG,Singapore,Tampines,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00100,Customer 00100,2024-02-20,JP,Japan,Nagoya,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00107,Customer 00107,2024-03-06,JP,Japan,Osaka,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00108,Customer 00108,2024-12-20,SG,Singapore,Singapore,gold,web
+NOVACART_MINI_V2,2025-01,C00118,Customer 00118,2024-09-12,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-01,C00119,Customer 00119,2024-06-22,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-01,C00120,Customer 00120,2024-01-22,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C00124,Customer 00124,2024-04-04,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-01,C00133,Customer 00133,2024-12-17,SG,Singapore,Jurong East,basic,web
+NOVACART_MINI_V2,2025-01,C00135,Customer 00135,2024-08-13,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00137,Customer 00137,2024-07-27,MY,Malaysia,Kota Kinabalu,gold,web
+NOVACART_MINI_V2,2025-01,C00139,Customer 00139,2024-02-17,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00152,Customer 00152,2024-04-27,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00156,Customer 00156,2024-03-06,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C00161,Customer 00161,2024-04-01,MY,Malaysia,Ipoh,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00168,Customer 00168,2024-06-23,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00170,Customer 00170,2024-06-17,MY,Malaysia,Penang,basic,web
+NOVACART_MINI_V2,2025-01,C00171,Customer 00171,2024-07-16,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C00173,Customer 00173,2024-05-27,MY,Malaysia,Ipoh,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00175,Customer 00175,2024-03-11,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C00186,Customer 00186,2024-01-04,SG,Singapore,Singapore,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00187,Customer 00187,2024-03-10,VN,Vietnam,Hai Phong,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00192,Customer 00192,2024-08-11,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00194,Customer 00194,2024-08-02,MY,Malaysia,Johor Bahru,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C00195,Customer 00195,2024-06-13,ID,Indonesia,Medan,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00196,Customer 00196,2024-12-27,SG,Singapore,Singapore,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00197,Customer 00197,2024-11-08,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-01,C00202,Customer 00202,2024-02-23,JP,Japan,Tokyo,silver,web
+NOVACART_MINI_V2,2025-01,C00203,Customer 00203,2024-05-25,JP,Japan,Fukuoka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00204,Customer 00204,2024-10-14,ID,Indonesia,Yogyakarta,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00205,Customer 00205,2024-10-11,VN,Vietnam,Hai Phong,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00208,Customer 00208,2024-01-13,PH,Philippines,Cebu City,basic,web
+NOVACART_MINI_V2,2025-01,C00209,Customer 00209,2024-08-15,PH,Philippines,Cebu City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00214,Customer 00214,2024-05-14,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C00215,Customer 00215,2024-09-02,VN,Vietnam,Ho Chi Minh City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00217,Customer 00217,2024-03-05,PH,Philippines,Quezon City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00222,Customer 00222,2024-01-18,VN,Vietnam,Hai Phong,gold,web
+NOVACART_MINI_V2,2025-01,C00224,Customer 00224,2024-03-17,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00226,Customer 00226,2024-07-14,VN,Vietnam,Can Tho,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00230,Customer 00230,2024-12-08,VN,Vietnam,Can Tho,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00231,Customer 00231,2024-06-28,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00232,Customer 00232,2024-10-06,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00235,Customer 00235,2024-03-25,PH,Philippines,Manila,silver,web
+NOVACART_MINI_V2,2025-01,C00236,Customer 00236,2024-07-07,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00246,Customer 00246,2024-10-19,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00249,Customer 00249,2024-03-17,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00256,Customer 00256,2024-10-19,ID,Indonesia,Jakarta,silver,web
+NOVACART_MINI_V2,2025-01,C00265,Customer 00265,2024-01-02,ID,Indonesia,Jakarta,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00269,Customer 00269,2024-01-26,PH,Philippines,Davao City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00272,Customer 00272,2024-01-14,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00273,Customer 00273,2024-03-11,MY,Malaysia,Penang,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00276,Customer 00276,2024-11-15,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C00281,Customer 00281,2024-07-03,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00284,Customer 00284,2024-07-25,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-01,C00292,Customer 00292,2024-01-11,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C00295,Customer 00295,2024-05-17,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00297,Customer 00297,2024-09-26,VN,Vietnam,Ho Chi Minh City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00302,Customer 00302,2024-06-17,VN,Vietnam,Hai Phong,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00315,Customer 00315,2024-04-19,JP,Japan,Yokohama,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00319,Customer 00319,2024-05-18,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00322,Customer 00322,2024-05-06,ID,Indonesia,Surabaya,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00324,Customer 00324,2024-08-02,TH,Thailand,Chiang Mai,premium,marketplace
+NOVACART_MINI_V2,2025-01,C00325,Customer 00325,2024-09-03,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00328,Customer 00328,2024-05-24,SG,Singapore,Jurong East,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00329,Customer 00329,2024-07-03,SG,Singapore,Singapore,basic,web
+NOVACART_MINI_V2,2025-01,C00333,Customer 00333,2024-11-25,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C00336,Customer 00336,2024-05-23,ID,Indonesia,Bandung,gold,web
+NOVACART_MINI_V2,2025-01,C00338,Customer 00338,2024-10-14,MY,Malaysia,Kota Kinabalu,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00345,Customer 00345,2024-12-15,JP,Japan,Nagoya,premium,web
+NOVACART_MINI_V2,2025-01,C00350,Customer 00350,2024-04-28,SG,Singapore,Tampines,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00352,Customer 00352,2024-03-06,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-01,C00358,Customer 00358,2024-06-05,ID,Indonesia,Yogyakarta,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C00359,Customer 00359,2024-01-01,ID,Indonesia,Yogyakarta,gold,web
+NOVACART_MINI_V2,2025-01,C00361,Customer 00361,2024-12-03,TH,Thailand,Bangkok,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00364,Customer 00364,2024-10-19,PH,Philippines,Quezon City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00371,Customer 00371,2024-03-13,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00372,Customer 00372,2024-07-22,ID,Indonesia,Jakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00377,Customer 00377,2024-03-09,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-01,C00378,Customer 00378,2024-03-15,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C00380,Customer 00380,2024-06-19,JP,Japan,Osaka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00386,Customer 00386,2024-10-14,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C00395,Customer 00395,2024-09-23,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00396,Customer 00396,2024-04-23,PH,Philippines,Quezon City,premium,web
+NOVACART_MINI_V2,2025-01,C00406,Customer 00406,2024-09-15,VN,Vietnam,Hanoi,premium,marketplace
+NOVACART_MINI_V2,2025-01,C00408,Customer 00408,2024-04-02,SG,Singapore,Singapore,basic,web
+NOVACART_MINI_V2,2025-01,C00413,Customer 00413,2024-11-28,TH,Thailand,Bangkok,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C00423,Customer 00423,2024-04-09,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C00428,Customer 00428,2024-10-27,VN,Vietnam,Can Tho,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00435,Customer 00435,2024-01-04,TH,Thailand,Bangkok,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00436,Customer 00436,2024-04-15,JP,Japan,Yokohama,gold,web
+NOVACART_MINI_V2,2025-01,C00438,Customer 00438,2024-05-15,VN,Vietnam,Can Tho,basic,web
+NOVACART_MINI_V2,2025-01,C00441,Customer 00441,2024-03-09,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-01,C00444,Customer 00444,2024-12-09,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00447,Customer 00447,2024-02-21,PH,Philippines,Quezon City,silver,web
+NOVACART_MINI_V2,2025-01,C00451,Customer 00451,2024-03-22,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00452,Customer 00452,2024-05-27,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-01,C00459,Customer 00459,2024-04-26,VN,Vietnam,Hai Phong,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00461,Customer 00461,2024-11-12,ID,Indonesia,Bandung,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C00462,Customer 00462,2024-09-17,MY,Malaysia,Ipoh,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00464,Customer 00464,2024-12-03,MY,Malaysia,Johor Bahru,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00466,Customer 00466,2024-08-05,JP,Japan,Yokohama,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00472,Customer 00472,2024-11-22,TH,Thailand,Pattaya,basic,web
+NOVACART_MINI_V2,2025-01,C00473,Customer 00473,2024-06-05,MY,Malaysia,Penang,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00478,Customer 00478,2024-10-19,ID,Indonesia,Yogyakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00479,Customer 00479,2024-12-17,VN,Vietnam,Da Nang,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00483,Customer 00483,2024-09-04,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-01,C00495,Customer 00495,2024-08-21,TH,Thailand,Nonthaburi,gold,web
+NOVACART_MINI_V2,2025-01,C00501,Customer 00501,2024-02-11,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C00502,Customer 00502,2024-07-06,JP,Japan,Fukuoka,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00503,Customer 00503,2024-02-24,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00507,Customer 00507,2024-04-23,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00509,Customer 00509,2024-09-13,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00511,Customer 00511,2024-04-16,SG,Singapore,Tampines,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00517,Customer 00517,2024-10-21,PH,Philippines,Cebu City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00520,Customer 00520,2024-07-03,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C00523,Customer 00523,2024-06-15,MY,Malaysia,Penang,silver,web
+NOVACART_MINI_V2,2025-01,C00524,Customer 00524,2024-07-21,TH,Thailand,Pattaya,silver,web
+NOVACART_MINI_V2,2025-01,C00525,Customer 00525,2024-11-28,PH,Philippines,Quezon City,premium,web
+NOVACART_MINI_V2,2025-01,C00529,Customer 00529,2024-07-07,ID,Indonesia,Medan,basic,web
+NOVACART_MINI_V2,2025-01,C00531,Customer 00531,2024-09-21,JP,Japan,Osaka,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00534,Customer 00534,2024-01-18,JP,Japan,Tokyo,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00537,Customer 00537,2024-11-07,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00538,Customer 00538,2024-08-10,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-01,C00539,Customer 00539,2024-02-12,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C00551,Customer 00551,2024-09-09,VN,Vietnam,Ho Chi Minh City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00552,Customer 00552,2024-08-14,TH,Thailand,Phuket,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00555,Customer 00555,2024-09-11,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-01,C00569,Customer 00569,2024-04-25,TH,Thailand,Nonthaburi,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00579,Customer 00579,2024-09-11,MY,Malaysia,Kota Kinabalu,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00595,Customer 00595,2024-08-04,VN,Vietnam,Hanoi,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C00599,Customer 00599,2024-06-05,SG,Singapore,Tampines,silver,web
+NOVACART_MINI_V2,2025-01,C00601,Customer 00601,2024-01-21,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-01,C00602,Customer 00602,2024-06-15,MY,Malaysia,Kota Kinabalu,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00607,Customer 00607,2024-06-17,ID,Indonesia,Bandung,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00612,Customer 00612,2024-03-16,PH,Philippines,Makati,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00617,Customer 00617,2024-01-18,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00618,Customer 00618,2024-10-18,PH,Philippines,Makati,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00619,Customer 00619,2024-01-04,MY,Malaysia,Ipoh,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00621,Customer 00621,2024-06-02,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00624,Customer 00624,2024-01-23,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-01,C00625,Customer 00625,2024-01-26,MY,Malaysia,Kota Kinabalu,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00627,Customer 00627,2024-08-02,MY,Malaysia,Kuala Lumpur,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00628,Customer 00628,2024-03-06,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00632,Customer 00632,2024-12-16,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00634,Customer 00634,2024-05-20,VN,Vietnam,Hai Phong,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00635,Customer 00635,2024-06-20,TH,Thailand,Bangkok,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00644,Customer 00644,2024-08-24,VN,Vietnam,Da Nang,silver,web
+NOVACART_MINI_V2,2025-01,C00650,Customer 00650,2024-04-08,JP,Japan,Yokohama,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00652,Customer 00652,2024-07-15,JP,Japan,Tokyo,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00653,Customer 00653,2024-06-27,JP,Japan,Fukuoka,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00658,Customer 00658,2024-04-22,JP,Japan,Yokohama,silver,web
+NOVACART_MINI_V2,2025-01,C00659,Customer 00659,2024-03-15,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00661,Customer 00661,2024-08-17,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C00662,Customer 00662,2024-12-10,ID,Indonesia,Surabaya,premium,web
+NOVACART_MINI_V2,2025-01,C00671,Customer 00671,2024-07-05,SG,Singapore,Singapore,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00675,Customer 00675,2024-05-22,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00680,Customer 00680,2024-03-19,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00688,Customer 00688,2024-04-06,PH,Philippines,Makati,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00691,Customer 00691,2024-05-09,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-01,C00694,Customer 00694,2024-07-18,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-01,C00704,Customer 00704,2024-09-08,JP,Japan,Yokohama,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00707,Customer 00707,2024-10-06,TH,Thailand,Chiang Mai,premium,web
+NOVACART_MINI_V2,2025-01,C00712,Customer 00712,2024-06-02,MY,Malaysia,Kuala Lumpur,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00718,Customer 00718,2024-11-12,VN,Vietnam,Da Nang,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00729,Customer 00729,2024-11-11,VN,Vietnam,Hanoi,basic,web
+NOVACART_MINI_V2,2025-01,C00736,Customer 00736,2024-08-23,TH,Thailand,Nonthaburi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00744,Customer 00744,2024-12-20,PH,Philippines,Quezon City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00749,Customer 00749,2024-11-17,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C00757,Customer 00757,2024-07-06,MY,Malaysia,Penang,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00758,Customer 00758,2024-01-19,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-01,C00764,Customer 00764,2024-02-26,PH,Philippines,Cebu City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00766,Customer 00766,2024-12-12,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00769,Customer 00769,2024-08-25,VN,Vietnam,Hanoi,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00770,Customer 00770,2024-03-24,JP,Japan,Osaka,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00772,Customer 00772,2024-02-01,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00775,Customer 00775,2024-02-12,MY,Malaysia,Kuala Lumpur,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00779,Customer 00779,2024-03-12,ID,Indonesia,Yogyakarta,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00782,Customer 00782,2024-04-14,TH,Thailand,Chiang Mai,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00784,Customer 00784,2024-02-18,SG,Singapore,Jurong East,gold,web
+NOVACART_MINI_V2,2025-01,C00788,Customer 00788,2024-12-22,MY,Malaysia,Kota Kinabalu,premium,web
+NOVACART_MINI_V2,2025-01,C00796,Customer 00796,2024-08-17,JP,Japan,Tokyo,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00799,Customer 00799,2024-07-08,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-01,C00806,Customer 00806,2024-08-20,VN,Vietnam,Can Tho,basic,web
+NOVACART_MINI_V2,2025-01,C00807,Customer 00807,2024-09-05,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C00810,Customer 00810,2024-07-24,MY,Malaysia,Penang,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00811,Customer 00811,2024-03-05,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-01,C00815,Customer 00815,2024-10-03,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C00818,Customer 00818,2024-06-14,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00820,Customer 00820,2024-03-28,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00821,Customer 00821,2024-07-14,TH,Thailand,Chiang Mai,premium,marketplace
+NOVACART_MINI_V2,2025-01,C00823,Customer 00823,2024-08-11,JP,Japan,Nagoya,silver,web
+NOVACART_MINI_V2,2025-01,C00824,Customer 00824,2024-01-13,MY,Malaysia,Ipoh,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00829,Customer 00829,2024-06-26,ID,Indonesia,Surabaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00833,Customer 00833,2024-11-01,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00842,Customer 00842,2024-11-13,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-01,C00845,Customer 00845,2024-03-02,VN,Vietnam,Ho Chi Minh City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C00846,Customer 00846,2024-12-23,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00848,Customer 00848,2024-08-21,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00851,Customer 00851,2024-10-12,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C00854,Customer 00854,2024-10-24,ID,Indonesia,Jakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00856,Customer 00856,2024-07-25,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00865,Customer 00865,2024-10-04,PH,Philippines,Makati,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00866,Customer 00866,2024-08-06,MY,Malaysia,Ipoh,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00870,Customer 00870,2024-01-11,JP,Japan,Nagoya,silver,web
+NOVACART_MINI_V2,2025-01,C00877,Customer 00877,2024-07-15,JP,Japan,Nagoya,silver,web
+NOVACART_MINI_V2,2025-01,C00891,Customer 00891,2024-07-12,JP,Japan,Fukuoka,silver,web
+NOVACART_MINI_V2,2025-01,C00895,Customer 00895,2024-09-20,SG,Singapore,Tampines,silver,web
+NOVACART_MINI_V2,2025-01,C00901,Customer 00901,2024-12-23,MY,Malaysia,Penang,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00903,Customer 00903,2024-02-28,SG,Singapore,Tampines,silver,web
+NOVACART_MINI_V2,2025-01,C00906,Customer 00906,2024-08-14,MY,Malaysia,Penang,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00911,Customer 00911,2024-09-19,PH,Philippines,Makati,silver,web
+NOVACART_MINI_V2,2025-01,C00912,Customer 00912,2024-08-09,MY,Malaysia,Johor Bahru,premium,marketplace
+NOVACART_MINI_V2,2025-01,C00922,Customer 00922,2024-04-24,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C00927,Customer 00927,2024-07-12,PH,Philippines,Davao City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00931,Customer 00931,2024-09-06,MY,Malaysia,Kota Kinabalu,silver,marketplace
+NOVACART_MINI_V2,2025-01,C00935,Customer 00935,2024-05-19,MY,Malaysia,Penang,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00937,Customer 00937,2024-11-03,PH,Philippines,Manila,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00943,Customer 00943,2024-05-21,ID,Indonesia,Jakarta,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00944,Customer 00944,2024-12-22,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00951,Customer 00951,2024-02-01,VN,Vietnam,Can Tho,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00952,Customer 00952,2024-01-24,ID,Indonesia,Jakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00956,Customer 00956,2024-06-07,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00962,Customer 00962,2024-05-04,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C00963,Customer 00963,2024-10-12,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00971,Customer 00971,2024-11-12,SG,Singapore,Woodlands,gold,marketplace
+NOVACART_MINI_V2,2025-01,C00973,Customer 00973,2024-09-18,ID,Indonesia,Yogyakarta,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00978,Customer 00978,2024-01-06,MY,Malaysia,Penang,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00980,Customer 00980,2024-12-06,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C00983,Customer 00983,2024-01-14,MY,Malaysia,Penang,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C00989,Customer 00989,2024-12-09,SG,Singapore,Singapore,silver,web
+NOVACART_MINI_V2,2025-01,C00996,Customer 00996,2024-07-03,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-01,C00997,Customer 00997,2024-10-14,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C01002,Customer 01002,2024-10-07,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01005,Customer 01005,2024-02-10,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-01,C01011,Customer 01011,2024-09-23,MY,Malaysia,Penang,silver,web
+NOVACART_MINI_V2,2025-01,C01012,Customer 01012,2024-05-10,JP,Japan,Osaka,silver,web
+NOVACART_MINI_V2,2025-01,C01014,Customer 01014,2024-09-11,TH,Thailand,Nonthaburi,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01015,Customer 01015,2024-10-16,JP,Japan,Nagoya,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01016,Customer 01016,2024-07-26,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C01021,Customer 01021,2024-03-01,VN,Vietnam,Can Tho,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01025,Customer 01025,2024-12-26,MY,Malaysia,Ipoh,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01035,Customer 01035,2024-12-09,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C01046,Customer 01046,2024-08-03,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-01,C01048,Customer 01048,2024-06-02,JP,Japan,Osaka,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01050,Customer 01050,2024-04-25,VN,Vietnam,Hanoi,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01052,Customer 01052,2024-04-12,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C01053,Customer 01053,2024-08-15,TH,Thailand,Nonthaburi,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01054,Customer 01054,2024-08-12,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01057,Customer 01057,2024-09-12,MY,Malaysia,Kota Kinabalu,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01058,Customer 01058,2024-01-10,PH,Philippines,Davao City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01067,Customer 01067,2024-08-17,PH,Philippines,Makati,premium,web
+NOVACART_MINI_V2,2025-01,C01073,Customer 01073,2024-06-25,ID,Indonesia,Bandung,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01082,Customer 01082,2024-01-16,VN,Vietnam,Ho Chi Minh City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01085,Customer 01085,2024-06-28,TH,Thailand,Nonthaburi,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01087,Customer 01087,2024-02-28,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01091,Customer 01091,2024-03-13,MY,Malaysia,Kota Kinabalu,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C01094,Customer 01094,2024-03-04,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-01,C01095,Customer 01095,2024-06-01,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01100,Customer 01100,2024-11-27,VN,Vietnam,Ho Chi Minh City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01106,Customer 01106,2024-01-01,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-01,C01110,Customer 01110,2024-04-14,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01113,Customer 01113,2024-11-15,SG,Singapore,Singapore,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01115,Customer 01115,2024-12-14,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01119,Customer 01119,2024-12-17,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-01,C01125,Customer 01125,2024-11-28,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01130,Customer 01130,2024-11-22,ID,Indonesia,Jakarta,gold,web
+NOVACART_MINI_V2,2025-01,C01136,Customer 01136,2024-12-20,VN,Vietnam,Hai Phong,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01142,Customer 01142,2024-03-23,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01143,Customer 01143,2024-10-18,SG,Singapore,Singapore,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01144,Customer 01144,2024-06-23,SG,Singapore,Woodlands,silver,web
+NOVACART_MINI_V2,2025-01,C01145,Customer 01145,2024-08-18,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C01146,Customer 01146,2024-05-18,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C01154,Customer 01154,2024-10-03,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-01,C01156,Customer 01156,2024-03-07,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01164,Customer 01164,2024-02-13,MY,Malaysia,Kuala Lumpur,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01165,Customer 01165,2024-11-25,PH,Philippines,Makati,silver,web
+NOVACART_MINI_V2,2025-01,C01170,Customer 01170,2024-01-01,PH,Philippines,Cebu City,premium,web
+NOVACART_MINI_V2,2025-01,C01174,Customer 01174,2024-09-12,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01179,Customer 01179,2024-06-16,VN,Vietnam,Ho Chi Minh City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01180,Customer 01180,2024-05-01,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-01,C01189,Customer 01189,2024-12-01,MY,Malaysia,Ipoh,silver,web
+NOVACART_MINI_V2,2025-01,C01192,Customer 01192,2024-09-17,SG,Singapore,Jurong East,silver,web
+NOVACART_MINI_V2,2025-01,C01198,Customer 01198,2024-02-13,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-01,C01207,Customer 01207,2024-08-16,PH,Philippines,Davao City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01211,Customer 01211,2024-04-15,VN,Vietnam,Ho Chi Minh City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01218,Customer 01218,2024-08-14,SG,Singapore,Jurong East,silver,web
+NOVACART_MINI_V2,2025-01,C01224,Customer 01224,2024-06-23,PH,Philippines,Davao City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01225,Customer 01225,2024-04-12,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C01228,Customer 01228,2024-02-18,SG,Singapore,Tampines,gold,web
+NOVACART_MINI_V2,2025-01,C01241,Customer 01241,2024-03-14,MY,Malaysia,Kuala Lumpur,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01245,Customer 01245,2024-05-01,TH,Thailand,Chiang Mai,basic,web
+NOVACART_MINI_V2,2025-01,C01247,Customer 01247,2024-04-26,MY,Malaysia,Penang,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01253,Customer 01253,2024-01-10,VN,Vietnam,Hanoi,basic,web
+NOVACART_MINI_V2,2025-01,C01260,Customer 01260,2024-04-26,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01264,Customer 01264,2024-06-27,MY,Malaysia,Kuala Lumpur,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01268,Customer 01268,2024-07-15,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C01273,Customer 01273,2024-09-01,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C01276,Customer 01276,2024-04-03,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C01282,Customer 01282,2024-08-23,TH,Thailand,Nonthaburi,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01291,Customer 01291,2024-11-13,TH,Thailand,Chiang Mai,basic,web
+NOVACART_MINI_V2,2025-01,C01298,Customer 01298,2024-03-10,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01299,Customer 01299,2024-10-24,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01306,Customer 01306,2024-01-11,JP,Japan,Yokohama,silver,web
+NOVACART_MINI_V2,2025-01,C01307,Customer 01307,2024-11-19,MY,Malaysia,Johor Bahru,premium,web
+NOVACART_MINI_V2,2025-01,C01308,Customer 01308,2024-10-06,MY,Malaysia,Kota Kinabalu,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01312,Customer 01312,2024-03-03,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-01,C01317,Customer 01317,2024-10-27,PH,Philippines,Davao City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01321,Customer 01321,2024-05-27,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-01,C01323,Customer 01323,2024-05-11,VN,Vietnam,Can Tho,silver,web
+NOVACART_MINI_V2,2025-01,C01328,Customer 01328,2024-10-26,VN,Vietnam,Can Tho,basic,web
+NOVACART_MINI_V2,2025-01,C01331,Customer 01331,2024-08-20,MY,Malaysia,Penang,gold,web
+NOVACART_MINI_V2,2025-01,C01336,Customer 01336,2024-06-26,VN,Vietnam,Can Tho,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01337,Customer 01337,2024-06-09,SG,Singapore,Tampines,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01342,Customer 01342,2024-05-12,VN,Vietnam,Can Tho,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01354,Customer 01354,2024-10-22,MY,Malaysia,Ipoh,premium,marketplace
+NOVACART_MINI_V2,2025-01,C01359,Customer 01359,2024-04-24,JP,Japan,Osaka,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01360,Customer 01360,2024-03-04,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-01,C01365,Customer 01365,2024-10-21,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-01,C01367,Customer 01367,2024-04-20,ID,Indonesia,Yogyakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01382,Customer 01382,2024-11-24,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01386,Customer 01386,2024-12-04,JP,Japan,Fukuoka,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01388,Customer 01388,2024-01-12,MY,Malaysia,Johor Bahru,silver,web
+NOVACART_MINI_V2,2025-01,C01393,Customer 01393,2024-02-17,ID,Indonesia,Jakarta,gold,web
+NOVACART_MINI_V2,2025-01,C01395,Customer 01395,2024-11-25,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-01,C01400,Customer 01400,2024-01-05,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01414,Customer 01414,2024-07-05,MY,Malaysia,Ipoh,gold,web
+NOVACART_MINI_V2,2025-01,C01421,Customer 01421,2024-03-17,JP,Japan,Fukuoka,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01426,Customer 01426,2024-07-18,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01434,Customer 01434,2024-05-23,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01438,Customer 01438,2024-01-11,PH,Philippines,Quezon City,gold,web
+NOVACART_MINI_V2,2025-01,C01450,Customer 01450,2024-10-18,PH,Philippines,Quezon City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01454,Customer 01454,2024-02-11,TH,Thailand,Phuket,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01456,Customer 01456,2024-12-24,ID,Indonesia,Medan,gold,web
+NOVACART_MINI_V2,2025-01,C01457,Customer 01457,2024-04-12,TH,Thailand,Phuket,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01458,Customer 01458,2024-01-15,MY,Malaysia,Kuala Lumpur,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01459,Customer 01459,2024-10-18,ID,Indonesia,Jakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01462,Customer 01462,2024-09-24,ID,Indonesia,Jakarta,silver,web
+NOVACART_MINI_V2,2025-01,C01466,Customer 01466,2024-03-22,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01467,Customer 01467,2024-04-26,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01469,Customer 01469,2024-10-06,PH,Philippines,Manila,silver,web
+NOVACART_MINI_V2,2025-01,C01478,Customer 01478,2024-01-01,MY,Malaysia,Ipoh,gold,web
+NOVACART_MINI_V2,2025-01,C01490,Customer 01490,2024-02-05,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-01,C01491,Customer 01491,2024-01-01,MY,Malaysia,Kota Kinabalu,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01494,Customer 01494,2024-02-10,MY,Malaysia,Penang,basic,web
+NOVACART_MINI_V2,2025-01,C01512,Customer 01512,2024-01-27,ID,Indonesia,Yogyakarta,silver,web
+NOVACART_MINI_V2,2025-01,C01515,Customer 01515,2024-06-19,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01518,Customer 01518,2024-04-23,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C01521,Customer 01521,2024-01-02,ID,Indonesia,Jakarta,premium,marketplace
+NOVACART_MINI_V2,2025-01,C01525,Customer 01525,2024-06-13,SG,Singapore,Tampines,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01531,Customer 01531,2024-04-01,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01534,Customer 01534,2024-10-25,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01543,Customer 01543,2024-11-04,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-01,C01544,Customer 01544,2024-12-20,PH,Philippines,Cebu City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01557,Customer 01557,2024-05-13,TH,Thailand,Phuket,premium,web
+NOVACART_MINI_V2,2025-01,C01562,Customer 01562,2024-08-08,SG,Singapore,Jurong East,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01564,Customer 01564,2024-10-21,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01566,Customer 01566,2024-05-12,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-01,C01570,Customer 01570,2024-05-22,MY,Malaysia,Kota Kinabalu,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01573,Customer 01573,2024-05-13,PH,Philippines,Makati,gold,web
+NOVACART_MINI_V2,2025-01,C01575,Customer 01575,2024-07-12,SG,Singapore,Woodlands,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01576,Customer 01576,2024-02-22,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C01586,Customer 01586,2024-12-19,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01590,Customer 01590,2024-08-15,ID,Indonesia,Jakarta,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01598,Customer 01598,2024-08-21,VN,Vietnam,Hanoi,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01603,Customer 01603,2024-05-15,SG,Singapore,Jurong East,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01605,Customer 01605,2024-07-28,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01612,Customer 01612,2024-09-16,TH,Thailand,Chiang Mai,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01614,Customer 01614,2024-03-12,TH,Thailand,Nonthaburi,gold,web
+NOVACART_MINI_V2,2025-01,C01627,Customer 01627,2024-08-10,ID,Indonesia,Yogyakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01630,Customer 01630,2024-12-22,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C01631,Customer 01631,2024-11-24,TH,Thailand,Phuket,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01632,Customer 01632,2024-06-20,MY,Malaysia,Penang,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01636,Customer 01636,2024-01-06,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01642,Customer 01642,2024-07-19,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-01,C01643,Customer 01643,2024-03-25,SG,Singapore,Woodlands,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01652,Customer 01652,2024-06-10,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01655,Customer 01655,2024-10-28,JP,Japan,Nagoya,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01656,Customer 01656,2024-02-20,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01664,Customer 01664,2024-09-13,TH,Thailand,Phuket,silver,web
+NOVACART_MINI_V2,2025-01,C01667,Customer 01667,2024-09-24,ID,Indonesia,Yogyakarta,gold,web
+NOVACART_MINI_V2,2025-01,C01668,Customer 01668,2024-03-27,PH,Philippines,Manila,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01670,Customer 01670,2024-05-26,TH,Thailand,Pattaya,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01673,Customer 01673,2024-12-21,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01682,Customer 01682,2024-11-26,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-01,C01684,Customer 01684,2024-01-06,JP,Japan,Tokyo,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01687,Customer 01687,2024-02-25,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01694,Customer 01694,2024-12-09,VN,Vietnam,Hai Phong,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01696,Customer 01696,2024-03-08,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-01,C01698,Customer 01698,2024-07-22,SG,Singapore,Woodlands,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01702,Customer 01702,2024-04-26,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01703,Customer 01703,2024-05-22,ID,Indonesia,Surabaya,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01704,Customer 01704,2024-08-19,ID,Indonesia,Surabaya,gold,web
+NOVACART_MINI_V2,2025-01,C01708,Customer 01708,2024-05-13,SG,Singapore,Tampines,silver,web
+NOVACART_MINI_V2,2025-01,C01709,Customer 01709,2024-01-28,PH,Philippines,Cebu City,gold,web
+NOVACART_MINI_V2,2025-01,C01711,Customer 01711,2024-08-09,MY,Malaysia,Kota Kinabalu,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01715,Customer 01715,2024-08-23,JP,Japan,Nagoya,premium,marketplace
+NOVACART_MINI_V2,2025-01,C01720,Customer 01720,2024-03-24,TH,Thailand,Bangkok,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01723,Customer 01723,2024-01-24,JP,Japan,Nagoya,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01728,Customer 01728,2024-02-25,ID,Indonesia,Bandung,gold,web
+NOVACART_MINI_V2,2025-01,C01729,Customer 01729,2024-06-15,MY,Malaysia,Kota Kinabalu,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01731,Customer 01731,2024-01-06,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-01,C01733,Customer 01733,2024-12-05,ID,Indonesia,Surabaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01734,Customer 01734,2024-03-01,PH,Philippines,Cebu City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01740,Customer 01740,2024-07-02,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01747,Customer 01747,2024-07-19,VN,Vietnam,Can Tho,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01748,Customer 01748,2024-06-07,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01751,Customer 01751,2024-03-23,SG,Singapore,Singapore,silver,web
+NOVACART_MINI_V2,2025-01,C01757,Customer 01757,2024-07-25,TH,Thailand,Phuket,silver,web
+NOVACART_MINI_V2,2025-01,C01758,Customer 01758,2024-04-15,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01759,Customer 01759,2024-01-08,JP,Japan,Tokyo,gold,web
+NOVACART_MINI_V2,2025-01,C01760,Customer 01760,2024-09-20,MY,Malaysia,Kota Kinabalu,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01761,Customer 01761,2024-09-07,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01767,Customer 01767,2024-11-12,JP,Japan,Yokohama,gold,web
+NOVACART_MINI_V2,2025-01,C01772,Customer 01772,2024-04-26,TH,Thailand,Pattaya,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01773,Customer 01773,2024-11-17,JP,Japan,Nagoya,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01776,Customer 01776,2024-08-25,TH,Thailand,Pattaya,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01780,Customer 01780,2024-01-22,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-01,C01782,Customer 01782,2024-01-15,VN,Vietnam,Hanoi,silver,web
+NOVACART_MINI_V2,2025-01,C01787,Customer 01787,2024-02-20,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C01790,Customer 01790,2024-09-18,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01792,Customer 01792,2024-05-19,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-01,C01796,Customer 01796,2024-03-11,SG,Singapore,Tampines,silver,web
+NOVACART_MINI_V2,2025-01,C01797,Customer 01797,2024-07-18,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-01,C01798,Customer 01798,2024-11-19,TH,Thailand,Bangkok,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01803,Customer 01803,2024-06-05,JP,Japan,Yokohama,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01811,Customer 01811,2024-03-15,MY,Malaysia,Penang,silver,web
+NOVACART_MINI_V2,2025-01,C01814,Customer 01814,2024-09-01,TH,Thailand,Nonthaburi,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01817,Customer 01817,2024-12-04,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-01,C01818,Customer 01818,2024-12-01,ID,Indonesia,Yogyakarta,silver,web
+NOVACART_MINI_V2,2025-01,C01820,Customer 01820,2024-01-04,PH,Philippines,Manila,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01826,Customer 01826,2024-12-18,SG,Singapore,Singapore,gold,web
+NOVACART_MINI_V2,2025-01,C01827,Customer 01827,2024-10-24,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C01828,Customer 01828,2024-06-18,JP,Japan,Osaka,gold,web
+NOVACART_MINI_V2,2025-01,C01830,Customer 01830,2024-06-18,SG,Singapore,Jurong East,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01831,Customer 01831,2024-06-20,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-01,C01836,Customer 01836,2024-11-28,VN,Vietnam,Hanoi,gold,marketplace
+NOVACART_MINI_V2,2025-01,C01838,Customer 01838,2024-01-10,MY,Malaysia,Kota Kinabalu,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C01840,Customer 01840,2024-09-01,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-01,C01844,Customer 01844,2024-07-10,TH,Thailand,Phuket,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01849,Customer 01849,2024-02-02,MY,Malaysia,Kota Kinabalu,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01851,Customer 01851,2024-06-11,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-01,C01853,Customer 01853,2024-02-23,TH,Thailand,Phuket,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01856,Customer 01856,2024-04-02,MY,Malaysia,Penang,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01861,Customer 01861,2024-10-25,VN,Vietnam,Hai Phong,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01862,Customer 01862,2024-08-11,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01869,Customer 01869,2024-06-21,VN,Vietnam,Da Nang,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01879,Customer 01879,2024-05-04,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C01881,Customer 01881,2024-07-01,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C01891,Customer 01891,2024-08-14,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01892,Customer 01892,2024-06-25,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01897,Customer 01897,2024-11-12,SG,Singapore,Jurong East,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01899,Customer 01899,2024-09-14,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01901,Customer 01901,2024-03-14,SG,Singapore,Woodlands,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01911,Customer 01911,2024-01-06,SG,Singapore,Singapore,premium,web
+NOVACART_MINI_V2,2025-01,C01912,Customer 01912,2024-09-11,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01913,Customer 01913,2024-07-10,SG,Singapore,Jurong East,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01917,Customer 01917,2024-04-17,ID,Indonesia,Bandung,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01918,Customer 01918,2024-08-28,MY,Malaysia,Kuala Lumpur,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01920,Customer 01920,2024-11-10,TH,Thailand,Chiang Mai,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01921,Customer 01921,2024-09-22,SG,Singapore,Woodlands,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C01933,Customer 01933,2024-02-16,ID,Indonesia,Jakarta,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01936,Customer 01936,2024-09-21,PH,Philippines,Davao City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01939,Customer 01939,2024-01-21,MY,Malaysia,Ipoh,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01941,Customer 01941,2024-09-20,TH,Thailand,Chiang Mai,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C01943,Customer 01943,2024-01-28,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C01949,Customer 01949,2024-02-12,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C01953,Customer 01953,2024-06-27,JP,Japan,Osaka,gold,web
+NOVACART_MINI_V2,2025-01,C01956,Customer 01956,2024-03-04,VN,Vietnam,Can Tho,gold,web
+NOVACART_MINI_V2,2025-01,C01958,Customer 01958,2024-01-02,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C01967,Customer 01967,2024-04-22,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-01,C01968,Customer 01968,2024-08-11,SG,Singapore,Singapore,basic,web
+NOVACART_MINI_V2,2025-01,C01969,Customer 01969,2024-02-28,ID,Indonesia,Yogyakarta,silver,web
+NOVACART_MINI_V2,2025-01,C01975,Customer 01975,2024-09-12,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C01976,Customer 01976,2024-02-14,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C01977,Customer 01977,2024-06-08,PH,Philippines,Manila,basic,web
+NOVACART_MINI_V2,2025-01,C01992,Customer 01992,2024-07-23,MY,Malaysia,Johor Bahru,silver,marketplace
+NOVACART_MINI_V2,2025-01,C01997,Customer 01997,2024-09-04,TH,Thailand,Pattaya,gold,marketplace
+NOVACART_MINI_V2,2025-01,C02004,Customer 02004,2024-07-22,PH,Philippines,Manila,basic,web
+NOVACART_MINI_V2,2025-01,C02005,Customer 02005,2024-09-14,PH,Philippines,Manila,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02007,Customer 02007,2024-03-16,VN,Vietnam,Hai Phong,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02009,Customer 02009,2024-12-27,ID,Indonesia,Surabaya,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02010,Customer 02010,2024-08-07,PH,Philippines,Quezon City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02011,Customer 02011,2024-09-28,VN,Vietnam,Ho Chi Minh City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02017,Customer 02017,2024-09-16,TH,Thailand,Phuket,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02026,Customer 02026,2024-07-21,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-01,C02029,Customer 02029,2024-07-20,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02030,Customer 02030,2024-01-22,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02032,Customer 02032,2024-05-07,ID,Indonesia,Jakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02046,Customer 02046,2024-09-02,MY,Malaysia,Penang,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02048,Customer 02048,2024-12-11,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-01,C02056,Customer 02056,2024-10-22,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02062,Customer 02062,2024-05-11,VN,Vietnam,Da Nang,premium,web
+NOVACART_MINI_V2,2025-01,C02064,Customer 02064,2024-05-19,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-01,C02067,Customer 02067,2024-06-02,TH,Thailand,Bangkok,silver,web
+NOVACART_MINI_V2,2025-01,C02073,Customer 02073,2024-02-03,TH,Thailand,Pattaya,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02079,Customer 02079,2024-07-22,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-01,C02080,Customer 02080,2024-08-01,MY,Malaysia,Kuala Lumpur,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02081,Customer 02081,2024-06-27,SG,Singapore,Woodlands,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02087,Customer 02087,2024-11-07,VN,Vietnam,Da Nang,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02090,Customer 02090,2024-03-06,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02092,Customer 02092,2024-07-05,TH,Thailand,Chiang Mai,basic,web
+NOVACART_MINI_V2,2025-01,C02096,Customer 02096,2024-04-04,PH,Philippines,Davao City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02099,Customer 02099,2024-06-27,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-01,C02103,Customer 02103,2024-03-17,MY,Malaysia,Ipoh,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02109,Customer 02109,2024-05-13,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02110,Customer 02110,2024-08-09,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02119,Customer 02119,2024-06-06,MY,Malaysia,Ipoh,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02121,Customer 02121,2024-05-26,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-01,C02127,Customer 02127,2024-09-20,ID,Indonesia,Medan,basic,web
+NOVACART_MINI_V2,2025-01,C02129,Customer 02129,2024-09-10,SG,Singapore,Jurong East,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02132,Customer 02132,2024-01-17,ID,Indonesia,Jakarta,gold,web
+NOVACART_MINI_V2,2025-01,C02135,Customer 02135,2024-09-07,JP,Japan,Tokyo,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02142,Customer 02142,2024-09-02,MY,Malaysia,Penang,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02144,Customer 02144,2024-05-06,SG,Singapore,Woodlands,gold,web
+NOVACART_MINI_V2,2025-01,C02150,Customer 02150,2024-04-13,PH,Philippines,Manila,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02153,Customer 02153,2024-05-19,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-01,C02164,Customer 02164,2024-07-02,VN,Vietnam,Can Tho,gold,web
+NOVACART_MINI_V2,2025-01,C02168,Customer 02168,2024-11-19,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C02175,Customer 02175,2024-11-27,TH,Thailand,Phuket,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02176,Customer 02176,2024-04-28,SG,Singapore,Singapore,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02185,Customer 02185,2024-08-11,JP,Japan,Fukuoka,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C02187,Customer 02187,2024-02-03,VN,Vietnam,Da Nang,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02189,Customer 02189,2024-03-21,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02190,Customer 02190,2024-04-19,TH,Thailand,Nonthaburi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02192,Customer 02192,2024-02-07,TH,Thailand,Pattaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02194,Customer 02194,2024-03-18,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-01,C02196,Customer 02196,2024-10-17,ID,Indonesia,Surabaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02201,Customer 02201,2024-02-13,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-01,C02202,Customer 02202,2024-11-28,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02203,Customer 02203,2024-04-05,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C02204,Customer 02204,2024-07-22,MY,Malaysia,Ipoh,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02210,Customer 02210,2024-08-04,VN,Vietnam,Ho Chi Minh City,premium,web
+NOVACART_MINI_V2,2025-01,C02213,Customer 02213,2024-10-03,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02214,Customer 02214,2024-03-19,VN,Vietnam,Da Nang,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02217,Customer 02217,2024-07-02,VN,Vietnam,Da Nang,silver,web
+NOVACART_MINI_V2,2025-01,C02228,Customer 02228,2024-05-10,PH,Philippines,Manila,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02233,Customer 02233,2024-10-25,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C02235,Customer 02235,2024-06-26,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02239,Customer 02239,2024-10-05,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-01,C02243,Customer 02243,2024-07-04,VN,Vietnam,Can Tho,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02244,Customer 02244,2024-11-22,SG,Singapore,Tampines,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02252,Customer 02252,2024-09-01,SG,Singapore,Singapore,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02254,Customer 02254,2024-05-18,VN,Vietnam,Hai Phong,gold,web
+NOVACART_MINI_V2,2025-01,C02256,Customer 02256,2024-02-22,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02260,Customer 02260,2024-10-11,ID,Indonesia,Jakarta,silver,web
+NOVACART_MINI_V2,2025-01,C02268,Customer 02268,2024-11-23,SG,Singapore,Tampines,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02297,Customer 02297,2024-05-20,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-01,C02300,Customer 02300,2024-05-18,TH,Thailand,Chiang Mai,basic,web
+NOVACART_MINI_V2,2025-01,C02316,Customer 02316,2024-03-11,SG,Singapore,Singapore,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C02319,Customer 02319,2024-12-19,JP,Japan,Fukuoka,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02325,Customer 02325,2024-05-28,JP,Japan,Fukuoka,gold,web
+NOVACART_MINI_V2,2025-01,C02326,Customer 02326,2024-10-28,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02327,Customer 02327,2024-03-18,MY,Malaysia,Penang,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02330,Customer 02330,2024-12-06,JP,Japan,Fukuoka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02332,Customer 02332,2024-08-27,ID,Indonesia,Yogyakarta,gold,web
+NOVACART_MINI_V2,2025-01,C02334,Customer 02334,2024-02-05,PH,Philippines,Davao City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02341,Customer 02341,2024-09-15,JP,Japan,Tokyo,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02342,Customer 02342,2024-11-04,PH,Philippines,Cebu City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02344,Customer 02344,2024-09-14,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02348,Customer 02348,2024-07-07,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-01,C02352,Customer 02352,2024-02-16,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-01,C02356,Customer 02356,2024-10-05,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C02360,Customer 02360,2024-05-25,JP,Japan,Osaka,gold,web
+NOVACART_MINI_V2,2025-01,C02361,Customer 02361,2024-04-27,ID,Indonesia,Yogyakarta,silver,web
+NOVACART_MINI_V2,2025-01,C02370,Customer 02370,2024-08-17,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C02375,Customer 02375,2024-03-20,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02376,Customer 02376,2024-09-25,TH,Thailand,Chiang Mai,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02377,Customer 02377,2024-12-22,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-01,C02386,Customer 02386,2024-07-22,ID,Indonesia,Surabaya,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02389,Customer 02389,2024-06-04,MY,Malaysia,Penang,gold,marketplace
+NOVACART_MINI_V2,2025-01,C02401,Customer 02401,2025-01-18,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-01,C02403,Customer 02403,2025-01-09,TH,Thailand,Chiang Mai,gold,web
+NOVACART_MINI_V2,2025-01,C02404,Customer 02404,2025-01-02,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02409,Customer 02409,2025-01-18,SG,Singapore,Jurong East,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02417,Customer 02417,2025-01-03,TH,Thailand,Nonthaburi,gold,web
+NOVACART_MINI_V2,2025-01,C02436,Customer 02436,2025-01-10,VN,Vietnam,Hanoi,basic,web
+NOVACART_MINI_V2,2025-01,C02440,Customer 02440,2025-01-02,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02441,Customer 02441,2025-01-10,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-01,C02457,Customer 02457,2025-01-08,TH,Thailand,Chiang Mai,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02465,Customer 02465,2025-01-19,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C02469,Customer 02469,2025-01-01,TH,Thailand,Chiang Mai,silver,web
+NOVACART_MINI_V2,2025-01,C02470,Customer 02470,2025-01-06,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-01,C02477,Customer 02477,2025-01-08,PH,Philippines,Makati,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02488,Customer 02488,2025-01-09,TH,Thailand,Chiang Mai,silver,web
+NOVACART_MINI_V2,2025-01,C02489,Customer 02489,2025-01-10,MY,Malaysia,Johor Bahru,silver,web
+NOVACART_MINI_V2,2025-01,C02499,Customer 02499,2025-01-02,VN,Vietnam,Can Tho,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02501,Customer 02501,2025-01-08,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02508,Customer 02508,2025-01-15,VN,Vietnam,Ho Chi Minh City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02518,Customer 02518,2025-01-05,VN,Vietnam,Ho Chi Minh City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02522,Customer 02522,2025-01-20,MY,Malaysia,Kota Kinabalu,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02533,Customer 02533,2025-01-11,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02545,Customer 02545,2025-01-24,MY,Malaysia,Johor Bahru,silver,web
+NOVACART_MINI_V2,2025-01,C02555,Customer 02555,2025-01-12,TH,Thailand,Pattaya,basic,web
+NOVACART_MINI_V2,2025-01,C02568,Customer 02568,2025-01-17,ID,Indonesia,Jakarta,gold,marketplace
+NOVACART_MINI_V2,2025-01,C02575,Customer 02575,2025-01-27,TH,Thailand,Nonthaburi,gold,web
+NOVACART_MINI_V2,2025-01,C02577,Customer 02577,2025-01-26,JP,Japan,Osaka,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02579,Customer 02579,2025-01-20,JP,Japan,Fukuoka,silver,web
+NOVACART_MINI_V2,2025-01,C02585,Customer 02585,2025-01-03,ID,Indonesia,Yogyakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02592,Customer 02592,2025-01-27,MY,Malaysia,Ipoh,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02596,Customer 02596,2025-01-24,PH,Philippines,Cebu City,basic,web
+NOVACART_MINI_V2,2025-01,C02598,Customer 02598,2025-01-10,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02601,Customer 02601,2025-01-23,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02603,Customer 02603,2025-01-03,PH,Philippines,Quezon City,silver,web
+NOVACART_MINI_V2,2025-01,C02609,Customer 02609,2025-01-30,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02612,Customer 02612,2025-01-23,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-01,C02613,Customer 02613,2025-01-14,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C02615,Customer 02615,2025-01-18,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02617,Customer 02617,2025-01-18,PH,Philippines,Davao City,silver,web
+NOVACART_MINI_V2,2025-01,C02623,Customer 02623,2025-01-07,TH,Thailand,Pattaya,basic,web
+NOVACART_MINI_V2,2025-01,C02624,Customer 02624,2025-01-09,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02632,Customer 02632,2025-01-01,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-01,C02648,Customer 02648,2025-01-21,PH,Philippines,Makati,silver,web
+NOVACART_MINI_V2,2025-01,C02652,Customer 02652,2025-01-28,VN,Vietnam,Hanoi,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02655,Customer 02655,2025-01-06,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02656,Customer 02656,2025-01-26,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02660,Customer 02660,2025-01-06,TH,Thailand,Bangkok,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02663,Customer 02663,2025-01-06,TH,Thailand,Chiang Mai,gold,web
+NOVACART_MINI_V2,2025-01,C02666,Customer 02666,2025-01-12,TH,Thailand,Bangkok,silver,web
+NOVACART_MINI_V2,2025-01,C02669,Customer 02669,2025-01-10,JP,Japan,Tokyo,premium,web
+NOVACART_MINI_V2,2025-01,C02670,Customer 02670,2025-01-26,TH,Thailand,Bangkok,silver,web
+NOVACART_MINI_V2,2025-01,C02671,Customer 02671,2025-01-07,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C02681,Customer 02681,2025-01-19,TH,Thailand,Nonthaburi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02692,Customer 02692,2025-01-06,MY,Malaysia,Ipoh,silver,web
+NOVACART_MINI_V2,2025-01,C02696,Customer 02696,2025-01-19,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C02702,Customer 02702,2025-01-23,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02705,Customer 02705,2025-01-13,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02706,Customer 02706,2025-01-24,SG,Singapore,Woodlands,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02709,Customer 02709,2025-01-06,JP,Japan,Fukuoka,gold,marketplace
+NOVACART_MINI_V2,2025-01,C02712,Customer 02712,2025-01-09,VN,Vietnam,Da Nang,gold,web
+NOVACART_MINI_V2,2025-01,C02718,Customer 02718,2025-01-24,TH,Thailand,Bangkok,premium,web
+NOVACART_MINI_V2,2025-01,C02720,Customer 02720,2025-01-26,TH,Thailand,Nonthaburi,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02727,Customer 02727,2025-01-09,MY,Malaysia,Kuala Lumpur,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02735,Customer 02735,2025-01-01,PH,Philippines,Cebu City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02746,Customer 02746,2025-01-06,SG,Singapore,Tampines,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02747,Customer 02747,2025-01-18,SG,Singapore,Singapore,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02750,Customer 02750,2025-01-10,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C02758,Customer 02758,2025-01-07,TH,Thailand,Bangkok,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02766,Customer 02766,2025-01-04,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-01,C02772,Customer 02772,2025-01-30,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02777,Customer 02777,2025-01-23,VN,Vietnam,Can Tho,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02782,Customer 02782,2025-01-13,MY,Malaysia,Penang,gold,web
+NOVACART_MINI_V2,2025-01,C02784,Customer 02784,2025-01-17,MY,Malaysia,Johor Bahru,gold,web
+NOVACART_MINI_V2,2025-01,C02788,Customer 02788,2025-01-09,SG,Singapore,Tampines,silver,web
+NOVACART_MINI_V2,2025-01,C02792,Customer 02792,2025-01-19,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C02795,Customer 02795,2025-01-22,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C02803,Customer 02803,2025-01-25,JP,Japan,Yokohama,gold,web
+NOVACART_MINI_V2,2025-01,C02811,Customer 02811,2025-01-05,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C02814,Customer 02814,2025-01-09,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-01,C02815,Customer 02815,2025-01-31,VN,Vietnam,Can Tho,basic,web
+NOVACART_MINI_V2,2025-01,C02816,Customer 02816,2025-01-06,VN,Vietnam,Da Nang,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02817,Customer 02817,2025-01-03,PH,Philippines,Cebu City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02818,Customer 02818,2025-01-04,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02824,Customer 02824,2025-01-08,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-01,C02833,Customer 02833,2025-01-26,VN,Vietnam,Ho Chi Minh City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02838,Customer 02838,2025-01-02,MY,Malaysia,Johor Bahru,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02844,Customer 02844,2025-01-30,JP,Japan,Osaka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02849,Customer 02849,2025-01-12,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-01,C02850,Customer 02850,2025-01-03,ID,Indonesia,Yogyakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02852,Customer 02852,2025-01-14,SG,Singapore,Jurong East,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02862,Customer 02862,2025-01-22,ID,Indonesia,Yogyakarta,gold,web
+NOVACART_MINI_V2,2025-01,C02865,Customer 02865,2025-01-24,VN,Vietnam,Ho Chi Minh City,silver,web
+NOVACART_MINI_V2,2025-01,C02866,Customer 02866,2025-01-09,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02870,Customer 02870,2025-01-13,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-01,C02873,Customer 02873,2025-01-14,MY,Malaysia,Johor Bahru,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02874,Customer 02874,2025-01-28,MY,Malaysia,Johor Bahru,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02879,Customer 02879,2025-01-12,JP,Japan,Yokohama,gold,marketplace
+NOVACART_MINI_V2,2025-01,C02882,Customer 02882,2025-01-21,VN,Vietnam,Ho Chi Minh City,gold,marketplace
+NOVACART_MINI_V2,2025-01,C02886,Customer 02886,2025-01-02,VN,Vietnam,Can Tho,silver,web
+NOVACART_MINI_V2,2025-01,C02889,Customer 02889,2025-01-01,SG,Singapore,Singapore,basic,web
+NOVACART_MINI_V2,2025-01,C02890,Customer 02890,2025-01-06,TH,Thailand,Chiang Mai,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02892,Customer 02892,2025-01-30,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02894,Customer 02894,2025-01-28,TH,Thailand,Pattaya,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02898,Customer 02898,2025-01-28,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-01,C02899,Customer 02899,2025-01-27,VN,Vietnam,Da Nang,silver,marketplace
+NOVACART_MINI_V2,2025-01,C02907,Customer 02907,2025-01-03,JP,Japan,Tokyo,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C02911,Customer 02911,2025-01-31,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-01,C02913,Customer 02913,2025-01-24,JP,Japan,Tokyo,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02915,Customer 02915,2025-01-06,TH,Thailand,Bangkok,gold,web
+NOVACART_MINI_V2,2025-01,C02918,Customer 02918,2025-01-22,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02921,Customer 02921,2025-01-19,TH,Thailand,Pattaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02924,Customer 02924,2025-01-22,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02935,Customer 02935,2025-01-31,TH,Thailand,Pattaya,gold,web
+NOVACART_MINI_V2,2025-01,C02937,Customer 02937,2025-01-02,TH,Thailand,Chiang Mai,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02943,Customer 02943,2025-01-14,JP,Japan,Yokohama,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02955,Customer 02955,2025-01-09,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-01,C02959,Customer 02959,2025-01-03,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-01,C02960,Customer 02960,2025-01-20,VN,Vietnam,Can Tho,basic,web
+NOVACART_MINI_V2,2025-01,C02961,Customer 02961,2025-01-28,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02963,Customer 02963,2025-01-28,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-01,C02964,Customer 02964,2025-01-03,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C02967,Customer 02967,2025-01-06,TH,Thailand,Bangkok,gold,web
+NOVACART_MINI_V2,2025-01,C02968,Customer 02968,2025-01-02,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02971,Customer 02971,2025-01-17,PH,Philippines,Manila,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02983,Customer 02983,2025-01-21,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C02985,Customer 02985,2025-01-22,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C02991,Customer 02991,2025-01-17,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C02994,Customer 02994,2025-01-21,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C02995,Customer 02995,2025-01-22,TH,Thailand,Nonthaburi,basic,marketplace
+NOVACART_MINI_V2,2025-01,C02996,Customer 02996,2025-01-21,VN,Vietnam,Ho Chi Minh City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C02997,Customer 02997,2025-01-26,ID,Indonesia,Bandung,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C02998,Customer 02998,2025-01-21,ID,Indonesia,Yogyakarta,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03004,Customer 03004,2025-01-14,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C03005,Customer 03005,2025-01-23,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-01,C03007,Customer 03007,2025-01-17,JP,Japan,Osaka,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03010,Customer 03010,2025-01-18,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-01,C03012,Customer 03012,2025-01-07,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C03015,Customer 03015,2025-01-17,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03017,Customer 03017,2025-01-26,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03018,Customer 03018,2025-01-02,MY,Malaysia,Penang,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03019,Customer 03019,2025-01-27,TH,Thailand,Bangkok,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03027,Customer 03027,2025-01-23,TH,Thailand,Pattaya,silver,web
+NOVACART_MINI_V2,2025-01,C03030,Customer 03030,2025-01-16,ID,Indonesia,Yogyakarta,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03037,Customer 03037,2025-01-25,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03039,Customer 03039,2025-01-31,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-01,C03040,Customer 03040,2025-01-29,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03044,Customer 03044,2025-01-23,VN,Vietnam,Da Nang,silver,web
+NOVACART_MINI_V2,2025-01,C03046,Customer 03046,2025-01-25,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03053,Customer 03053,2025-01-27,VN,Vietnam,Da Nang,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03059,Customer 03059,2025-01-16,SG,Singapore,Tampines,premium,web
+NOVACART_MINI_V2,2025-01,C03067,Customer 03067,2025-01-11,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-01,C03082,Customer 03082,2025-01-29,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-01,C03091,Customer 03091,2025-01-01,VN,Vietnam,Can Tho,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03092,Customer 03092,2025-01-11,MY,Malaysia,Penang,silver,web
+NOVACART_MINI_V2,2025-01,C03093,Customer 03093,2025-01-21,TH,Thailand,Chiang Mai,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03103,Customer 03103,2025-01-12,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-01,C03108,Customer 03108,2025-01-18,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03109,Customer 03109,2025-01-16,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-01,C03112,Customer 03112,2025-01-16,MY,Malaysia,Kota Kinabalu,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03114,Customer 03114,2025-01-31,JP,Japan,Yokohama,gold,web
+NOVACART_MINI_V2,2025-01,C03120,Customer 03120,2025-01-29,ID,Indonesia,Yogyakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03125,Customer 03125,2025-01-08,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-01,C03129,Customer 03129,2025-01-01,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-01,C03141,Customer 03141,2025-01-11,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-01,C03146,Customer 03146,2025-01-24,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03151,Customer 03151,2025-01-24,TH,Thailand,Nonthaburi,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03157,Customer 03157,2025-01-10,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-01,C03174,Customer 03174,2025-01-03,SG,Singapore,Jurong East,silver,web
+NOVACART_MINI_V2,2025-01,C03176,Customer 03176,2025-01-16,TH,Thailand,Phuket,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03180,Customer 03180,2025-01-22,MY,Malaysia,Ipoh,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03181,Customer 03181,2025-01-14,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03184,Customer 03184,2025-01-01,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03185,Customer 03185,2025-01-11,VN,Vietnam,Hanoi,basic,web
+NOVACART_MINI_V2,2025-01,C03191,Customer 03191,2025-01-27,PH,Philippines,Makati,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03196,Customer 03196,2025-01-29,JP,Japan,Nagoya,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03206,Customer 03206,2025-01-21,PH,Philippines,Cebu City,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03210,Customer 03210,2025-01-02,PH,Philippines,Davao City,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C03212,Customer 03212,2025-01-23,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03215,Customer 03215,2025-01-12,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-01,C03218,Customer 03218,2025-01-12,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-01,C03225,Customer 03225,2025-01-05,VN,Vietnam,Da Nang,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03236,Customer 03236,2025-01-29,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03245,Customer 03245,2025-01-13,SG,Singapore,Jurong East,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03249,Customer 03249,2025-01-15,MY,Malaysia,Kota Kinabalu,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03251,Customer 03251,2025-01-03,TH,Thailand,Phuket,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03255,Customer 03255,2025-01-27,JP,Japan,Tokyo,silver,web
+NOVACART_MINI_V2,2025-01,C03260,Customer 03260,2025-01-24,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C03264,Customer 03264,2025-01-24,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-01,C03266,Customer 03266,2025-01-08,TH,Thailand,Pattaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03272,Customer 03272,2025-01-21,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03278,Customer 03278,2025-01-20,MY,Malaysia,Kota Kinabalu,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03280,Customer 03280,2025-01-22,ID,Indonesia,Bandung,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03286,Customer 03286,2025-01-13,MY,Malaysia,Johor Bahru,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03288,Customer 03288,2025-01-31,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-01,C03289,Customer 03289,2025-01-22,JP,Japan,Nagoya,premium,web
+NOVACART_MINI_V2,2025-01,C03290,Customer 03290,2025-01-17,PH,Philippines,Quezon City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03291,Customer 03291,2025-01-08,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-01,C03293,Customer 03293,2025-01-08,TH,Thailand,Bangkok,gold,marketplace
+NOVACART_MINI_V2,2025-01,C03297,Customer 03297,2025-01-02,SG,Singapore,Woodlands,silver,web
+NOVACART_MINI_V2,2025-01,C03299,Customer 03299,2025-01-12,PH,Philippines,Davao City,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03300,Customer 03300,2025-01-10,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-01,C03301,Customer 03301,2025-01-09,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03305,Customer 03305,2025-01-06,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03306,Customer 03306,2025-01-16,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03307,Customer 03307,2025-01-07,VN,Vietnam,Hanoi,gold,web
+NOVACART_MINI_V2,2025-01,C03308,Customer 03308,2025-01-17,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03314,Customer 03314,2025-01-15,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03319,Customer 03319,2025-01-01,VN,Vietnam,Hai Phong,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03321,Customer 03321,2025-01-20,JP,Japan,Nagoya,premium,web
+NOVACART_MINI_V2,2025-01,C03329,Customer 03329,2025-01-14,MY,Malaysia,Ipoh,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03330,Customer 03330,2025-01-10,PH,Philippines,Quezon City,silver,web
+NOVACART_MINI_V2,2025-01,C03332,Customer 03332,2025-01-27,TH,Thailand,Nonthaburi,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C03340,Customer 03340,2025-01-05,VN,Vietnam,Hai Phong,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03341,Customer 03341,2025-01-09,TH,Thailand,Phuket,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03342,Customer 03342,2025-01-31,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-01,C03349,Customer 03349,2025-01-22,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03350,Customer 03350,2025-01-11,JP,Japan,Fukuoka,silver,web
+NOVACART_MINI_V2,2025-01,C03351,Customer 03351,2025-01-29,JP,Japan,Tokyo,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03352,Customer 03352,2025-01-02,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03355,Customer 03355,2025-01-05,MY,Malaysia,Penang,basic,web
+NOVACART_MINI_V2,2025-01,C03357,Customer 03357,2025-01-29,SG,Singapore,Tampines,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03360,Customer 03360,2025-01-26,JP,Japan,Nagoya,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03361,Customer 03361,2025-01-22,TH,Thailand,Phuket,silver,web
+NOVACART_MINI_V2,2025-01,C03366,Customer 03366,2025-01-12,PH,Philippines,Manila,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03377,Customer 03377,2025-01-16,PH,Philippines,Cebu City,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03380,Customer 03380,2025-01-02,PH,Philippines,Quezon City,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03391,Customer 03391,2025-01-12,VN,Vietnam,Hai Phong,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C03392,Customer 03392,2025-01-25,MY,Malaysia,Ipoh,gold,marketplace
+NOVACART_MINI_V2,2025-01,C03394,Customer 03394,2025-01-05,PH,Philippines,Quezon City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03395,Customer 03395,2025-01-18,PH,Philippines,Davao City,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03397,Customer 03397,2025-01-03,VN,Vietnam,Hanoi,silver,web
+NOVACART_MINI_V2,2025-01,C03401,Customer 03401,2025-01-19,VN,Vietnam,Can Tho,gold,marketplace
+NOVACART_MINI_V2,2025-01,C03404,Customer 03404,2025-01-22,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-01,C03412,Customer 03412,2025-01-09,MY,Malaysia,Ipoh,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03413,Customer 03413,2025-01-09,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C03417,Customer 03417,2025-01-03,VN,Vietnam,Can Tho,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03418,Customer 03418,2025-01-17,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-01,C03421,Customer 03421,2025-01-02,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-01,C03422,Customer 03422,2025-01-13,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03426,Customer 03426,2025-01-21,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-01,C03431,Customer 03431,2025-01-22,VN,Vietnam,Da Nang,gold,marketplace
+NOVACART_MINI_V2,2025-01,C03435,Customer 03435,2025-01-12,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-01,C03440,Customer 03440,2025-01-07,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03445,Customer 03445,2025-01-26,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03453,Customer 03453,2025-01-15,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03456,Customer 03456,2025-01-10,TH,Thailand,Nonthaburi,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03465,Customer 03465,2025-01-12,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03468,Customer 03468,2025-01-20,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03478,Customer 03478,2025-01-22,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03485,Customer 03485,2025-01-23,JP,Japan,Osaka,gold,marketplace
+NOVACART_MINI_V2,2025-01,C03493,Customer 03493,2025-01-11,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03498,Customer 03498,2025-01-21,JP,Japan,Yokohama,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03499,Customer 03499,2025-01-01,TH,Thailand,Pattaya,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03518,Customer 03518,2025-01-04,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-01,C03525,Customer 03525,2025-01-05,SG,Singapore,Singapore,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03527,Customer 03527,2025-01-18,VN,Vietnam,Hanoi,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03529,Customer 03529,2025-01-10,ID,Indonesia,Yogyakarta,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C03530,Customer 03530,2025-01-05,PH,Philippines,Makati,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03539,Customer 03539,2025-01-31,JP,Japan,Osaka,gold,web
+NOVACART_MINI_V2,2025-01,C03540,Customer 03540,2025-01-10,MY,Malaysia,Kuala Lumpur,silver,marketplace
+NOVACART_MINI_V2,2025-01,C03565,Customer 03565,2025-01-01,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-01,C03566,Customer 03566,2025-01-24,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-01,C03568,Customer 03568,2025-01-01,PH,Philippines,Manila,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03569,Customer 03569,2025-01-06,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-01,C03576,Customer 03576,2025-01-03,ID,Indonesia,Medan,premium,mobile_app
+NOVACART_MINI_V2,2025-01,C03585,Customer 03585,2025-01-15,TH,Thailand,Chiang Mai,gold,mobile_app
+NOVACART_MINI_V2,2025-01,C03589,Customer 03589,2025-01-05,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03597,Customer 03597,2025-01-10,MY,Malaysia,Ipoh,silver,web
+NOVACART_MINI_V2,2025-01,C03603,Customer 03603,2025-01-06,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-01,C03604,Customer 03604,2025-01-20,MY,Malaysia,Kuala Lumpur,basic,marketplace
+NOVACART_MINI_V2,2025-01,C03633,Customer 03633,2025-01-17,ID,Indonesia,Bandung,gold,mobile_app
+NOVACART_MINI_V2,2025-02,C03645,Customer 03645,2025-02-24,TH,Thailand,Bangkok,silver,web
+NOVACART_MINI_V2,2025-02,C03656,Customer 03656,2025-02-06,SG,Singapore,Tampines,basic,marketplace
+NOVACART_MINI_V2,2025-02,C03659,Customer 03659,2025-02-28,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-02,C03662,Customer 03662,2025-02-02,MY,Malaysia,Kuala Lumpur,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C03670,Customer 03670,2025-02-22,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-02,C03681,Customer 03681,2025-02-01,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-02,C03696,Customer 03696,2025-02-05,MY,Malaysia,Kuala Lumpur,silver,marketplace
+NOVACART_MINI_V2,2025-02,C03722,Customer 03722,2025-02-20,PH,Philippines,Quezon City,silver,web
+NOVACART_MINI_V2,2025-02,C03728,Customer 03728,2025-02-20,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-02,C03731,Customer 03731,2025-02-05,ID,Indonesia,Surabaya,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C03739,Customer 03739,2025-02-05,ID,Indonesia,Bandung,premium,web
+NOVACART_MINI_V2,2025-02,C03746,Customer 03746,2025-02-10,SG,Singapore,Tampines,gold,marketplace
+NOVACART_MINI_V2,2025-02,C03748,Customer 03748,2025-02-09,MY,Malaysia,Kuala Lumpur,basic,marketplace
+NOVACART_MINI_V2,2025-02,C03749,Customer 03749,2025-02-17,JP,Japan,Tokyo,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C03751,Customer 03751,2025-02-26,SG,Singapore,Singapore,gold,mobile_app
+NOVACART_MINI_V2,2025-02,C03756,Customer 03756,2025-02-16,JP,Japan,Tokyo,gold,mobile_app
+NOVACART_MINI_V2,2025-02,C03762,Customer 03762,2025-02-16,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C03776,Customer 03776,2025-02-08,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-02,C03797,Customer 03797,2025-02-20,SG,Singapore,Jurong East,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C03820,Customer 03820,2025-02-18,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-02,C03822,Customer 03822,2025-02-02,SG,Singapore,Jurong East,gold,marketplace
+NOVACART_MINI_V2,2025-02,C03827,Customer 03827,2025-02-03,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-02,C03839,Customer 03839,2025-02-17,ID,Indonesia,Medan,premium,mobile_app
+NOVACART_MINI_V2,2025-02,C03846,Customer 03846,2025-02-04,MY,Malaysia,Penang,silver,marketplace
+NOVACART_MINI_V2,2025-02,C03854,Customer 03854,2025-02-27,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C03856,Customer 03856,2025-02-24,ID,Indonesia,Jakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C03875,Customer 03875,2025-02-24,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C03882,Customer 03882,2025-02-01,MY,Malaysia,Kuala Lumpur,gold,web
+NOVACART_MINI_V2,2025-02,C03900,Customer 03900,2025-02-01,PH,Philippines,Makati,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C03907,Customer 03907,2025-02-13,TH,Thailand,Phuket,silver,marketplace
+NOVACART_MINI_V2,2025-02,C03921,Customer 03921,2025-02-20,VN,Vietnam,Da Nang,gold,web
+NOVACART_MINI_V2,2025-02,C03936,Customer 03936,2025-02-08,VN,Vietnam,Can Tho,basic,web
+NOVACART_MINI_V2,2025-02,C03957,Customer 03957,2025-02-02,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C03975,Customer 03975,2025-02-23,TH,Thailand,Bangkok,gold,mobile_app
+NOVACART_MINI_V2,2025-02,C03983,Customer 03983,2025-02-02,JP,Japan,Fukuoka,silver,web
+NOVACART_MINI_V2,2025-02,C03987,Customer 03987,2025-02-07,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-02,C04011,Customer 04011,2025-02-03,VN,Vietnam,Hanoi,silver,marketplace
+NOVACART_MINI_V2,2025-02,C04012,Customer 04012,2025-02-01,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-02,C04015,Customer 04015,2025-02-04,MY,Malaysia,Kota Kinabalu,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04017,Customer 04017,2025-02-04,SG,Singapore,Woodlands,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04025,Customer 04025,2025-02-08,SG,Singapore,Tampines,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04040,Customer 04040,2025-02-08,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04044,Customer 04044,2025-02-07,MY,Malaysia,Johor Bahru,premium,marketplace
+NOVACART_MINI_V2,2025-02,C04046,Customer 04046,2025-02-01,JP,Japan,Nagoya,premium,web
+NOVACART_MINI_V2,2025-02,C04048,Customer 04048,2025-02-03,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-02,C04072,Customer 04072,2025-02-04,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-02,C04075,Customer 04075,2025-02-01,SG,Singapore,Jurong East,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04087,Customer 04087,2025-02-07,MY,Malaysia,Kuala Lumpur,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04090,Customer 04090,2025-02-06,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-02,C04091,Customer 04091,2025-02-06,MY,Malaysia,Johor Bahru,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04111,Customer 04111,2025-02-12,ID,Indonesia,Bandung,gold,mobile_app
+NOVACART_MINI_V2,2025-02,C04133,Customer 04133,2025-02-16,VN,Vietnam,Da Nang,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04153,Customer 04153,2025-02-05,TH,Thailand,Pattaya,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04163,Customer 04163,2025-02-03,SG,Singapore,Tampines,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04169,Customer 04169,2025-02-15,JP,Japan,Yokohama,premium,marketplace
+NOVACART_MINI_V2,2025-02,C04187,Customer 04187,2025-02-24,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04192,Customer 04192,2025-02-07,VN,Vietnam,Da Nang,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04219,Customer 04219,2025-02-05,VN,Vietnam,Ho Chi Minh City,gold,web
+NOVACART_MINI_V2,2025-02,C04222,Customer 04222,2025-02-12,MY,Malaysia,Johor Bahru,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04246,Customer 04246,2025-02-01,PH,Philippines,Manila,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04249,Customer 04249,2025-02-01,JP,Japan,Tokyo,basic,web
+NOVACART_MINI_V2,2025-02,C04250,Customer 04250,2025-02-09,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-02,C04259,Customer 04259,2025-02-22,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-02,C04261,Customer 04261,2025-02-15,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04264,Customer 04264,2025-02-20,ID,Indonesia,Jakarta,silver,web
+NOVACART_MINI_V2,2025-02,C04273,Customer 04273,2025-02-05,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04280,Customer 04280,2025-02-21,MY,Malaysia,Penang,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04288,Customer 04288,2025-02-06,JP,Japan,Osaka,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04306,Customer 04306,2025-02-10,ID,Indonesia,Surabaya,silver,marketplace
+NOVACART_MINI_V2,2025-02,C04321,Customer 04321,2025-02-28,VN,Vietnam,Ho Chi Minh City,silver,web
+NOVACART_MINI_V2,2025-02,C04337,Customer 04337,2025-02-25,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04340,Customer 04340,2025-02-01,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-02,C04357,Customer 04357,2025-02-09,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04364,Customer 04364,2025-02-15,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-02,C04379,Customer 04379,2025-02-15,VN,Vietnam,Can Tho,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04380,Customer 04380,2025-02-22,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-02,C04386,Customer 04386,2025-02-14,TH,Thailand,Bangkok,gold,web
+NOVACART_MINI_V2,2025-02,C04387,Customer 04387,2025-02-14,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-02,C04395,Customer 04395,2025-02-19,SG,Singapore,Jurong East,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04404,Customer 04404,2025-02-01,JP,Japan,Osaka,silver,web
+NOVACART_MINI_V2,2025-02,C04422,Customer 04422,2025-02-03,VN,Vietnam,Can Tho,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04423,Customer 04423,2025-02-12,SG,Singapore,Tampines,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04440,Customer 04440,2025-02-12,PH,Philippines,Quezon City,gold,marketplace
+NOVACART_MINI_V2,2025-02,C04443,Customer 04443,2025-02-06,SG,Singapore,Singapore,silver,marketplace
+NOVACART_MINI_V2,2025-02,C04453,Customer 04453,2025-02-11,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-02,C04454,Customer 04454,2025-02-06,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-02,C04464,Customer 04464,2025-02-04,TH,Thailand,Pattaya,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04495,Customer 04495,2025-02-26,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04530,Customer 04530,2025-02-20,MY,Malaysia,Kota Kinabalu,gold,web
+NOVACART_MINI_V2,2025-02,C04531,Customer 04531,2025-02-01,VN,Vietnam,Ho Chi Minh City,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04534,Customer 04534,2025-02-14,VN,Vietnam,Da Nang,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04550,Customer 04550,2025-02-14,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04555,Customer 04555,2025-02-03,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04556,Customer 04556,2025-02-03,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04594,Customer 04594,2025-02-04,ID,Indonesia,Bandung,silver,web
+NOVACART_MINI_V2,2025-02,C04600,Customer 04600,2025-02-20,TH,Thailand,Pattaya,gold,mobile_app
+NOVACART_MINI_V2,2025-02,C04601,Customer 04601,2025-02-23,TH,Thailand,Nonthaburi,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04611,Customer 04611,2025-02-03,VN,Vietnam,Can Tho,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04616,Customer 04616,2025-02-17,SG,Singapore,Woodlands,silver,mobile_app
+NOVACART_MINI_V2,2025-02,C04639,Customer 04639,2025-02-06,MY,Malaysia,Ipoh,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04640,Customer 04640,2025-02-16,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04645,Customer 04645,2025-02-14,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-02,C04646,Customer 04646,2025-02-01,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-02,C04653,Customer 04653,2025-02-07,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04655,Customer 04655,2025-02-21,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-02,C04676,Customer 04676,2025-02-17,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-02,C04691,Customer 04691,2025-02-23,VN,Vietnam,Ho Chi Minh City,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C04717,Customer 04717,2025-03-24,VN,Vietnam,Can Tho,basic,marketplace
+NOVACART_MINI_V2,2025-03,C04747,Customer 04747,2025-03-08,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C04783,Customer 04783,2025-03-16,MY,Malaysia,Johor Bahru,basic,web
+NOVACART_MINI_V2,2025-03,C04784,Customer 04784,2025-03-04,JP,Japan,Tokyo,silver,web
+NOVACART_MINI_V2,2025-03,C04795,Customer 04795,2025-03-11,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-03,C04797,Customer 04797,2025-03-21,JP,Japan,Tokyo,gold,mobile_app
+NOVACART_MINI_V2,2025-03,C04812,Customer 04812,2025-03-14,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-03,C04817,Customer 04817,2025-03-07,VN,Vietnam,Da Nang,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C04823,Customer 04823,2025-03-03,TH,Thailand,Bangkok,silver,web
+NOVACART_MINI_V2,2025-03,C04830,Customer 04830,2025-03-03,TH,Thailand,Bangkok,basic,marketplace
+NOVACART_MINI_V2,2025-03,C04844,Customer 04844,2025-03-13,JP,Japan,Osaka,silver,marketplace
+NOVACART_MINI_V2,2025-03,C04901,Customer 04901,2025-03-27,VN,Vietnam,Ho Chi Minh City,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C04922,Customer 04922,2025-03-27,TH,Thailand,Nonthaburi,silver,mobile_app
+NOVACART_MINI_V2,2025-03,C04935,Customer 04935,2025-03-16,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C04976,Customer 04976,2025-03-18,VN,Vietnam,Ho Chi Minh City,silver,marketplace
+NOVACART_MINI_V2,2025-03,C05006,Customer 05006,2025-03-29,TH,Thailand,Bangkok,silver,web
+NOVACART_MINI_V2,2025-03,C05015,Customer 05015,2025-03-07,ID,Indonesia,Jakarta,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05040,Customer 05040,2025-03-13,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05042,Customer 05042,2025-03-07,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-03,C05061,Customer 05061,2025-03-29,SG,Singapore,Woodlands,silver,marketplace
+NOVACART_MINI_V2,2025-03,C05068,Customer 05068,2025-03-29,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05069,Customer 05069,2025-03-01,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05096,Customer 05096,2025-03-08,TH,Thailand,Chiang Mai,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05110,Customer 05110,2025-03-13,TH,Thailand,Pattaya,silver,marketplace
+NOVACART_MINI_V2,2025-03,C05123,Customer 05123,2025-03-20,VN,Vietnam,Hai Phong,gold,mobile_app
+NOVACART_MINI_V2,2025-03,C05161,Customer 05161,2025-03-06,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05171,Customer 05171,2025-03-08,SG,Singapore,Tampines,gold,marketplace
+NOVACART_MINI_V2,2025-03,C05185,Customer 05185,2025-03-15,MY,Malaysia,Ipoh,silver,marketplace
+NOVACART_MINI_V2,2025-03,C05207,Customer 05207,2025-03-05,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05223,Customer 05223,2025-03-19,SG,Singapore,Singapore,silver,web
+NOVACART_MINI_V2,2025-03,C05226,Customer 05226,2025-03-04,VN,Vietnam,Hanoi,premium,web
+NOVACART_MINI_V2,2025-03,C05235,Customer 05235,2025-03-29,VN,Vietnam,Can Tho,gold,web
+NOVACART_MINI_V2,2025-03,C05249,Customer 05249,2025-03-13,ID,Indonesia,Yogyakarta,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05251,Customer 05251,2025-03-02,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05278,Customer 05278,2025-03-04,PH,Philippines,Davao City,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05288,Customer 05288,2025-03-04,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05300,Customer 05300,2025-03-12,PH,Philippines,Manila,basic,web
+NOVACART_MINI_V2,2025-03,C05308,Customer 05308,2025-03-09,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-03,C05347,Customer 05347,2025-03-20,SG,Singapore,Singapore,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05359,Customer 05359,2025-03-03,PH,Philippines,Quezon City,gold,marketplace
+NOVACART_MINI_V2,2025-03,C05373,Customer 05373,2025-03-12,ID,Indonesia,Medan,premium,mobile_app
+NOVACART_MINI_V2,2025-03,C05386,Customer 05386,2025-03-24,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05388,Customer 05388,2025-03-08,VN,Vietnam,Da Nang,silver,mobile_app
+NOVACART_MINI_V2,2025-03,C05415,Customer 05415,2025-03-18,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-03,C05446,Customer 05446,2025-03-04,VN,Vietnam,Can Tho,gold,web
+NOVACART_MINI_V2,2025-03,C05452,Customer 05452,2025-03-07,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05466,Customer 05466,2025-03-23,PH,Philippines,Manila,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05472,Customer 05472,2025-03-22,PH,Philippines,Manila,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05473,Customer 05473,2025-03-22,ID,Indonesia,Bandung,basic,marketplace
+NOVACART_MINI_V2,2025-03,C05480,Customer 05480,2025-03-08,TH,Thailand,Nonthaburi,gold,web
+NOVACART_MINI_V2,2025-03,C05498,Customer 05498,2025-03-28,JP,Japan,Tokyo,silver,web
+NOVACART_MINI_V2,2025-03,C05581,Customer 05581,2025-03-02,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-03,C05617,Customer 05617,2025-03-16,ID,Indonesia,Surabaya,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05623,Customer 05623,2025-03-08,ID,Indonesia,Jakarta,silver,web
+NOVACART_MINI_V2,2025-03,C05625,Customer 05625,2025-03-09,TH,Thailand,Chiang Mai,basic,web
+NOVACART_MINI_V2,2025-03,C05629,Customer 05629,2025-03-02,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-03,C05653,Customer 05653,2025-03-07,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-03,C05656,Customer 05656,2025-03-28,MY,Malaysia,Kuala Lumpur,silver,marketplace
+NOVACART_MINI_V2,2025-03,C05667,Customer 05667,2025-03-26,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-03,C05675,Customer 05675,2025-03-12,SG,Singapore,Woodlands,silver,marketplace
+NOVACART_MINI_V2,2025-03,C05690,Customer 05690,2025-03-08,TH,Thailand,Nonthaburi,gold,web
+NOVACART_MINI_V2,2025-03,C05701,Customer 05701,2025-03-26,JP,Japan,Tokyo,premium,web
+NOVACART_MINI_V2,2025-03,C05726,Customer 05726,2025-03-02,PH,Philippines,Makati,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C05747,Customer 05747,2025-04-26,ID,Indonesia,Surabaya,silver,web
+NOVACART_MINI_V2,2025-04,C05749,Customer 05749,2025-04-20,TH,Thailand,Bangkok,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C05763,Customer 05763,2025-04-30,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-04,C05766,Customer 05766,2025-04-27,ID,Indonesia,Jakarta,basic,marketplace
+NOVACART_MINI_V2,2025-04,C05790,Customer 05790,2025-04-18,PH,Philippines,Quezon City,basic,marketplace
+NOVACART_MINI_V2,2025-04,C05799,Customer 05799,2025-04-17,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C05801,Customer 05801,2025-04-12,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C05843,Customer 05843,2025-04-23,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C05860,Customer 05860,2025-04-13,ID,Indonesia,Jakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-04,C05881,Customer 05881,2025-04-14,VN,Vietnam,Hanoi,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C05884,Customer 05884,2025-04-01,TH,Thailand,Bangkok,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C05885,Customer 05885,2025-04-07,ID,Indonesia,Jakarta,basic,web
+NOVACART_MINI_V2,2025-04,C05895,Customer 05895,2025-04-30,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-04,C05906,Customer 05906,2025-04-20,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C05907,Customer 05907,2025-04-03,MY,Malaysia,Kuala Lumpur,gold,marketplace
+NOVACART_MINI_V2,2025-04,C05930,Customer 05930,2025-04-13,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C05939,Customer 05939,2025-04-09,TH,Thailand,Phuket,gold,web
+NOVACART_MINI_V2,2025-04,C05942,Customer 05942,2025-04-25,TH,Thailand,Bangkok,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C05963,Customer 05963,2025-04-05,SG,Singapore,Woodlands,premium,web
+NOVACART_MINI_V2,2025-04,C05977,Customer 05977,2025-04-11,MY,Malaysia,Ipoh,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C06001,Customer 06001,2025-04-01,MY,Malaysia,Ipoh,premium,web
+NOVACART_MINI_V2,2025-04,C06006,Customer 06006,2025-04-04,JP,Japan,Fukuoka,basic,marketplace
+NOVACART_MINI_V2,2025-04,C06028,Customer 06028,2025-04-27,JP,Japan,Yokohama,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C06071,Customer 06071,2025-04-13,PH,Philippines,Cebu City,silver,web
+NOVACART_MINI_V2,2025-04,C06072,Customer 06072,2025-04-18,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-04,C06079,Customer 06079,2025-04-01,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06096,Customer 06096,2025-04-05,MY,Malaysia,Ipoh,basic,web
+NOVACART_MINI_V2,2025-04,C06114,Customer 06114,2025-04-28,VN,Vietnam,Da Nang,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06123,Customer 06123,2025-04-17,MY,Malaysia,Johor Bahru,gold,web
+NOVACART_MINI_V2,2025-04,C06129,Customer 06129,2025-04-22,JP,Japan,Osaka,premium,web
+NOVACART_MINI_V2,2025-04,C06149,Customer 06149,2025-04-15,VN,Vietnam,Hai Phong,basic,marketplace
+NOVACART_MINI_V2,2025-04,C06158,Customer 06158,2025-04-10,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-04,C06176,Customer 06176,2025-04-07,JP,Japan,Yokohama,silver,marketplace
+NOVACART_MINI_V2,2025-04,C06192,Customer 06192,2025-04-26,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06203,Customer 06203,2025-04-13,ID,Indonesia,Surabaya,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06233,Customer 06233,2025-04-29,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-04,C06234,Customer 06234,2025-04-30,VN,Vietnam,Can Tho,silver,web
+NOVACART_MINI_V2,2025-04,C06269,Customer 06269,2025-04-20,JP,Japan,Fukuoka,gold,mobile_app
+NOVACART_MINI_V2,2025-04,C06306,Customer 06306,2025-04-06,TH,Thailand,Pattaya,silver,web
+NOVACART_MINI_V2,2025-04,C06314,Customer 06314,2025-04-27,VN,Vietnam,Da Nang,silver,marketplace
+NOVACART_MINI_V2,2025-04,C06322,Customer 06322,2025-04-07,PH,Philippines,Manila,gold,web
+NOVACART_MINI_V2,2025-04,C06334,Customer 06334,2025-04-13,JP,Japan,Osaka,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C06398,Customer 06398,2025-04-23,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-04,C06420,Customer 06420,2025-04-08,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-04,C06422,Customer 06422,2025-04-17,PH,Philippines,Manila,silver,web
+NOVACART_MINI_V2,2025-04,C06430,Customer 06430,2025-04-04,MY,Malaysia,Kuala Lumpur,silver,mobile_app
+NOVACART_MINI_V2,2025-04,C06440,Customer 06440,2025-04-07,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-04,C06445,Customer 06445,2025-04-29,PH,Philippines,Cebu City,gold,web
+NOVACART_MINI_V2,2025-04,C06447,Customer 06447,2025-04-25,JP,Japan,Nagoya,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06451,Customer 06451,2025-04-21,SG,Singapore,Jurong East,basic,web
+NOVACART_MINI_V2,2025-04,C06458,Customer 06458,2025-04-10,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-04,C06469,Customer 06469,2025-04-05,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-04,C06481,Customer 06481,2025-04-05,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06496,Customer 06496,2025-04-10,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-04,C06520,Customer 06520,2025-04-24,JP,Japan,Tokyo,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06607,Customer 06607,2025-04-14,ID,Indonesia,Bandung,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06648,Customer 06648,2025-04-14,JP,Japan,Tokyo,silver,marketplace
+NOVACART_MINI_V2,2025-04,C06653,Customer 06653,2025-04-13,VN,Vietnam,Hai Phong,silver,marketplace
+NOVACART_MINI_V2,2025-04,C06664,Customer 06664,2025-04-29,ID,Indonesia,Medan,gold,web
+NOVACART_MINI_V2,2025-04,C06671,Customer 06671,2025-04-02,PH,Philippines,Manila,basic,mobile_app
+NOVACART_MINI_V2,2025-04,C06680,Customer 06680,2025-04-09,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-05,C06786,Customer 06786,2025-05-12,TH,Thailand,Pattaya,basic,marketplace
+NOVACART_MINI_V2,2025-05,C06804,Customer 06804,2025-05-03,PH,Philippines,Cebu City,basic,marketplace
+NOVACART_MINI_V2,2025-05,C06835,Customer 06835,2025-05-03,TH,Thailand,Phuket,silver,mobile_app
+NOVACART_MINI_V2,2025-05,C06853,Customer 06853,2025-05-02,PH,Philippines,Davao City,basic,web
+NOVACART_MINI_V2,2025-05,C06868,Customer 06868,2025-05-07,MY,Malaysia,Kuala Lumpur,gold,web
+NOVACART_MINI_V2,2025-05,C06870,Customer 06870,2025-05-07,VN,Vietnam,Hanoi,premium,marketplace
+NOVACART_MINI_V2,2025-05,C06883,Customer 06883,2025-05-14,VN,Vietnam,Can Tho,silver,marketplace
+NOVACART_MINI_V2,2025-05,C06908,Customer 06908,2025-05-17,ID,Indonesia,Yogyakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-05,C06937,Customer 06937,2025-05-10,JP,Japan,Nagoya,gold,web
+NOVACART_MINI_V2,2025-05,C06938,Customer 06938,2025-05-07,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C06991,Customer 06991,2025-05-29,TH,Thailand,Phuket,silver,mobile_app
+NOVACART_MINI_V2,2025-05,C07052,Customer 07052,2025-05-08,SG,Singapore,Singapore,silver,web
+NOVACART_MINI_V2,2025-05,C07058,Customer 07058,2025-05-10,TH,Thailand,Phuket,silver,web
+NOVACART_MINI_V2,2025-05,C07065,Customer 07065,2025-05-19,JP,Japan,Nagoya,silver,mobile_app
+NOVACART_MINI_V2,2025-05,C07097,Customer 07097,2025-05-03,TH,Thailand,Phuket,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C07108,Customer 07108,2025-05-31,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-05,C07129,Customer 07129,2025-05-27,MY,Malaysia,Johor Bahru,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C07182,Customer 07182,2025-05-21,SG,Singapore,Jurong East,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C07187,Customer 07187,2025-05-14,MY,Malaysia,Kota Kinabalu,silver,marketplace
+NOVACART_MINI_V2,2025-05,C07189,Customer 07189,2025-05-08,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-05,C07200,Customer 07200,2025-05-03,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C07203,Customer 07203,2025-05-03,JP,Japan,Osaka,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C07221,Customer 07221,2025-05-30,VN,Vietnam,Ho Chi Minh City,gold,mobile_app
+NOVACART_MINI_V2,2025-05,C07270,Customer 07270,2025-05-14,PH,Philippines,Manila,silver,web
+NOVACART_MINI_V2,2025-05,C07281,Customer 07281,2025-05-08,PH,Philippines,Quezon City,basic,web
+NOVACART_MINI_V2,2025-05,C07306,Customer 07306,2025-05-12,JP,Japan,Fukuoka,silver,mobile_app
+NOVACART_MINI_V2,2025-05,C07450,Customer 07450,2025-05-13,MY,Malaysia,Kuala Lumpur,basic,web
+NOVACART_MINI_V2,2025-05,C07453,Customer 07453,2025-05-02,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-05,C07498,Customer 07498,2025-05-16,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-05,C07500,Customer 07500,2025-05-11,ID,Indonesia,Bandung,silver,marketplace
+NOVACART_MINI_V2,2025-05,C07506,Customer 07506,2025-05-05,VN,Vietnam,Hai Phong,gold,marketplace
+NOVACART_MINI_V2,2025-05,C07536,Customer 07536,2025-05-21,PH,Philippines,Cebu City,basic,web
+NOVACART_MINI_V2,2025-05,C07558,Customer 07558,2025-05-26,ID,Indonesia,Yogyakarta,basic,web
+NOVACART_MINI_V2,2025-05,C07578,Customer 07578,2025-05-19,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-05,C07586,Customer 07586,2025-05-24,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-05,C07605,Customer 07605,2025-05-04,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-05,C07649,Customer 07649,2025-05-12,ID,Indonesia,Medan,basic,marketplace
+NOVACART_MINI_V2,2025-05,C07658,Customer 07658,2025-05-25,VN,Vietnam,Hanoi,basic,marketplace
+NOVACART_MINI_V2,2025-05,C07677,Customer 07677,2025-05-28,TH,Thailand,Chiang Mai,silver,marketplace
+NOVACART_MINI_V2,2025-05,C07680,Customer 07680,2025-05-02,MY,Malaysia,Ipoh,silver,web
+NOVACART_MINI_V2,2025-06,C07708,Customer 07708,2025-06-18,JP,Japan,Tokyo,gold,web
+NOVACART_MINI_V2,2025-06,C07711,Customer 07711,2025-06-19,SG,Singapore,Woodlands,basic,marketplace
+NOVACART_MINI_V2,2025-06,C07770,Customer 07770,2025-06-10,ID,Indonesia,Medan,basic,web
+NOVACART_MINI_V2,2025-06,C07779,Customer 07779,2025-06-03,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-06,C07789,Customer 07789,2025-06-16,TH,Thailand,Chiang Mai,gold,marketplace
+NOVACART_MINI_V2,2025-06,C07836,Customer 07836,2025-06-30,TH,Thailand,Phuket,silver,marketplace
+NOVACART_MINI_V2,2025-06,C07842,Customer 07842,2025-06-11,SG,Singapore,Singapore,basic,web
+NOVACART_MINI_V2,2025-06,C07844,Customer 07844,2025-06-29,VN,Vietnam,Can Tho,silver,mobile_app
+NOVACART_MINI_V2,2025-06,C07857,Customer 07857,2025-06-12,ID,Indonesia,Medan,silver,web
+NOVACART_MINI_V2,2025-06,C07878,Customer 07878,2025-06-09,PH,Philippines,Cebu City,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C07880,Customer 07880,2025-06-07,VN,Vietnam,Can Tho,basic,marketplace
+NOVACART_MINI_V2,2025-06,C07891,Customer 07891,2025-06-22,JP,Japan,Nagoya,gold,mobile_app
+NOVACART_MINI_V2,2025-06,C07898,Customer 07898,2025-06-17,PH,Philippines,Manila,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C07901,Customer 07901,2025-06-10,VN,Vietnam,Hanoi,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C07920,Customer 07920,2025-06-06,SG,Singapore,Jurong East,gold,mobile_app
+NOVACART_MINI_V2,2025-06,C07937,Customer 07937,2025-06-03,JP,Japan,Yokohama,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C07995,Customer 07995,2025-06-24,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-06,C08011,Customer 08011,2025-06-25,TH,Thailand,Pattaya,basic,web
+NOVACART_MINI_V2,2025-06,C08054,Customer 08054,2025-06-13,ID,Indonesia,Surabaya,gold,web
+NOVACART_MINI_V2,2025-06,C08059,Customer 08059,2025-06-01,TH,Thailand,Nonthaburi,basic,marketplace
+NOVACART_MINI_V2,2025-06,C08065,Customer 08065,2025-06-07,TH,Thailand,Pattaya,gold,web
+NOVACART_MINI_V2,2025-06,C08077,Customer 08077,2025-06-24,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-06,C08119,Customer 08119,2025-06-16,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-06,C08147,Customer 08147,2025-06-15,TH,Thailand,Bangkok,gold,marketplace
+NOVACART_MINI_V2,2025-06,C08267,Customer 08267,2025-06-13,ID,Indonesia,Surabaya,gold,marketplace
+NOVACART_MINI_V2,2025-06,C08282,Customer 08282,2025-06-09,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C08322,Customer 08322,2025-06-21,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C08367,Customer 08367,2025-06-10,ID,Indonesia,Medan,basic,web
+NOVACART_MINI_V2,2025-06,C08375,Customer 08375,2025-06-27,MY,Malaysia,Penang,basic,mobile_app
+NOVACART_MINI_V2,2025-06,C08377,Customer 08377,2025-06-15,MY,Malaysia,Johor Bahru,silver,mobile_app
+NOVACART_MINI_V2,2025-06,C08385,Customer 08385,2025-06-03,JP,Japan,Yokohama,basic,web
+NOVACART_MINI_V2,2025-06,C08414,Customer 08414,2025-06-14,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-06,C08449,Customer 08449,2025-06-03,ID,Indonesia,Surabaya,silver,marketplace
+NOVACART_MINI_V2,2025-06,C08453,Customer 08453,2025-06-19,MY,Malaysia,Penang,gold,web
+NOVACART_MINI_V2,2025-06,C08470,Customer 08470,2025-06-01,MY,Malaysia,Kuala Lumpur,gold,mobile_app
+NOVACART_MINI_V2,2025-06,C08528,Customer 08528,2025-06-26,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-07,C08568,Customer 08568,2025-07-23,PH,Philippines,Manila,gold,mobile_app
+NOVACART_MINI_V2,2025-07,C08572,Customer 08572,2025-07-31,TH,Thailand,Pattaya,basic,marketplace
+NOVACART_MINI_V2,2025-07,C08604,Customer 08604,2025-07-10,PH,Philippines,Makati,silver,mobile_app
+NOVACART_MINI_V2,2025-07,C08656,Customer 08656,2025-07-22,TH,Thailand,Chiang Mai,basic,web
+NOVACART_MINI_V2,2025-07,C08693,Customer 08693,2025-07-18,SG,Singapore,Singapore,gold,mobile_app
+NOVACART_MINI_V2,2025-07,C08704,Customer 08704,2025-07-10,TH,Thailand,Nonthaburi,premium,web
+NOVACART_MINI_V2,2025-07,C08784,Customer 08784,2025-07-22,JP,Japan,Osaka,basic,marketplace
+NOVACART_MINI_V2,2025-07,C08857,Customer 08857,2025-07-19,JP,Japan,Yokohama,basic,marketplace
+NOVACART_MINI_V2,2025-07,C08861,Customer 08861,2025-07-10,MY,Malaysia,Ipoh,gold,mobile_app
+NOVACART_MINI_V2,2025-07,C08864,Customer 08864,2025-07-21,JP,Japan,Yokohama,silver,web
+NOVACART_MINI_V2,2025-07,C08897,Customer 08897,2025-07-09,JP,Japan,Osaka,basic,web
+NOVACART_MINI_V2,2025-07,C08976,Customer 08976,2025-07-06,MY,Malaysia,Penang,basic,marketplace
+NOVACART_MINI_V2,2025-07,C08980,Customer 08980,2025-07-17,MY,Malaysia,Johor Bahru,silver,marketplace
+NOVACART_MINI_V2,2025-07,C09037,Customer 09037,2025-07-08,JP,Japan,Tokyo,basic,marketplace
+NOVACART_MINI_V2,2025-07,C09114,Customer 09114,2025-07-12,ID,Indonesia,Jakarta,gold,mobile_app
+NOVACART_MINI_V2,2025-07,C09133,Customer 09133,2025-07-05,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-07,C09195,Customer 09195,2025-07-08,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-07,C09272,Customer 09272,2025-07-28,MY,Malaysia,Ipoh,silver,web
+NOVACART_MINI_V2,2025-07,C09329,Customer 09329,2025-07-29,TH,Thailand,Phuket,basic,mobile_app
+NOVACART_MINI_V2,2025-07,C09337,Customer 09337,2025-07-26,JP,Japan,Fukuoka,gold,mobile_app
+NOVACART_MINI_V2,2025-07,C09348,Customer 09348,2025-07-01,MY,Malaysia,Ipoh,basic,marketplace
+NOVACART_MINI_V2,2025-07,C09406,Customer 09406,2025-07-27,PH,Philippines,Manila,premium,web
+NOVACART_MINI_V2,2025-07,C09413,Customer 09413,2025-07-11,ID,Indonesia,Yogyakarta,basic,marketplace
+NOVACART_MINI_V2,2025-08,C09439,Customer 09439,2025-08-12,ID,Indonesia,Medan,basic,mobile_app
+NOVACART_MINI_V2,2025-08,C09446,Customer 09446,2025-08-24,MY,Malaysia,Kota Kinabalu,basic,mobile_app
+NOVACART_MINI_V2,2025-08,C09520,Customer 09520,2025-08-09,TH,Thailand,Nonthaburi,basic,web
+NOVACART_MINI_V2,2025-08,C09522,Customer 09522,2025-08-05,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-08,C09609,Customer 09609,2025-08-27,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-08,C09622,Customer 09622,2025-08-11,MY,Malaysia,Johor Bahru,gold,web
+NOVACART_MINI_V2,2025-08,C09740,Customer 09740,2025-08-08,VN,Vietnam,Hai Phong,silver,web
+NOVACART_MINI_V2,2025-08,C09746,Customer 09746,2025-08-09,TH,Thailand,Nonthaburi,silver,web
+NOVACART_MINI_V2,2025-08,C09794,Customer 09794,2025-08-31,JP,Japan,Fukuoka,silver,marketplace
+NOVACART_MINI_V2,2025-08,C09881,Customer 09881,2025-08-01,ID,Indonesia,Jakarta,silver,mobile_app
+NOVACART_MINI_V2,2025-08,C09919,Customer 09919,2025-08-02,MY,Malaysia,Ipoh,basic,mobile_app
+NOVACART_MINI_V2,2025-08,C09941,Customer 09941,2025-08-19,MY,Malaysia,Johor Bahru,silver,marketplace
+NOVACART_MINI_V2,2025-08,C10012,Customer 10012,2025-08-27,ID,Indonesia,Jakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-08,C10099,Customer 10099,2025-08-08,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-08,C10106,Customer 10106,2025-08-07,JP,Japan,Nagoya,basic,marketplace
+NOVACART_MINI_V2,2025-08,C10129,Customer 10129,2025-08-07,VN,Vietnam,Hanoi,basic,web
+NOVACART_MINI_V2,2025-08,C10136,Customer 10136,2025-08-22,ID,Indonesia,Bandung,gold,marketplace
+NOVACART_MINI_V2,2025-08,C10184,Customer 10184,2025-08-08,TH,Thailand,Phuket,basic,web
+NOVACART_MINI_V2,2025-08,C10228,Customer 10228,2025-08-15,JP,Japan,Fukuoka,basic,mobile_app
+NOVACART_MINI_V2,2025-08,C10266,Customer 10266,2025-08-05,MY,Malaysia,Kota Kinabalu,silver,web
+NOVACART_MINI_V2,2025-08,C10278,Customer 10278,2025-08-19,MY,Malaysia,Kota Kinabalu,basic,web
+NOVACART_MINI_V2,2025-08,C10346,Customer 10346,2025-08-19,ID,Indonesia,Bandung,gold,mobile_app
+NOVACART_MINI_V2,2025-08,C10367,Customer 10367,2025-08-30,SG,Singapore,Woodlands,basic,web
+NOVACART_MINI_V2,2025-09,C10401,Customer 10401,2025-09-02,MY,Malaysia,Penang,silver,marketplace
+NOVACART_MINI_V2,2025-09,C10590,Customer 10590,2025-09-26,MY,Malaysia,Penang,basic,marketplace
+NOVACART_MINI_V2,2025-09,C10657,Customer 10657,2025-09-04,MY,Malaysia,Johor Bahru,gold,marketplace
+NOVACART_MINI_V2,2025-09,C10696,Customer 10696,2025-09-30,PH,Philippines,Quezon City,gold,marketplace
+NOVACART_MINI_V2,2025-09,C10839,Customer 10839,2025-09-22,TH,Thailand,Pattaya,basic,mobile_app
+NOVACART_MINI_V2,2025-09,C10847,Customer 10847,2025-09-02,MY,Malaysia,Penang,basic,marketplace
+NOVACART_MINI_V2,2025-09,C10861,Customer 10861,2025-09-03,ID,Indonesia,Surabaya,gold,mobile_app
+NOVACART_MINI_V2,2025-09,C10939,Customer 10939,2025-09-16,VN,Vietnam,Ho Chi Minh City,basic,mobile_app
+NOVACART_MINI_V2,2025-09,C10983,Customer 10983,2025-09-16,VN,Vietnam,Da Nang,silver,web
+NOVACART_MINI_V2,2025-09,C11122,Customer 11122,2025-09-27,TH,Thailand,Nonthaburi,premium,marketplace
+NOVACART_MINI_V2,2025-09,C11190,Customer 11190,2025-09-21,MY,Malaysia,Kuala Lumpur,silver,web
+NOVACART_MINI_V2,2025-09,C11352,Customer 11352,2025-09-28,VN,Vietnam,Da Nang,gold,marketplace
+NOVACART_MINI_V2,2025-10,C11442,Customer 11442,2025-10-16,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-10,C11661,Customer 11661,2025-10-10,TH,Thailand,Chiang Mai,basic,mobile_app
+NOVACART_MINI_V2,2025-10,C11705,Customer 11705,2025-10-20,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-10,C11712,Customer 11712,2025-10-31,ID,Indonesia,Surabaya,silver,marketplace
+NOVACART_MINI_V2,2025-10,C11768,Customer 11768,2025-10-25,SG,Singapore,Woodlands,silver,mobile_app
+NOVACART_MINI_V2,2025-10,C11908,Customer 11908,2025-10-10,TH,Thailand,Bangkok,basic,web
+NOVACART_MINI_V2,2025-10,C11991,Customer 11991,2025-10-04,PH,Philippines,Cebu City,basic,marketplace
+NOVACART_MINI_V2,2025-10,C12029,Customer 12029,2025-10-25,ID,Indonesia,Jakarta,silver,marketplace
+NOVACART_MINI_V2,2025-10,C12048,Customer 12048,2025-10-02,VN,Vietnam,Hai Phong,gold,marketplace
+NOVACART_MINI_V2,2025-10,C12276,Customer 12276,2025-10-31,SG,Singapore,Tampines,silver,mobile_app
+NOVACART_MINI_V2,2025-10,C12311,Customer 12311,2025-10-28,MY,Malaysia,Penang,basic,mobile_app
+NOVACART_MINI_V2,2025-10,C12334,Customer 12334,2025-10-10,ID,Indonesia,Medan,silver,mobile_app
+NOVACART_MINI_V2,2025-10,C12393,Customer 12393,2025-10-09,VN,Vietnam,Hanoi,basic,web
+NOVACART_MINI_V2,2025-10,C12419,Customer 12419,2025-10-14,MY,Malaysia,Kota Kinabalu,gold,mobile_app
+NOVACART_MINI_V2,2025-10,C12420,Customer 12420,2025-10-04,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-11,C12601,Customer 12601,2025-11-06,VN,Vietnam,Hai Phong,basic,web
+NOVACART_MINI_V2,2025-11,C12720,Customer 12720,2025-11-02,MY,Malaysia,Kuala Lumpur,basic,marketplace
+NOVACART_MINI_V2,2025-11,C12745,Customer 12745,2025-11-07,PH,Philippines,Cebu City,basic,web
+NOVACART_MINI_V2,2025-11,C12815,Customer 12815,2025-11-03,VN,Vietnam,Ho Chi Minh City,basic,web
+NOVACART_MINI_V2,2025-11,C12838,Customer 12838,2025-11-02,PH,Philippines,Cebu City,silver,web
+NOVACART_MINI_V2,2025-11,C12854,Customer 12854,2025-11-09,ID,Indonesia,Medan,silver,marketplace
+NOVACART_MINI_V2,2025-11,C12901,Customer 12901,2025-11-10,JP,Japan,Tokyo,premium,web
+NOVACART_MINI_V2,2025-11,C13021,Customer 13021,2025-11-18,SG,Singapore,Tampines,basic,web
+NOVACART_MINI_V2,2025-11,C13119,Customer 13119,2025-11-13,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-11,C13238,Customer 13238,2025-11-01,VN,Vietnam,Ho Chi Minh City,basic,mobile_app
+NOVACART_MINI_V2,2025-11,C13308,Customer 13308,2025-11-12,ID,Indonesia,Yogyakarta,basic,mobile_app
+NOVACART_MINI_V2,2025-11,C13337,Customer 13337,2025-11-14,VN,Vietnam,Da Nang,basic,web
+NOVACART_MINI_V2,2025-11,C13338,Customer 13338,2025-11-05,MY,Malaysia,Kota Kinabalu,premium,web
+NOVACART_MINI_V2,2025-11,C13350,Customer 13350,2025-11-05,ID,Indonesia,Surabaya,basic,web
+NOVACART_MINI_V2,2025-11,C13354,Customer 13354,2025-11-04,TH,Thailand,Phuket,basic,mobile_app
+NOVACART_MINI_V2,2025-11,C13521,Customer 13521,2025-11-01,ID,Indonesia,Medan,gold,web
+NOVACART_MINI_V2,2025-11,C13528,Customer 13528,2025-11-14,ID,Indonesia,Surabaya,silver,marketplace
+NOVACART_MINI_V2,2025-11,C13634,Customer 13634,2025-11-13,MY,Malaysia,Johor Bahru,silver,mobile_app
+NOVACART_MINI_V2,2025-12,C13683,Customer 13683,2025-12-01,VN,Vietnam,Hanoi,silver,marketplace
+NOVACART_MINI_V2,2025-12,C13811,Customer 13811,2025-12-06,ID,Indonesia,Jakarta,silver,web
+NOVACART_MINI_V2,2025-12,C14113,Customer 14113,2025-12-04,ID,Indonesia,Surabaya,basic,marketplace
+NOVACART_MINI_V2,2025-12,C14115,Customer 14115,2025-12-25,JP,Japan,Yokohama,silver,web
+NOVACART_MINI_V2,2025-12,C14333,Customer 14333,2025-12-22,ID,Indonesia,Bandung,basic,web
+NOVACART_MINI_V2,2025-12,C14472,Customer 14472,2025-12-08,JP,Japan,Fukuoka,basic,web
+NOVACART_MINI_V2,2025-12,C14652,Customer 14652,2025-12-02,JP,Japan,Nagoya,basic,web
+NOVACART_MINI_V2,2025-12,C14985,Customer 14985,2025-12-16,MY,Malaysia,Johor Bahru,silver,mobile_app
