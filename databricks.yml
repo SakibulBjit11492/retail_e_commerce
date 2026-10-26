@@ -18,7 +18,7 @@ sync:
 variables:
   catalog:
     description: Unity Catalog catalog
-    default: main
+    default: dpe_azure_poc
   schema:
     description: Schema for bronze/silver/gold tables
     default: novacart_poc

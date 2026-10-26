@@ -10,6 +10,20 @@ Names used below are examples; replace `<...>` values and keep them consistent.
 | Container | `landing` |
 | Unity Catalog | catalog `main`, schema `novacart_poc`, volume `landing` |
 
+## Fast path: scripts (steps 1–3)
+
+Edit `infra/poc.env` (names, subscription, workspace URL), then from the repo root:
+
+```bash
+az login
+bash infra/01_azure_setup.sh            # storage, container, access connector, role, upload 2025 files
+bash infra/02_databricks_uc_setup.sh    # credential, external location, schema, volume, list files
+```
+
+Both scripts skip anything that already exists, so they are safe to re-run. Still manual: the budget alert
+(step 1) and, if your account lacks rights, the role assignment / Unity Catalog grants by an admin.
+The manual portal steps below do the same thing.
+
 ## 0. Prerequisites (5 min)
 
 - Azure subscription access with permission to create resources in one resource group.
