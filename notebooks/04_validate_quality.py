@@ -2,7 +2,7 @@
 # NovaCart PoC | 04: Automated per-load Data Quality gate and revenue reconciliation.
 
 # COMMAND ----------
-dbutils.widgets.text("catalog", "main", "Unity Catalog catalog")
+dbutils.widgets.text("catalog", "dpe_azure_poc", "Unity Catalog catalog")
 dbutils.widgets.text("schema", "novacart_poc", "Target schema")
 dbutils.widgets.text("revenue_tolerance_usd", "0.01", "Allowed absolute difference, USD")
 

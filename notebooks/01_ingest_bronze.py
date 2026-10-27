@@ -7,8 +7,9 @@
 # everything again; Silver de-duplicates by business key, so revenue is never double-counted.
 
 # COMMAND ----------
-dbutils.widgets.text("catalog", "main", "Unity Catalog catalog")
+dbutils.widgets.text("catalog", "dpe_azure_poc", "Unity Catalog catalog")
 dbutils.widgets.text("schema", "novacart_poc", "Target schema")
+dbutils.widgets.text("volume_schema", "", "Schema of the volume (empty = same as target schema)")
 dbutils.widgets.text("volume", "landing", "Raw data volume")
 dbutils.widgets.text("batch_id", "manual", "Batch ID (a job passes its run id)")
 dbutils.widgets.dropdown("force_reload", "false", ["false", "true"], "Re-ingest already loaded files")
@@ -20,6 +21,7 @@ from pyspark.sql import functions as F
 CATALOG = dbutils.widgets.get("catalog").strip()
 SCHEMA = dbutils.widgets.get("schema").strip()
 VOLUME = dbutils.widgets.get("volume").strip()
+VOLUME_SCHEMA = dbutils.widgets.get("volume_schema").strip() or SCHEMA
 BATCH_ID = dbutils.widgets.get("batch_id").strip() or "manual"
 FORCE_RELOAD = dbutils.widgets.get("force_reload").strip().lower() == "true"
 
@@ -31,7 +33,7 @@ def ident(value):
 
 
 PREFIX = f"{ident(CATALOG)}.{ident(SCHEMA)}"
-RAW_DIR = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}/raw"
+RAW_DIR = f"/Volumes/{CATALOG}/{VOLUME_SCHEMA}/{VOLUME}/raw"
 
 # entity -> file name pattern inside raw/
 DATASETS = {

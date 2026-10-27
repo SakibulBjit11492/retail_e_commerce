@@ -9,6 +9,9 @@ resources:
         project: dpe-azure-poc
         owner: ${var.owner}
       max_concurrent_runs: 1
+      email_notifications:
+        on_failure:
+          - sakibul.alam@bjitgroup.com
       timeout_seconds: 3600
 
       # Job parameters are passed to every notebook as widget values.
@@ -17,6 +20,8 @@ resources:
           default: ${var.catalog}
         - name: schema
           default: ${var.schema}
+        - name: volume_schema
+          default: ${var.volume_schema}
         - name: volume
           default: ${var.volume}
         - name: batch_id
@@ -36,7 +41,7 @@ resources:
       # trigger:
       #   pause_status: UNPAUSED
       #   file_arrival:
-      #     url: /Volumes/${var.catalog}/${var.schema}/${var.volume}/raw/
+      #     url: /Volumes/${var.catalog}/${var.volume_schema}/${var.volume}/raw/
 
       tasks:
         - task_key: verify_access

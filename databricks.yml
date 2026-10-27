@@ -1,8 +1,13 @@
 # Databricks Asset Bundle: deploys the NovaCart medallion pipeline as one Databricks Job.
-#   databricks bundle validate
-#   databricks bundle deploy -t dev
-#   databricks bundle run novacart_pipeline -t dev
-# The workspace URL comes from your Databricks CLI profile / DATABRICKS_HOST (see docs/setup.md).
+#
+# Two targets in the same workspace, separated by schema:
+#   dev  -> tables in dpe_azure_poc.novacart_poc_dev, job "[dev <user>] novacart-medallion-pipeline"
+#   prod -> tables in dpe_azure_poc.novacart_poc (what Power BI reads), job "novacart-medallion-pipeline"
+# Both read the same raw files: /Volumes/dpe_azure_poc/novacart_poc/landing/raw
+#
+# Workspace UI: open this file -> Deployments (rocket icon) -> choose Target -> Deploy.
+# CLI:          databricks bundle deploy -t dev | prod
+#               databricks bundle run novacart_pipeline -t dev | prod
 bundle:
   name: novacart_poc
 
@@ -14,13 +19,17 @@ sync:
   exclude:
     - data/**
     - tests/**
+    - infra/**
 
 variables:
   catalog:
     description: Unity Catalog catalog
     default: dpe_azure_poc
   schema:
-    description: Schema for bronze/silver/gold tables
+    description: Schema for bronze/silver/gold tables (differs per target)
+    default: novacart_poc_dev
+  volume_schema:
+    description: Schema that holds the raw-file volume (shared by dev and prod)
     default: novacart_poc
   volume:
     description: Volume that contains the raw/ folder
@@ -31,6 +40,27 @@ variables:
 
 targets:
   dev:
-    # development mode prefixes the job name with [dev <user>] and keeps schedules paused.
+    # Development mode: job name gets a "[dev <user>]" prefix, schedules/triggers stay paused,
+    # and deployments go to your own user folder. Use this for testing changes.
     mode: development
     default: true
+    workspace:
+      host: https://adb-7405606654582950.10.azuredatabricks.net
+    variables:
+      schema: novacart_poc_dev
+
+  prod:
+    # Production mode: no name prefix, one shared copy, stricter validation.
+    # This is the job used for the weekly update and the live demo; Power BI reads its tables.
+    mode: production
+    workspace:
+      host: https://adb-7405606654582950.10.azuredatabricks.net
+      # Fixed path so only one production copy exists.
+      root_path: /Workspace/Users/sakibul.alam@bjitgroup.com/.bundle/${bundle.name}/${bundle.target}
+    variables:
+      schema: novacart_poc
+    permissions:
+      - user_name: sakibul.alam@bjitgroup.com
+        level: CAN_MANAGE
+      - user_name: badrul.alam@bjitgroup.com
+        level: CAN_MANAGE

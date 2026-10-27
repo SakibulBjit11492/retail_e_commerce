@@ -3,7 +3,7 @@
 # Full deterministic rebuild from Silver on every run (idempotent).
 
 # COMMAND ----------
-dbutils.widgets.text("catalog", "main", "Unity Catalog catalog")
+dbutils.widgets.text("catalog", "dpe_azure_poc", "Unity Catalog catalog")
 dbutils.widgets.text("schema", "novacart_poc", "Target schema")
 
 # COMMAND ----------

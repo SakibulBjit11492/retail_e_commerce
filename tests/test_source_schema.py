@@ -46,6 +46,14 @@ class RepositoryContractTest(unittest.TestCase):
         self.assertIn("project: dpe-azure-poc", job)
         self.assertIn("pause_status: PAUSED", job)
 
+    def test_bundle_has_dev_and_prod_targets_with_separate_schemas(self):
+        bundle = (ROOT / "databricks.yml").read_text(encoding="utf-8")
+        self.assertRegex(bundle, r"\n  dev:\n    [^\n]*\n(?:.*\n)*?    mode: development")
+        self.assertRegex(bundle, r"\n  prod:\n(?:.*\n)*?    mode: production")
+        schemas = re.findall(r"variables:\n      schema: (\w+)", bundle)
+        self.assertEqual(len(schemas), 2)
+        self.assertNotEqual(schemas[0], schemas[1], "dev and prod must write to different schemas")
+
     def test_every_file_matches_exactly_one_bronze_pattern(self):
         patterns = bronze_patterns()
         files = [p for p in (ROOT / "data").rglob("*") if p.suffix in (".csv", ".json") and p.name != "manifest.json"]

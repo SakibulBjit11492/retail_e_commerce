@@ -2,7 +2,7 @@
 # NovaCart PoC | 02: Clean, standardize, repair keys, deduplicate, and quarantine records in Silver.
 
 # COMMAND ----------
-dbutils.widgets.text("catalog", "main", "Unity Catalog catalog")
+dbutils.widgets.text("catalog", "dpe_azure_poc", "Unity Catalog catalog")
 dbutils.widgets.text("schema", "novacart_poc", "Target schema")
 
 # COMMAND ----------

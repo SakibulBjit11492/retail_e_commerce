@@ -2,15 +2,18 @@
 # NovaCart PoC | 00: Verify catalog/schema/volume configuration and raw files before ingestion.
 
 # COMMAND ----------
-dbutils.widgets.text("catalog", "main", "Unity Catalog catalog")
+dbutils.widgets.text("catalog", "dpe_azure_poc", "Unity Catalog catalog")
 dbutils.widgets.text("schema", "novacart_poc", "Schema")
+dbutils.widgets.text("volume_schema", "", "Schema of the volume (empty = same as schema)")
 dbutils.widgets.text("volume", "landing", "Landing volume")
 
 # COMMAND ----------
 from fnmatch import fnmatch
 
 catalog, schema, volume = (dbutils.widgets.get(x).strip() for x in ("catalog", "schema", "volume"))
-raw_dir = f"/Volumes/{catalog}/{schema}/{volume}/raw"
+volume_schema = dbutils.widgets.get("volume_schema").strip() or schema
+raw_dir = f"/Volumes/{catalog}/{volume_schema}/{volume}/raw"
+print(f"Tables will be written to {catalog}.{schema}")
 print("Checking Unity Catalog volume and raw files:", raw_dir)
 
 # Same file patterns as 01_ingest_bronze. Every entity needs at least one file
