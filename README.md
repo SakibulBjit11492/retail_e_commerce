@@ -17,13 +17,34 @@ It answers three business questions:
 
 Follow [`docs/setup.md`](docs/setup.md) (about 1 hour). In short:
 
-1. Resource group with tags `project=dpe-azure-poc`, `owner=<name>` and a budget alert.
-2. ADLS Gen2 + Unity Catalog external location and volume `main.novacart_poc.landing`.
-3. Upload the 9 dataset files to `/Volumes/main/novacart_poc/landing/raw/`.
+1. Resource group `dpe-azure-poc` with tags `project=dpe-azure-poc`, `owner=sakib` and a budget alert.
+2. ADLS Gen2 `dpeazurepoc` + Unity Catalog external location and volume `dpe_azure_poc.novacart_poc.landing`.
+3. Upload the 9 dataset files to `/Volumes/dpe_azure_poc/novacart_poc/landing/raw/`.
 4. Clone this repo as a Databricks Git folder; run notebooks `00` → `04`, or deploy the job with `databricks bundle deploy`.
-5. Connect Power BI to the `gold_*` tables and add the measures from [`docs/measures.md`](docs/measures.md).
+5. Create the BI views (`sql/novacart_bi_views.sql`), publish `dpe_azure_poc.novacart_bi` to Power BI, and add the measures from [`docs/measures.md`](docs/measures.md).
 
 Live demo steps: [`docs/demo-runbook.md`](docs/demo-runbook.md).
+
+## Naming (use these exact names)
+
+The code, `databricks.yml` and `infra/poc.env` all use these names. The catalog is **`dpe_azure_poc`**, not `main`:
+in Power BI's Navigator or Databricks Catalog Explorer, open `dpe_azure_poc` and pick the schema.
+
+| Object | Name |
+|---|---|
+| Resource group / region | `dpe-azure-poc` / `southeastasia` |
+| Storage account (ADLS Gen2) / container | `dpeazurepoc` / `landing` |
+| Access connector (managed identity) | `ac-dpe-azure-poc` |
+| UC storage credential / external location | `cred_novacart` / `loc_novacart_landing` |
+| Catalog | `dpe_azure_poc` |
+| Schema, prod (Power BI reads this) | `novacart_poc` |
+| Schema, dev (bundle target `dev`) | `novacart_poc_dev` |
+| BI schema (Power BI reads only this) | `novacart_bi`: views over Gold, e.g. `novacart_bi.fact_orders` |
+| SQL warehouse | `wh-novacart-bi` (serverless 2X-Small, auto-stop 10 min) |
+| Power BI workspace / semantic model | `dpe-azure-poc` (Fabric Trial) / `dpe_azure_poc-novacart_bi` |
+| Volume / raw folder | `dpe_azure_poc.novacart_poc.landing` → `/Volumes/dpe_azure_poc/novacart_poc/landing/raw/` (ADLS `landing/novacart/raw`) |
+| Job | `novacart-medallion-pipeline` (prod), `[dev <user>] novacart-medallion-pipeline` (dev) |
+| Tags | `project=dpe-azure-poc`, `owner=sakib` |
 
 ## Repository structure
 
@@ -49,6 +70,8 @@ retail_e_commerce/
     setup.md                         # new-engineer setup
     demo-runbook.md                  # live demo steps and expected numbers
     git-guide.md
+  sql/novacart_bi_views.sql          # BI views over Gold (schema novacart_bi)
+  powerbi/                           # relationships.tmdl + measures.dax for the semantic model
   tools/
     check_dataset_contract.py        # validate the dataset before upload
     make_demo_batch.py               # regenerate the demo batch

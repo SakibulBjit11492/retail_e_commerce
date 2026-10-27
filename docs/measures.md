@@ -1,8 +1,9 @@
 # Measure definitions (single source of truth)
 
 Every dashboard uses these measures; do not re-create them inside visuals.
-Create them in one Power BI table named `_Measures` (Home → Enter data → empty table).
-Table names below assume the Gold tables are loaded with their original names.
+Power BI uses the views in **`dpe_azure_poc.novacart_bi`** (same columns as the Gold tables, without the `gold_` prefix).
+All measures are stored on `fact_order_items`. Ready-to-paste file: [`powerbi/measures.dax`](../powerbi/measures.dax)
+(DAX query view → Run → *Update model: Add new measures*).
 
 ## Business definitions
 
@@ -26,28 +27,28 @@ Table names below assume the Gold tables are loaded with their original names.
 ```DAX
 -- ===== Sales (order-line grain, so category filters work) =====
 Net Revenue =
-SUM ( gold_fact_order_items[allocated_net_revenue_usd] )
+SUM ( fact_order_items[allocated_net_revenue_usd] )
 
 All Orders =
-DISTINCTCOUNT ( gold_fact_order_items[order_id] )
+DISTINCTCOUNT ( fact_order_items[order_id] )
 
 Paid Orders =
-CALCULATE ( DISTINCTCOUNT ( gold_fact_order_items[order_id] ), gold_fact_order_items[is_paid_order] = TRUE () )
+CALCULATE ( DISTINCTCOUNT ( fact_order_items[order_id] ), fact_order_items[is_paid_order] = TRUE () )
 
 Returned Orders =
-CALCULATE ( DISTINCTCOUNT ( gold_fact_order_items[order_id] ), gold_fact_order_items[order_status] = "returned" )
+CALCULATE ( DISTINCTCOUNT ( fact_order_items[order_id] ), fact_order_items[order_status] = "returned" )
 
 Cancelled Orders =
-CALCULATE ( DISTINCTCOUNT ( gold_fact_order_items[order_id] ), gold_fact_order_items[order_status] = "cancelled" )
+CALCULATE ( DISTINCTCOUNT ( fact_order_items[order_id] ), fact_order_items[order_status] = "cancelled" )
 
 Average Order Value =
 DIVIDE (
-    CALCULATE ( [Net Revenue], gold_fact_order_items[is_paid_order] = TRUE () ),
+    CALCULATE ( [Net Revenue], fact_order_items[is_paid_order] = TRUE () ),
     [Paid Orders]
 )
 
 Units Sold =
-CALCULATE ( SUM ( gold_fact_order_items[quantity] ), gold_fact_order_items[is_paid_order] = TRUE () )
+CALCULATE ( SUM ( fact_order_items[quantity] ), fact_order_items[is_paid_order] = TRUE () )
 
 Return Rate =
 DIVIDE ( [Returned Orders], [Paid Orders] + [Returned Orders] )
@@ -56,37 +57,37 @@ Cancellation Rate =
 DIVIDE ( [Cancelled Orders], [All Orders] )
 
 Estimated Gross Profit =
-CALCULATE ( [Net Revenue] - SUM ( gold_fact_order_items[estimated_item_cost_usd] ),
-            gold_fact_order_items[is_paid_order] = TRUE () )
+CALCULATE ( [Net Revenue] - SUM ( fact_order_items[estimated_item_cost_usd] ),
+            fact_order_items[is_paid_order] = TRUE () )
 
--- ===== Period over period (needs gold_dim_date marked as date table) =====
+-- ===== Period over period (needs dim_date marked as date table) =====
 Net Revenue PM =
-CALCULATE ( [Net Revenue], DATEADD ( gold_dim_date[date], -1, MONTH ) )
+CALCULATE ( [Net Revenue], DATEADD ( dim_date[date], -1, MONTH ) )
 
 Net Revenue MoM % =
 DIVIDE ( [Net Revenue] - [Net Revenue PM], [Net Revenue PM] )
 
 Paid Orders PM =
-CALCULATE ( [Paid Orders], DATEADD ( gold_dim_date[date], -1, MONTH ) )
+CALCULATE ( [Paid Orders], DATEADD ( dim_date[date], -1, MONTH ) )
 
 Paid Orders MoM % =
 DIVIDE ( [Paid Orders] - [Paid Orders PM], [Paid Orders PM] )
 
 Net Revenue PW =
-CALCULATE ( [Net Revenue], DATEADD ( gold_dim_date[date], -7, DAY ) )
+CALCULATE ( [Net Revenue], DATEADD ( dim_date[date], -7, DAY ) )
 
 Net Revenue WoW % =
 DIVIDE ( [Net Revenue] - [Net Revenue PW], [Net Revenue PW] )
 
 -- ===== Customers =====
 Buying Customers =
-CALCULATE ( DISTINCTCOUNT ( gold_fact_order_items[customer_id] ), gold_fact_order_items[is_paid_order] = TRUE () )
+CALCULATE ( DISTINCTCOUNT ( fact_order_items[customer_id] ), fact_order_items[is_paid_order] = TRUE () )
 
 New Customers =
-CALCULATE ( DISTINCTCOUNT ( gold_fact_order_items[customer_id] ), gold_fact_order_items[customer_type] = "New" )
+CALCULATE ( DISTINCTCOUNT ( fact_order_items[customer_id] ), fact_order_items[customer_type] = "New" )
 
 Returning Customers =
-CALCULATE ( DISTINCTCOUNT ( gold_fact_order_items[customer_id] ), gold_fact_order_items[customer_type] = "Returning" )
+CALCULATE ( DISTINCTCOUNT ( fact_order_items[customer_id] ), fact_order_items[customer_type] = "Returning" )
 
 Returning Customer % =
 DIVIDE ( [Returning Customers], [Buying Customers] )
@@ -95,27 +96,27 @@ Purchase Frequency =
 DIVIDE ( [Paid Orders], [Buying Customers] )
 
 Customers (RFM) =
-COUNTROWS ( gold_customer_summary )
+COUNTROWS ( customer_summary )
 
 -- ===== Website conversion =====
 Sessions =
-COUNTROWS ( gold_fact_sessions )
+COUNTROWS ( fact_sessions )
 
 Converted Sessions =
-CALCULATE ( COUNTROWS ( gold_fact_sessions ), gold_fact_sessions[has_order] = TRUE () )
+CALCULATE ( COUNTROWS ( fact_sessions ), fact_sessions[has_order] = TRUE () )
 
 Session Conversion Rate =
 DIVIDE ( [Converted Sessions], [Sessions] )
 
-Funnel Sessions =   -- use with gold_fact_website_events[event_type] on the axis
-DISTINCTCOUNT ( gold_fact_website_events[session_id] )
+Funnel Sessions =   -- use with fact_website_events[event_type] on the axis
+DISTINCTCOUNT ( fact_website_events[session_id] )
 ```
 
 Formatting: currency measures `$#,0.00`; rates and `%` measures as percentage with 1 decimal.
 
 ## Suggested visuals
 
-**1. Sales & Revenue:** cards for Net Revenue, Paid Orders, AOV, Net Revenue MoM %; line chart of Net Revenue by `gold_dim_date` hierarchy (year → month → week → day); clustered column of Net Revenue by channel; slicers date, channel, category.
+**1. Sales & Revenue:** cards for Net Revenue, Paid Orders, AOV, Net Revenue MoM %; line chart of Net Revenue by `dim_date` hierarchy (year → month → week → day); clustered column of Net Revenue by channel; slicers date, channel, category.
 
 **2. Product Performance:** bar of top 10 products by Net Revenue and by Units Sold; matrix category → product with Net Revenue, Units Sold, Return Rate, Cancellation Rate; scatter Units Sold vs Return Rate by category; same slicers.
 

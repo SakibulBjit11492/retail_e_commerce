@@ -1,14 +1,17 @@
 # Setup guide (new engineer, about 1 hour)
 
 Result: the pipeline runs end to end in your Azure Databricks workspace and Power BI reads the Gold tables.
-Names used below are examples; replace `<...>` values and keep them consistent.
+Names below are the ones this PoC actually uses (same as `infra/poc.env`, `databricks.yml` and the
+notebook defaults; full list in the README "Naming" section). Keep them consistent. The catalog is
+`dpe_azure_poc`, **not** `main`.
 
-| Thing | Example |
+| Thing | Name |
 |---|---|
-| Resource group | `rg-dpe-azure-poc` (region `southeastasia`) |
-| Storage account (ADLS Gen2) | `stnovacartpoc<initials>` |
+| Resource group | `dpe-azure-poc` (region `southeastasia`) |
+| Storage account (ADLS Gen2) | `dpeazurepoc` |
 | Container | `landing` |
-| Unity Catalog | catalog `main`, schema `novacart_poc`, volume `landing` |
+| Access connector | `ac-dpe-azure-poc` |
+| Unity Catalog | catalog `dpe_azure_poc`, schema `novacart_poc` (dev: `novacart_poc_dev`), volume `landing` |
 
 ## Fast path: scripts (steps 1–3)
 
@@ -36,18 +39,18 @@ The manual portal steps below do the same thing.
 Do this **before** creating anything else.
 
 ```bash
-az group create -n rg-dpe-azure-poc -l southeastasia --tags project=dpe-azure-poc owner=<name>
+az group create -n dpe-azure-poc -l southeastasia --tags project=dpe-azure-poc owner=sakib
 ```
 
 Budget alert: Azure portal → **Cost Management → Budgets → + Add**, scope = the resource group,
 monthly amount (e.g. 30 USD), alerts at 50 %, 80 %, 100 % to your email.
 
 ```bash
-az storage account create -n <storage> -g rg-dpe-azure-poc -l southeastasia \
+az storage account create -n dpeazurepoc -g dpe-azure-poc -l southeastasia \
   --sku Standard_LRS --kind StorageV2 --hierarchical-namespace true \
   --min-tls-version TLS1_2 --allow-blob-public-access false \
-  --tags project=dpe-azure-poc owner=<name>
-az storage fs create -n landing --account-name <storage> --auth-mode login
+  --tags project=dpe-azure-poc owner=sakib
+az storage fs create -n landing --account-name dpeazurepoc --auth-mode login
 ```
 
 Tag the Databricks workspace (and its managed resource group) with the same two tags.
@@ -56,20 +59,20 @@ Tag the Databricks workspace (and its managed resource group) with the same two 
 
 No keys or SAS tokens: access goes through a managed identity.
 
-1. Use the workspace's **Access Connector for Azure Databricks** (or create one in the resource group) and give its managed identity the role **Storage Blob Data Contributor** on the storage account.
-2. Databricks → **Catalog → External data → Credentials → Create credential**: type *Azure Managed Identity*, paste the access connector resource ID.
-3. **External locations → Create**: URL `abfss://landing@<storage>.dfs.core.windows.net/`, the credential from step 2. Click *Test connection*.
+1. Create the **Access Connector for Azure Databricks** `ac-dpe-azure-poc` in the resource group and give its managed identity the role **Storage Blob Data Contributor** on the storage account.
+2. Databricks → **Catalog → External data → Credentials → Create credential**: type *Azure Managed Identity*, name `cred_novacart`, paste the access connector resource ID.
+3. **External locations → Create**: name `loc_novacart_landing`, URL `abfss://landing@dpeazurepoc.dfs.core.windows.net/`, credential `cred_novacart`. Click *Test connection* (the two optional *File Events* checks may fail; use **Force create**).
 4. In a SQL editor:
 
 ```sql
-CREATE SCHEMA IF NOT EXISTS main.novacart_poc;
-CREATE EXTERNAL VOLUME IF NOT EXISTS main.novacart_poc.landing
-  LOCATION 'abfss://landing@<storage>.dfs.core.windows.net/novacart';
+CREATE SCHEMA IF NOT EXISTS dpe_azure_poc.novacart_poc;
+CREATE EXTERNAL VOLUME IF NOT EXISTS dpe_azure_poc.novacart_poc.landing
+  LOCATION 'abfss://landing@dpeazurepoc.dfs.core.windows.net/novacart';
 ```
 
 ## 3. Upload the dataset (5 min)
 
-Catalog Explorer → `main` → `novacart_poc` → volume `landing` → create folder `raw` → **Upload to this volume**:
+Catalog Explorer → `dpe_azure_poc` → `novacart_poc` → volume `landing` → create folder `raw` → **Upload to this volume**:
 the 9 files of `NOVACART_MINI_V2` (7 CSV + 2 JSON). Do **not** upload `data/demo_batch_2026_01/` yet; that is for the live demo.
 
 Optional local check first: `python tools/check_dataset_contract.py <dataset folder>`.
@@ -102,7 +105,10 @@ Without the CLI: **Workflows → Create job**, add the 5 notebooks as tasks in o
 1. Databricks → **SQL Warehouses → Create**: size *2X-Small*, type *Serverless*, **Auto stop 10 min**, tags as above.
 2. Warehouse → **Connection details**: copy *Server hostname* and *HTTP path*.
 3. Power BI Desktop → **Get data → Azure Databricks**, paste them, mode **Import**, sign in with Microsoft Entra ID.
-4. Select the `gold_*` tables from `main.novacart_poc`. Build relationships and measures from
+4. Run [`sql/novacart_bi_views.sql`](../sql/novacart_bi_views.sql) once (creates schema `novacart_bi` with one view per Gold table).
+   Either publish it from Databricks (Catalog → `dpe_azure_poc` → `novacart_bi` → **Use with BI tools → Publish to Power BI workspace**,
+   workspace `dpe-azure-poc`), or in Power BI Desktop's Navigator open catalog **`dpe_azure_poc`** (not `main`) → schema **`novacart_bi`**.
+   Then paste [`powerbi/relationships.tmdl`](../powerbi/relationships.tmdl) (TMDL view) and [`powerbi/measures.dax`](../powerbi/measures.dax) (DAX query view). Details in
    [`data-model.md`](data-model.md) and [`measures.md`](measures.md).
 
 ## 6. End of day
@@ -116,4 +122,4 @@ Check **Compute** and **SQL Warehouses**: nothing running. Screenshot Cost Manag
 | `00_verify_access` cannot list the volume | Check external location test, volume path, and that you have `READ VOLUME` on it |
 | `No raw file found for: [...]` | A file is missing or misnamed in `raw/` (names must match `<entity>_*.csv` / `*.json`) |
 | `01` says *skipped: files already in Bronze* | Expected for a re-run; set `force_reload=true` to append again (no double counting) |
-| `04` fails | Read the `FAIL` lines; details are also in `main.novacart_poc.dq_results` |
+| `04` fails | Read the `FAIL` lines; details are also in `dpe_azure_poc.novacart_poc.dq_results` |

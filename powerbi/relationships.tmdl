@@ -1,0 +1,60 @@
+/// Power BI semantic model "dpe_azure_poc-novacart_bi": star-schema relationships.
+/// Use: Power BI (web) -> semantic model -> switch Viewing to Editing -> TMDL View -> paste -> Apply.
+/// All are many-to-one (fact -> dimension), single direction. Fact tables are never related to each other.
+createOrReplace
+
+	relationship rel_items_date
+		fromColumn: fact_order_items.order_date
+		toColumn: dim_date.'date'
+
+	relationship rel_items_channel
+		fromColumn: fact_order_items.sales_channel
+		toColumn: dim_channel.sales_channel
+
+	relationship rel_items_product
+		fromColumn: fact_order_items.product_id
+		toColumn: dim_products.product_id
+
+	relationship rel_items_customer
+		fromColumn: fact_order_items.customer_id
+		toColumn: dim_customers.customer_id
+
+	relationship rel_orders_date
+		fromColumn: fact_orders.order_date
+		toColumn: dim_date.'date'
+
+	relationship rel_orders_channel
+		fromColumn: fact_orders.sales_channel
+		toColumn: dim_channel.sales_channel
+
+	relationship rel_orders_customer
+		fromColumn: fact_orders.customer_id
+		toColumn: dim_customers.customer_id
+
+	relationship rel_orders_campaign
+		fromColumn: fact_orders.campaign_id
+		toColumn: dim_campaigns.campaign_id
+
+	relationship rel_sessions_date
+		fromColumn: fact_sessions.session_date
+		toColumn: dim_date.'date'
+
+	relationship rel_sessions_channel
+		fromColumn: fact_sessions.sales_channel
+		toColumn: dim_channel.sales_channel
+
+	relationship rel_events_date
+		fromColumn: fact_website_events.event_date
+		toColumn: dim_date.'date'
+
+	relationship rel_events_product
+		fromColumn: fact_website_events.product_id
+		toColumn: dim_products.product_id
+
+	relationship rel_payments_date
+		fromColumn: fact_payments.payment_date
+		toColumn: dim_date.'date'
+
+	relationship rel_summary_customer
+		fromColumn: customer_summary.customer_id
+		toColumn: dim_customers.customer_id

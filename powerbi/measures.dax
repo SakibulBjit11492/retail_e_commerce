@@ -1,0 +1,58 @@
+// Power BI semantic model "dpe_azure_poc-novacart_bi": all shared measures (definitions in docs/measures.md).
+// Use: semantic model in Editing mode -> DAX query view -> paste -> Run (check the result row)
+//      -> click "Update model: Add new measures" above DEFINE. Measures are stored on fact_order_items.
+// Expected for the 2025 data: Net Revenue 40,058.06 | All Orders 1,440.
+DEFINE
+    // ===== Sales (order-line grain, so the category slicer works) =====
+    MEASURE fact_order_items[Net Revenue] = SUM ( fact_order_items[allocated_net_revenue_usd] )
+    MEASURE fact_order_items[All Orders] = DISTINCTCOUNT ( fact_order_items[order_id] )
+    MEASURE fact_order_items[Paid Orders] =
+        CALCULATE ( DISTINCTCOUNT ( fact_order_items[order_id] ), fact_order_items[is_paid_order] = TRUE () )
+    MEASURE fact_order_items[Returned Orders] =
+        CALCULATE ( DISTINCTCOUNT ( fact_order_items[order_id] ), fact_order_items[order_status] = "returned" )
+    MEASURE fact_order_items[Cancelled Orders] =
+        CALCULATE ( DISTINCTCOUNT ( fact_order_items[order_id] ), fact_order_items[order_status] = "cancelled" )
+    MEASURE fact_order_items[Average Order Value] =
+        DIVIDE ( CALCULATE ( [Net Revenue], fact_order_items[is_paid_order] = TRUE () ), [Paid Orders] )
+    MEASURE fact_order_items[Units Sold] =
+        CALCULATE ( SUM ( fact_order_items[quantity] ), fact_order_items[is_paid_order] = TRUE () )
+    MEASURE fact_order_items[Return Rate] = DIVIDE ( [Returned Orders], [Paid Orders] + [Returned Orders] )
+    MEASURE fact_order_items[Cancellation Rate] = DIVIDE ( [Cancelled Orders], [All Orders] )
+    MEASURE fact_order_items[Estimated Gross Profit] =
+        CALCULATE ( [Net Revenue] - SUM ( fact_order_items[estimated_item_cost_usd] ), fact_order_items[is_paid_order] = TRUE () )
+
+    // ===== Period over period (dim_date must be marked as date table) =====
+    MEASURE fact_order_items[Net Revenue PM] = CALCULATE ( [Net Revenue], DATEADD ( dim_date[date], -1, MONTH ) )
+    MEASURE fact_order_items[Net Revenue MoM %] = DIVIDE ( [Net Revenue] - [Net Revenue PM], [Net Revenue PM] )
+    MEASURE fact_order_items[Paid Orders PM] = CALCULATE ( [Paid Orders], DATEADD ( dim_date[date], -1, MONTH ) )
+    MEASURE fact_order_items[Paid Orders MoM %] = DIVIDE ( [Paid Orders] - [Paid Orders PM], [Paid Orders PM] )
+    MEASURE fact_order_items[Net Revenue PW] = CALCULATE ( [Net Revenue], DATEADD ( dim_date[date], -7, DAY ) )
+    MEASURE fact_order_items[Net Revenue WoW %] = DIVIDE ( [Net Revenue] - [Net Revenue PW], [Net Revenue PW] )
+
+    // ===== Customers =====
+    MEASURE fact_order_items[Buying Customers] =
+        CALCULATE ( DISTINCTCOUNT ( fact_order_items[customer_id] ), fact_order_items[is_paid_order] = TRUE () )
+    MEASURE fact_order_items[New Customers] =
+        CALCULATE ( DISTINCTCOUNT ( fact_order_items[customer_id] ), fact_order_items[customer_type] = "New" )
+    MEASURE fact_order_items[Returning Customers] =
+        CALCULATE ( DISTINCTCOUNT ( fact_order_items[customer_id] ), fact_order_items[customer_type] = "Returning" )
+    MEASURE fact_order_items[Returning Customer %] = DIVIDE ( [Returning Customers], [Buying Customers] )
+    MEASURE fact_order_items[Purchase Frequency] = DIVIDE ( [Paid Orders], [Buying Customers] )
+    MEASURE fact_order_items[Customers (RFM)] = COUNTROWS ( customer_summary )
+
+    // ===== Website conversion =====
+    MEASURE fact_order_items[Sessions] = COUNTROWS ( fact_sessions )
+    MEASURE fact_order_items[Converted Sessions] =
+        CALCULATE ( COUNTROWS ( fact_sessions ), fact_sessions[has_order] = TRUE () )
+    MEASURE fact_order_items[Session Conversion Rate] = DIVIDE ( [Converted Sessions], [Sessions] )
+    MEASURE fact_order_items[Funnel Sessions] = DISTINCTCOUNT ( fact_website_events[session_id] )
+
+EVALUATE
+    ROW (
+        "Net Revenue", [Net Revenue],
+        "All Orders", [All Orders],
+        "Paid Orders", [Paid Orders],
+        "Average Order Value", [Average Order Value],
+        "Return Rate", [Return Rate],
+        "Session Conversion Rate", [Session Conversion Rate]
+    )

@@ -34,9 +34,9 @@ Planted problems Silver must handle (details in `manifest.json`):
 1. **Drop the data:** Catalog Explorer → volume `landing` → `raw` → upload the 6 CSV files from `data/demo_batch_2026_01/` (not `manifest.json`).
 2. **Run:** Workflows → *novacart-medallion-pipeline* → **Run now** (or run notebooks 00–04).
 3. **Show Bronze:** the `ingest_bronze` task output lists only the 6 new files as *appended*; the 2025 files are *skipped*.
-4. **Show quality:** the `validate_quality` task ends with all checks passed; optionally `SELECT * FROM main.novacart_poc.dq_results ORDER BY check_ts DESC`.
-5. **Show the fixes:** `SELECT * FROM main.novacart_poc.silver_rejected_website_events` (4 rows, one new) and
-   `SELECT order_id, order_status, net_revenue_usd FROM main.novacart_poc.gold_fact_orders WHERE order_id = 'ORD0031997'`.
+4. **Show quality:** the `validate_quality` task ends with all checks passed; optionally `SELECT * FROM dpe_azure_poc.novacart_poc.dq_results ORDER BY check_ts DESC`.
+5. **Show the fixes:** `SELECT * FROM dpe_azure_poc.novacart_poc.silver_rejected_website_events` (4 rows, one new) and
+   `SELECT order_id, order_status, net_revenue_usd FROM dpe_azure_poc.novacart_poc.gold_fact_orders WHERE order_id = 'ORD0031997'`.
 6. **Refresh Power BI:** January 2026 appears; revenue, orders and returning customers move.
 7. **Idempotency (optional):** run the job again with `force_reload = true`. Bronze grows, but Gold revenue stays the same.
 

@@ -6,7 +6,7 @@ flowchart LR
         CSV["7 CSV files<br/>orders, payments, customers,<br/>products, items, sessions, events"]
         JSON["2 JSON lookups<br/>campaigns, shipping methods"]
     end
-    subgraph Azure["Azure resource group rg-dpe-azure-poc (tagged)"]
+    subgraph Azure["Azure resource group dpe-azure-poc (tagged)"]
         ADLS["ADLS Gen2<br/>container landing"]
         subgraph DBX["Azure Databricks + Unity Catalog"]
             VOL["External volume<br/>/Volumes/.../landing/raw"]

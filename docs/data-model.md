@@ -1,6 +1,9 @@
 # Gold data model and Power BI model
 
-Power BI reads **only** the `gold_*` tables in `<catalog>.<schema>` (default `main.novacart_poc`).
+Power BI reads **only** the BI views in **`dpe_azure_poc.novacart_bi`**: one view per Gold table of `dpe_azure_poc.novacart_poc` (prod),
+same columns, without the `gold_` prefix (e.g. `gold_fact_orders` → `novacart_bi.fact_orders`). Views: [`sql/novacart_bi_views.sql`](../sql/novacart_bi_views.sql).
+The dev target writes the same tables to `dpe_azure_poc.novacart_poc_dev`; do not point reports at dev.
+In Power BI's Navigator, open catalog `dpe_azure_poc` (there is no `main` catalog in this workspace).
 Every Gold table is rebuilt from Silver on each run, so a re-run never double-counts.
 
 ## Gold tables
@@ -48,27 +51,28 @@ Only customers with at least one paid order get scores.
 
 ## Power BI model (star schema)
 
-Load the tables in **Import** mode (cheapest: the SQL warehouse only runs during refresh).
-Mark `gold_dim_date` as the date table (`date` column).
+Semantic model **`dpe_azure_poc-novacart_bi`** in Power BI workspace **`dpe-azure-poc`** (Fabric Trial), published from Databricks in **DirectQuery** mode
+(live after every job run; production alternative: Import + scheduled refresh to cut warehouse time).
+Mark `dim_date` as the date table (`date` column).
 
-Relationships (all single direction, dimension → fact, many-to-one):
+Relationships (all single direction, dimension → fact, many-to-one). Ready-to-paste TMDL: [`powerbi/relationships.tmdl`](../powerbi/relationships.tmdl).
 
 | From (fact) | To (dimension) |
 |---|---|
-| `gold_fact_order_items[order_date]` | `gold_dim_date[date]` |
-| `gold_fact_order_items[sales_channel]` | `gold_dim_channel[sales_channel]` |
-| `gold_fact_order_items[product_id]` | `gold_dim_products[product_id]` |
-| `gold_fact_order_items[customer_id]` | `gold_dim_customers[customer_id]` |
-| `gold_fact_orders[order_date]` | `gold_dim_date[date]` |
-| `gold_fact_orders[sales_channel]` | `gold_dim_channel[sales_channel]` |
-| `gold_fact_orders[customer_id]` | `gold_dim_customers[customer_id]` |
-| `gold_fact_orders[campaign_id]` | `gold_dim_campaigns[campaign_id]` |
-| `gold_fact_sessions[session_date]` | `gold_dim_date[date]` |
-| `gold_fact_sessions[sales_channel]` | `gold_dim_channel[sales_channel]` |
-| `gold_fact_website_events[event_date]` | `gold_dim_date[date]` |
-| `gold_fact_website_events[product_id]` | `gold_dim_products[product_id]` |
-| `gold_fact_payments[payment_date]` | `gold_dim_date[date]` |
-| `gold_customer_summary[customer_id]` | `gold_dim_customers[customer_id]` (one-to-one) |
+| `fact_order_items[order_date]` | `dim_date[date]` |
+| `fact_order_items[sales_channel]` | `dim_channel[sales_channel]` |
+| `fact_order_items[product_id]` | `dim_products[product_id]` |
+| `fact_order_items[customer_id]` | `dim_customers[customer_id]` |
+| `fact_orders[order_date]` | `dim_date[date]` |
+| `fact_orders[sales_channel]` | `dim_channel[sales_channel]` |
+| `fact_orders[customer_id]` | `dim_customers[customer_id]` |
+| `fact_orders[campaign_id]` | `dim_campaigns[campaign_id]` |
+| `fact_sessions[session_date]` | `dim_date[date]` |
+| `fact_sessions[sales_channel]` | `dim_channel[sales_channel]` |
+| `fact_website_events[event_date]` | `dim_date[date]` |
+| `fact_website_events[product_id]` | `dim_products[product_id]` |
+| `fact_payments[payment_date]` | `dim_date[date]` |
+| `customer_summary[customer_id]` | `dim_customers[customer_id]` (many-to-one, single direction) |
 
 Do **not** relate fact tables to each other (e.g. payments ↔ order items): that multiplies amounts.
 
@@ -76,8 +80,8 @@ Do **not** relate fact tables to each other (e.g. payments ↔ order items): tha
 
 | Slicer | Sales & Revenue | Product Performance | Customer Insights |
 |---|---|---|---|
-| Date (`gold_dim_date`) | ✔ | ✔ | ✔ (except RFM snapshot) |
-| Channel (`gold_dim_channel`) | ✔ | ✔ | ✔ |
-| Category (`gold_dim_products`) | ✔ (measures use order lines) | ✔ | ✔ for new/returning/frequency; **not** for session conversion (sessions have no category) |
+| Date (`dim_date`) | ✔ | ✔ | ✔ (except RFM snapshot) |
+| Channel (`dim_channel`) | ✔ | ✔ | ✔ |
+| Category (`dim_products`) | ✔ (measures use order lines) | ✔ | ✔ for new/returning/frequency; **not** for session conversion (sessions have no category) |
 
 Marketplace orders have no website sessions, so conversion rate is shown for `web` and `mobile_app` only.

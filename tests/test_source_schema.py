@@ -54,6 +54,14 @@ class RepositoryContractTest(unittest.TestCase):
         self.assertEqual(len(schemas), 2)
         self.assertNotEqual(schemas[0], schemas[1], "dev and prod must write to different schemas")
 
+    def test_docs_and_code_use_the_real_catalog_name(self):
+        """The workspace catalog is dpe_azure_poc; 'main' must not reappear in docs or code."""
+        stale = re.compile(r"main\.novacart_poc|/Volumes/main/|catalog `main`|\"main\", \"Unity Catalog")
+        files = [ROOT / "README.md", ROOT / "databricks.yml", *(ROOT / "docs").glob("*.md"),
+                 *(ROOT / "notebooks").glob("*.py"), *(ROOT / "resources").glob("*.yml"), *(ROOT / "infra").glob("*")]
+        offenders = [f.name for f in files if f.is_file() and stale.search(f.read_text(encoding="utf-8"))]
+        self.assertEqual(offenders, [], "stale 'main' catalog references")
+
     def test_every_file_matches_exactly_one_bronze_pattern(self):
         patterns = bronze_patterns()
         files = [p for p in (ROOT / "data").rglob("*") if p.suffix in (".csv", ".json") and p.name != "manifest.json"]
