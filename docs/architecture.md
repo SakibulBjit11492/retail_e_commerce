@@ -6,32 +6,37 @@ flowchart LR
         CSV["7 CSV files<br/>orders, payments, customers,<br/>products, items, sessions, events"]
         JSON["2 JSON lookups<br/>campaigns, shipping methods"]
     end
-    subgraph Azure["Azure resource group dpe-azure-poc (tagged)"]
-        ADLS["ADLS Gen2<br/>container landing"]
-        subgraph DBX["Azure Databricks + Unity Catalog"]
-            VOL["External volume<br/>/Volumes/.../landing/raw"]
-            JOB["Job: novacart-medallion-pipeline<br/>serverless, schedule paused"]
-            B["Bronze<br/>append-only + file/load audit"]
+    subgraph Azure["Azure resource group dpe-azure-poc (tagged project / owner)"]
+        ADLS["ADLS Gen2: dpeazurepoc<br/>container landing/novacart/raw"]
+        MI["Access connector<br/>ac-dpe-azure-poc<br/>(managed identity, no keys)"]
+        subgraph DBX["Azure Databricks + Unity Catalog: catalog dpe_azure_poc"]
+            VOL["External volume<br/>novacart_poc.landing/raw"]
+            JOB["Job: novacart-medallion-pipeline<br/>serverless, dev + prod bundle targets"]
+            B["Bronze<br/>append-only, file + load audit"]
             S["Silver<br/>clean, dedupe, repair, quarantine"]
             G["Gold<br/>star schema + marts"]
-            DQ["Data-quality gate<br/>dq_results"]
-            WH["SQL warehouse<br/>serverless, auto-stop 10 min"]
+            DQ["Quality gate<br/>32 checks, dq_results"]
+            BI["BI views<br/>novacart_bi (Gold only)"]
+            WH["SQL warehouse wh-novacart-bi<br/>serverless 2X-Small, auto-stop"]
         end
-        MI["Access connector<br/>managed identity"]
     end
-    PBI["Power BI<br/>3 dashboards (Import)"]
+    subgraph PBIS["Power BI workspace dpe-azure-poc (Fabric trial)"]
+        PBI["Semantic model (DirectQuery)<br/>Report: 3 pages + Executive Dashboard"]
+    end
 
     CSV --> ADLS
     JSON --> ADLS
-    ADLS --- VOL
     MI -. "Storage Blob Data Contributor" .-> ADLS
+    ADLS --- VOL
     VOL --> B --> S --> G --> DQ
-    JOB -. runs .-> B
-    G --> WH --> PBI
+    JOB -. "runs 00 to 04" .-> B
+    G --> BI --> WH --> PBI
 ```
 
 Flow: files land in ADLS Gen2 → read through a Unity Catalog external volume → one Databricks job runs
-Bronze → Silver → Gold → quality gate → Power BI imports Gold through a serverless SQL warehouse.
+Bronze → Silver → Gold → quality gate → `novacart_bi` views → Power BI (DirectQuery) through a serverless SQL warehouse.
+
+Image version for slides: [`architecture.png`](architecture.png) / [`architecture.svg`](architecture.svg).
 
 ## Key design decisions
 
@@ -46,7 +51,7 @@ Bronze → Silver → Gold → quality gate → Power BI imports Gold through a 
 | Gold | Full deterministic rebuild from Silver | Idempotent; one grain per table |
 | Revenue | Net cash: captured − refunded; failed = 0 | Ties exactly to payments (checked every run) |
 | Time zone | Source timestamps have no zone; treated as UTC | Assumption stated for the PoC |
-| Power BI mode | Import | Warehouse only runs during refresh → lowest cost |
+| Power BI mode | DirectQuery (PoC), Import recommended for production | Live data after each job run for the demo; Import + scheduled refresh minimizes warehouse time in production |
 
 ## Data problems handled in Silver
 
